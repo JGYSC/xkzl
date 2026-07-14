@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>星空影仓 | 纯净导航 · 星空幻彩版</title>
+  
+  <!-- 完全内联样式，不依赖任何外部CSS文件 -->
+  <style>
+    /* 全局重置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    body {
+      background: #030514;
+      color: #fff;
+      min-height: 100vh;
+      position: relative;
+    }
+    
+    /* 星空背景 - 深邃的宇宙色调 */
+    .background.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background: radial-gradient(ellipse at 30% 40%, #0c1b2e 0%, #030514 60%, #010409 100%);
+    }
+    
+    /* 添加星云效果 */
+    .background.fixed::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 70% 30%, rgba(76, 98, 157, 0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 20% 80%, rgba(138, 92, 158, 0.12) 0%, transparent 50%),
+                  radial-gradient(circle at 90% 70%, rgba(42, 82, 120, 0.1) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    
+    #startrack {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.9;
+    }
+    
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,5,15,0.4) 100%);
+      backdrop-filter: blur(1px);
+    }
+    
+    /* 主容器 */
+    .main {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+    
+    /* 顶部工具栏 */
+    .top-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    /* 电子时钟样式 - 星彩色 */
+    .clock-container {
+      background: rgba(8, 20, 40, 0.6);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 50px;
+      padding: 12px 25px;
+      border: 1px solid rgba(100, 150, 255, 0.25);
+      box-shadow: 0 8px 25px rgba(0, 20, 60, 0.6);
+    }
+    
+    .clock {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: #fff;
+    }
+    
+    .clock-time {
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: 3px;
+      text-shadow: 0 0 15px rgba(120, 180, 255, 0.8);
+      font-family: 'Courier New', monospace;
+      color: #e0f0ff;
+    }
+    
+    .clock-date {
+      font-size: 1rem;
+      color: #aac0e0;
+      border-left: 1px solid rgba(100, 150, 255, 0.3);
+      padding-left: 15px;
+    }
+    
+    .clock-week {
+      background: rgba(60, 100, 200, 0.25);
+      padding: 5px 12px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      color: #b8d4ff;
+      border: 1px solid rgba(100, 160, 255, 0.3);
+    }
+    
+    /* 音乐播放器区域 - 星光玻璃效果 */
+    .music-section {
+      background: rgba(8, 18, 35, 0.6);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 32px;
+      padding: 25px 25px;
+      border: 1px solid rgba(80, 140, 255, 0.25);
+      box-shadow: 0 20px 40px rgba(0, 10, 30, 0.8), 0 0 0 1px rgba(120, 180, 255, 0.1) inset;
+      margin-bottom: 20px;
+    }
+    
+    /* 播放器控制栏 */
+    .player-main {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .music-info {
+      display: flex;
+      flex-direction: column;
+      min-width: 180px;
+    }
+    
+    .music-title {
+      font-size: 1.2rem;
+      color: #b8d9ff;
+      font-weight: 500;
+      max-width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-shadow: 0 0 10px rgba(100, 180, 255, 0.5);
+    }
+    
+    .music-artist {
+      font-size: 0.85rem;
+      color: #8aa0c0;
+    }
+    
+    .control-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    
+    .control-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: rgba(20, 40, 70, 0.5);
+      border: 1px solid rgba(100, 170, 255, 0.4);
+      color: #d0e5ff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .control-btn:hover {
+      background: rgba(60, 120, 200, 0.4);
+      border-color: #8ac0ff;
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(80, 160, 255, 0.6);
+    }
+    
+    .control-btn.playing {
+      background: rgba(70, 140, 230, 0.4);
+      border-color: #a0d0ff;
+      box-shadow: 0 0 20px rgba(60, 140, 255, 0.8);
+    }
+    
+    .volume-slider {
+      width: 100px;
+      height: 4px;
+      background: rgba(40, 70, 120, 0.5);
+      border-radius: 2px;
+      position: relative;
+      cursor: pointer;
+      border: 1px solid rgba(100, 160, 255, 0.2);
+    }
+    
+    .volume-progress {
+      height: 100%;
+      background: linear-gradient(90deg, #6ca0ff, #aac9ff);
+      border-radius: 2px;
+      width: 70%;
+      box-shadow: 0 0 8px rgba(80, 160, 255, 0.6);
+    }
+    
+    /* 选项卡 - 星云风格 */
+    .tab-container {
+      margin-top: 20px;
+    }
+    
+    .tab-buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .tab-btn {
+      padding: 8px 20px;
+      background: rgba(15, 30, 55, 0.6);
+      border: 1px solid rgba(70, 130, 230, 0.3);
+      border-radius: 30px;
+      color: #aac0e0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      backdrop-filter: blur(5px);
+    }
+    
+    .tab-btn.active {
+      background: rgba(40, 80, 150, 0.4);
+      border-color: #7ab0ff;
+      color: #e0f0ff;
+      box-shadow: 0 0 15px rgba(60, 140, 255, 0.4);
+    }
+    
+    .tab-content {
+      display: none;
+    }
+    
+    .tab-content.active {
+      display: block;
+    }
+    
+    /* 自定义添加表单 - 星尘风格 */
+    .add-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+      background: rgba(10, 20, 40, 0.5);
+      padding: 15px;
+      border-radius: 20px;
+      border: 1px solid rgba(70, 130, 230, 0.2);
+    }
+    
+    .form-input {
+      flex: 1;
+      min-width: 200px;
+      background: rgba(5, 15, 30, 0.7);
+      border: 1px solid rgba(60, 120, 220, 0.3);
+      border-radius: 30px;
+      padding: 10px 15px;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    
+    .form-input::placeholder {
+      color: #6688aa;
+    }
+    
+    .form-input:focus {
+      outline: none;
+      border-color: #8abaff;
+      box-shadow: 0 0 12px rgba(80, 160, 255, 0.5);
+    }
+    
+    .add-btn {
+      padding: 10px 25px;
+      background: rgba(30, 70, 140, 0.4);
+      border: 1px solid #7ab0ff;
+      border-radius: 30px;
+      color: #c0dcff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+    }
+    
+    .add-btn:hover {
+      background: rgba(50, 110, 220, 0.5);
+      border-color: #a0c8ff;
+      transform: translateY(-2px);
+      box-shadow: 0 0 20px rgba(70, 150, 255, 0.6);
+    }
+    
+    /* 播放列表 - 深空风格 */
+    .playlist-container {
+      max-height: 200px;
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+    
+    .playlist-container::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    .playlist-container::-webkit-scrollbar-track {
+      background: rgba(20, 40, 70, 0.3);
+      border-radius: 10px;
+    }
+    
+    .playlist-container::-webkit-scrollbar-thumb {
+      background: rgba(80, 140, 230, 0.4);
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(60, 140, 255, 0.3);
+    }
+    
+    .playlist-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      background: rgba(10, 22, 45, 0.5);
+      border-radius: 30px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(60, 110, 200, 0.2);
+    }
+    
+    .playlist-item:hover {
+      background: rgba(30, 60, 110, 0.4);
+      transform: translateX(5px);
+      border-color: rgba(100, 170, 255, 0.4);
+      box-shadow: 0 0 15px rgba(50, 120, 230, 0.3);
+    }
+    
+    .playlist-item.active {
+      background: rgba(40, 80, 150, 0.4);
+      border-left: 3px solid #8abaff;
+      border-color: #8abaff;
+      box-shadow: 0 0 15px rgba(60, 140, 255, 0.5);
+    }
+    
+    .playlist-info {
+      flex: 1;
+    }
+    
+    .playlist-title {
+      font-size: 0.95rem;
+      color: #d0e5ff;
+      margin-bottom: 3px;
+    }
+    
+    .playlist-artist {
+      font-size: 0.75rem;
+      color: #809ac0;
+    }
+    
+    .playlist-delete {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(100, 40, 60, 0.4);
+      border: 1px solid rgba(255, 100, 120, 0.3);
+      color: #ffa0aa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+    }
+    
+    .playlist-delete:hover {
+      background: rgba(180, 60, 80, 0.5);
+      border-color: #ff8a9a;
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(255, 80, 100, 0.4);
+    }
+    
+    /* 提示信息 - 星光色 */
+    .hint {
+      font-size: 0.85rem;
+      color: #8aa5c5;
+      margin-top: 10px;
+      text-align: center;
+    }
+    
+    .hint span {
+      color: #aac9ff;
+      text-shadow: 0 0 8px rgba(80, 160, 255, 0.5);
+    }
+    
+    /* 介绍区域 - 银河中心效果 */
+    .ch.intro {
+      padding: 30px 0 30px;
+      text-align: center;
+    }
+    
+    .hello {
+      animation: fadeIn 1.2s ease-out;
+    }
+    
+    .hello h1 {
+      font-size: clamp(1.3rem, 4vw, 2rem);
+      line-height: 1.5;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.95);
+      text-shadow: 0 0 20px rgba(80, 160, 255, 0.5);
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    
+    /* 动态圆点 - 星星配色 */
+    .circle {
+      display: inline-flex;
+      gap: 8px;
+      margin-right: 15px;
+    }
+    
+    .circle span {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    
+    .circle span:nth-child(1) { background: #ffb56b; box-shadow: 0 0 15px #ff9f4a; } /* 暖星 */
+    .circle span:nth-child(2) { background: #ffd966; box-shadow: 0 0 15px #ffd27f; animation-delay: 0.3s; } /* 亮星 */
+    .circle span:nth-child(3) { background: #8ac0ff; box-shadow: 0 0 15px #6ca2ff; animation-delay: 0.6s; } /* 冷星 */
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 25px currentColor; }
+    }
+    
+    h2 {
+      font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 400;
+      text-shadow: 0 0 15px rgba(100, 180, 255, 0.6);
+    }
+    
+    /* 卡片区域通用样式 - 星云玻璃 */
+    .find, .gate {
+      padding: 30px 0;
+    }
+    
+    .links {
+      background: rgba(8, 18, 35, 0.6);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 32px;
+      padding: 35px 30px;
+      border: 1px solid rgba(70, 130, 230, 0.25);
+      box-shadow: 0 20px 40px rgba(0, 5, 20, 0.8), 0 0 0 1px rgba(100, 170, 255, 0.1) inset;
+    }
+    
+    .chtitle {
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+      color: #e0f0ff;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-shadow: 0 0 15px rgba(80, 160, 255, 0.5);
+    }
+    
+    .chtitle span {
+      font-size: 1rem;
+      color: #aac0e0;
+      margin-left: 12px;
+      background: rgba(30, 60, 110, 0.4);
+      padding: 4px 12px;
+      border-radius: 30px;
+      display: inline-block;
+      border: 1px solid rgba(80, 140, 230, 0.3);
+    }
+    
+    /* 网格布局 */
+    .clear.col-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    
+    /* 卡片项 - 星星卡片 */
+    .item {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .item:hover {
+      transform: translateY(-6px);
+    }
+    
+    .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.25;
+      transition: opacity 0.3s;
+    }
+    
+    .item:hover .bg {
+      opacity: 0.4;
+    }
+    
+    .inner {
+      position: relative;
+      padding: 24px 20px;
+      background: rgba(15, 30, 55, 0.5);
+      border: 1px solid rgba(70, 130, 230, 0.3);
+      border-radius: 24px;
+      text-align: center;
+      color: #fff;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .inner span {
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+    
+    /* 复制按钮特殊样式 */
+    .copy-btn .inner {
+      min-height: 100px;
+    }
+    
+    /* 下载卡片 */
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    
+    .avatar {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto 16px;
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(10, 25, 50, 0.6);
+      border: 1px solid rgba(80, 140, 240, 0.4);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    }
+    
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .inner h5 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: #d0e5ff;
+      font-weight: 500;
+    }
+    
+    .inner p {
+      font-size: 0.85rem;
+      color: #a0b8d0;
+      line-height: 1.5;
+      max-width: 200px;
+    }
+    
+    /* 底部波浪占位 */
+    #hans-bolang {
+      height: 40px;
+      margin-top: 30px;
+    }
+    
+    .push {
+      height: 60px;
+    }
+    
+    /* 页脚 - 星尘 */
+    .footer {
+      margin-top: auto;
+      padding: 30px 0;
+      text-align: center;
+      background: rgba(3, 8, 20, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(60, 120, 220, 0.3);
+    }
+    
+    .footer h4 {
+      color: #a0b8d0;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+    
+    .footer a {
+      display: inline-block;
+      color: #b8d4ff;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    
+    .footer a:hover {
+      color: #ffd966;
+    }
+    
+    .footer mark {
+      background: none;
+      color: #ffd27f;
+      font-weight: 400;
+    }
+    
+    /* 动画 */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* 移动端优化 */
+    @media (max-width: 768px) {
+      .top-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      
+      .clock-container {
+        width: 100%;
+      }
+      
+      .clock {
+        justify-content: space-between;
+      }
+      
+      .clock-time {
+        font-size: 1.5rem;
+      }
+      
+      .clock-date {
+        font-size: 0.8rem;
+        padding-left: 10px;
+      }
+      
+      .player-main {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .control-buttons {
+        width: 100%;
+        justify-content: center;
+      }
+      
+      .volume-slider {
+        width: 100%;
+      }
+      
+      .form-input {
+        width: 100%;
+      }
+      
+      .add-btn {
+        width: 100%;
+      }
+      
+      .links {
+        padding: 25px 15px;
+        border-radius: 24px;
+      }
+      
+      .chtitle {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .chtitle span {
+        margin-left: 0;
+        font-size: 0.9rem;
+      }
+      
+      .clear.col-3 {
+        grid-template-columns: 1fr;
+      }
+      
+      .hello h1 {
+        font-size: 1.2rem;
+      }
+      
+      h2 {
+        font-size: 1.2rem;
+      }
+      
+      .avatar {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    
+    /* 选中样式 */
+    mark {
+      background-color: transparent;
+      color: #ffd966;
+      font-weight: 500;
+    }
+    
+    /* 复制成功提示 - 星光闪烁 */
+    .copy-success {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(10, 25, 50, 0.9);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 40px;
+      font-size: 0.95rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(100, 170, 255, 0.5);
+      box-shadow: 0 0 30px rgba(60, 140, 255, 0.4);
+      z-index: 9999;
+      animation: slideDown 0.3s ease;
+    }
+    
+    @keyframes slideDown {
+      from { opacity: 0; transform: translate(-50%, -20px); }
+      to { opacity: 1; transform: translate(-50%, 0); }
+    }
+    
+    /* 确保用户可以选择文本 */
+    * {
+      -webkit-user-select: auto !important;
+      user-select: auto !important;
+    }
+  </style>
+  
+  <!-- 星空动画脚本 - 增强版 -->
+  <script>
+    window.addEventListener('load', function() {
+      const canvas = document.getElementById('startrack');
+      if (!canvas) return;
+      
+      const ctx = canvas.getContext('2d');
+      let width = window.innerWidth;
+      let height = window.innerHeight;
+      
+      canvas.width = width;
+      canvas.height = height;
+      
+      // 星星数组 - 多种颜色
+      const stars = [];
+      const numStars = Math.floor(width * height / 6000); // 更多星星
+      
+      // 星星颜色 - 模拟真实的星空
+      const starColors = [
+        'rgba(255, 255, 255, ', // 纯白
+        'rgba(255, 245, 210, ', // 暖黄
+        'rgba(210, 230, 255, ', // 淡蓝
+        'rgba(245, 235, 255, '  // 淡紫
+      ];
+      
+      for (let i = 0; i < numStars; i++) {
+        const colorIndex = Math.floor(Math.random() * starColors.length);
+        const opacity = Math.random() * 0.8 + 0.3;
+        
+        stars.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          radius: Math.random() * 2.2 + 0.3,
+          speed: Math.random() * 0.15 + 0.05,
+          twinkle: Math.random() * 0.5,
+          color: starColors[colorIndex] + opacity + ')',
+          baseOpacity: opacity
+        });
+      }
+      
+      function drawStars() {
+        ctx.clearRect(0, 0, width, height);
+        
+        stars.forEach(star => {
+          // 星星闪烁效果
+          const twinkleFactor = 0.7 + Math.sin(Date.now() * 0.002 + star.twinkle * 10) * 0.2;
+          ctx.beginPath();
+          ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+          ctx.fillStyle = star.color.replace(/, [0-9.]+\)/, `, ${star.baseOpacity * twinkleFactor})`);
+          ctx.fill();
+          
+          // 移动星星（极缓慢移动，模拟宇宙流动）
+          star.y += star.speed * 0.3;
+          
+          // 重置超出屏幕的星星
+          if (star.y > height) {
+            star.y = 0;
+            star.x = Math.random() * width;
+            star.radius = Math.random() * 2.2 + 0.3;
+          }
+        });
+        
+        requestAnimationFrame(drawStars);
+      }
+      
+      drawStars();
+      
+      // 窗口大小改变时重置
+      window.addEventListener('resize', function() {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- 星空背景 - 深邃宇宙 -->
+  <div class="background fixed"> 
+    <canvas id="startrack"></canvas> 
+    <div class="cover"></div> 
+  </div>
+  
+  <!-- 主内容 -->
+  <div class="main"> 
+    <div class="container">
+      <!-- 顶部工具栏 - 电子时钟 -->
+      <div class="top-toolbar">
+        <div class="clock-container">
+          <div class="clock">
+            <span class="clock-time" id="clockTime">00:00:00</span>
+            <span class="clock-date" id="clockDate">2026年3月1日</span>
+            <span class="clock-week" id="clockWeek">星期日</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 音乐播放器区域（增强版） -->
+      <div class="music-section">
+        <!-- 播放器主控栏 -->
+        <div class="player-main">
+          <div class="music-info">
+            <span class="music-title" id="musicTitle">月亮代表我的心</span>
+            <span class="music-artist" id="musicArtist">邓丽君</span>
+          </div>
+          <div class="control-buttons">
+            <button class="control-btn" id="playPauseBtn" title="播放/暂停">▶️</button>
+            <button class="control-btn" id="prevBtn" title="上一首">⏮️</button>
+            <button class="control-btn" id="nextBtn" title="下一首">⏭️</button>
+          </div>
+          <div class="volume-slider" id="volumeSlider">
+            <div class="volume-progress" id="volumeProgress" style="width: 70%"></div>
+          </div>
+        </div>
+        
+        <!-- 选项卡：邓丽君歌单 / 我的歌单 -->
+        <div class="tab-container">
+          <div class="tab-buttons">
+            <button class="tab-btn active" id="tabDenglijun">🌙 邓丽君经典</button>
+            <button class="tab-btn" id="tabCustom">✨ 我的歌单</button>
+          </div>
+          
+          <!-- 邓丽君歌单 -->
+          <div class="tab-content active" id="denglijunPlaylist">
+            <div class="playlist-container" id="denglijunList"></div>
+          </div>
+          
+          <!-- 自定义歌单 - 支持添加M3U8/MP3 -->
+          <div class="tab-content" id="customPlaylist">
+            <!-- 添加歌曲表单 -->
+            <div class="add-form">
+              <input type="text" class="form-input" id="songNameInput" placeholder="歌曲名称（必填）">
+              <input type="text" class="form-input" id="songArtistInput" placeholder="歌手名称（可选）">
+              <input type="text" class="form-input" id="songUrlInput" placeholder="音频URL（支持.mp3/.m3u8）">
+              <button class="add-btn" id="addSongBtn">➕ 添加歌曲</button>
+            </div>
+            <div class="hint">支持 <span>MP3</span> 和 <span>M3U8</span> 格式的音频链接，点击列表播放</div>
+            <!-- 自定义歌单列表 -->
+            <div class="playlist-container" id="customSongList"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 介绍区域 -->
+    <div class="ch intro"> 
+      <div class="container"> 
+        <div class="hello"> 
+          <h1 id="slogan">任时光匆匆流去，我只在乎你<br>在星空下聆听你的故事</h1> 
+          <h2> 
+            <div class="circle"> 
+              <span></span> 
+              <span></span> 
+              <span></span> 
+            </div> 
+            星空影仓 · 银河音乐版
+          </h2> 
+        </div> 
+      </div> 
+    </div>
+    
+    <!-- 接口区域 -->
+    <div class="find ch"> 
+      <div class="container links"> 
+        <h2 class="chtitle">【TVbox、影视仓、蜂蜜、OK影视都可用】<span>接口（点击复制）</span></h2> 
+        <div class="clear col-3"> 
+          <div class="item copy-btn" id="main-interface" data-clipboard-text="https://raw.giteeusercontent.com/JG131-KJ/colorful-life/raw/master/XKYC.json"> 
+            <div class="bg" style="background-color:#1a3a6a"></div> 
+            <div class="inner"> 
+              <span>主接口</span> 
+            </div> 
+          </div> 
+          <div class="item copy-btn" id="backup-interface" data-clipboard-text="https://raw.githubusercontent.com/JGYSC/ysxl/master/XKYC.json"> 
+            <div class="bg" style="background-color:#2a4a7a"></div> 
+            <div class="inner"> 
+              <span>备用接口</span> 
+      </div> 
+          </div> 
+          <div class="item copy-btn" id="backup-interface" data-clipboard-text="https://www.panurl.cn/down.php/b1448d0fb4afd324c3f7488d344a9d7f.json&xkzl"> 
+            <div class="bg" style="background-color:#2a4a7a"></div> 
+            <div class="inner"> 
+              <span>线上本地包接口</span>   
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>
+    
+    <!-- 软件下载区域 -->
+    <div class="gate ch"> 
+      <div class="container links"> 
+        <h2 class="chtitle">开源壳子 <span>TVbox相关免费软件下载</span></h2> 
+        <div class="clear col-3"> 
+          <!-- 星空影仓内置版 -->
+          <a href="https://pan.quark.cn/s/d8a6a0a6c957" target="_blank" rel="noopener noreferrer"> 
+            <div class="item"> 
+              <div class="avatar"> 
+                <img src="http://pic.qqtf.com/up/2023-9/2023918101238304.png" alt="星空影仓内置版" loading="lazy"> 
+              </div> 
+              <div class="inner"> 
+                <h5>星空影仓内置版</h5> 
+                <p>安装即用！无需配置接口！适合小白</p> 
+              </div> 
+            </div> 
+          </a> 
+          
+          <!-- 影视仓原版 -->
+          <a href="https://pan.quark.cn/s/2cf3c0359a7c" target="_blank" rel="noopener noreferrer"> 
+            <div class="item"> 
+              <div class="avatar"> 
+                <img src="http://pic.qqtf.com/up/2023-9/2023918101238304.png" alt="影视仓原版" loading="lazy"> 
+              </div> 
+              <div class="inner"> 
+                <h5>影视仓原版</h5> 
+                <p>适合老玩家！需要自行配置接口</p> 
+              </div> 
+            </div> 
+          </a> 
+          
+          <!-- 内置OK影视 -->
+          <a href="https://drive.uc.cn/s/780b370d1fb74?public=1" target="_blank" rel="noopener noreferrer"> 
+            <div class="item"> 
+              <div class="avatar"> 
+                <img src="http://pic.289.com/up/2025-4/20254191448517084.png" alt="内置OK影视" loading="lazy"> 
+              </div> 
+              <div class="inner"> 
+                <h5>内置OK影视<br>[含手机竖屏]</h5> 
+                <p>安装即用！无需配置接口！适合小白</p> 
+              </div> 
+            </div> 
+          </a> 
+          
+          <!-- 原版OK影视 -->
+          <a href="https://drive.uc.cn/s/8e746513c0944?public=1" target="_blank" rel="noopener noreferrer"> 
+            <div class="item"> 
+              <div class="avatar"> 
+                <img src="http://pic.289.com/up/2025-4/20254191448517084.png" alt="原版OK影视" loading="lazy"> 
+              </div> 
+              <div class="inner"> 
+                <h5>原版OK影视<br>[含手机竖屏]</h5> 
+                <p>适合老玩家！需要自行配置接口</p> 
+              </div> 
+            </div> 
+          </a> 
+          
+          <!-- 老设备专用版 -->
+          <a href="https://drive.uc.cn/s/5d3eb9d3db234?public=1" target="_blank" rel="noopener noreferrer"> 
+            <div class="item"> 
+              <div class="avatar"> 
+                <img src="http://pic.289.com/up/2025-4/20254191448517084.png" alt="老设备专用版" loading="lazy"> 
+              </div> 
+              <div class="inner"> 
+                <h5>老设备安卓4.X专用</h5> 
+                <p>如果安装时提示“无法解析”，可使用此版本</p> 
+              </div> 
+            </div> 
+          </a>  
+        </div> 
+        
+        <!-- 底部波浪占位 --> 
+        <div id="hans-bolang"></div>
+      </div> 
+      <div class="push"></div> 
+    </div> 
+    
+    <!-- 页脚 -->
+    <div class="footer ch"> 
+      <div class="container"> 
+        <h4>© 2025-2026 星空影仓 | 银河音乐版 · 深邃星空</h4> 
+        <a href="#" title="星空影仓">2026 <mark>影视仓</mark></a> 
+      </div> 
+    </div> 
+  </div>
+  
+  <!-- 电子时钟脚本 -->
+  <script>
+    (function() {
+      function updateClock() {
+        const now = new Date();
+        
+        // 格式化时间 HH:MM:SS
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        document.getElementById('clockTime').textContent = `${hours}:${minutes}:${seconds}`;
+        
+        // 格式化日期
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        document.getElementById('clockDate').textContent = `${year}年${month}月${day}日`;
+        
+        // 星期
+        const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        document.getElementById('clockWeek').textContent = weekdays[now.getDay()];
+      }
+      
+      updateClock();
+      setInterval(updateClock, 1000);
+    })();
+  </script>
+  
+  <!-- 音乐播放器核心脚本 - 保持原有功能不变 -->
+  <script>
+    (function() {
+      // 邓丽君歌曲数据（使用可用的免费音乐链接）
+      const denglijunSongs = [
+        { title: '月亮代表我的心', artist: '邓丽君', url: 'https://www.panurl.cn/view.php/9e3c046256acf0932c424c3f91816aeb.mp3' },
+        { title: '甜蜜蜜', artist: '邓丽君', url: 'https://www.panurl.cn/view.php/cc8559ec694f6f8c4f8ad60babfeb18f.mp3' },
+        { title: '谢谢你还记得我', artist: '邓丽君', url: 'https://www.panurl.cn/view.php/cfb2e26aa947c831fb0468f0a962af80.mp3' },
+        { title: '相思泪', artist: '邓丽君', url: 'https://www.panurl.cn/view.php/94be2e99a66c4bebc278b7f1a8754189.mp3' },
+        { title: '夜来香', artist: '邓丽君', url: 'https://www.panurl.cn/view.php/1c1295acfcd6b963fc3b71b72032d7ed.mp3' }
+      ];
+      
+      // 自定义歌单数据
+      let customSongs = JSON.parse(localStorage.getItem('customSongs')) || [];
+      if (customSongs.length === 0) {
+        customSongs = [
+          { title: '示例MP3歌曲', artist: '示例歌手', url: 'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3' },
+          { title: '示例M3U8流', artist: '网络电台', url: 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8' }
+        ];
+      }
+      
+      let currentPlaylist = 'denglijun';
+      let currentIndex = 0;
+      let isPlaying = false;
+      let audio = null;
+      
+      // DOM元素
+      const playBtn = document.getElementById('playPauseBtn');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const musicTitle = document.getElementById('musicTitle');
+      const musicArtist = document.getElementById('musicArtist');
+      const volumeSlider = document.getElementById('volumeSlider');
+      const volumeProgress = document.getElementById('volumeProgress');
+      
+      // 选项卡元素
+      const tabDenglijun = document.getElementById('tabDenglijun');
+      const tabCustom = document.getElementById('tabCustom');
+      const contentDenglijun = document.getElementById('denglijunPlaylist');
+      const contentCustom = document.getElementById('customPlaylist');
+      
+      // 自定义歌单相关
+      const songNameInput = document.getElementById('songNameInput');
+      const songArtistInput = document.getElementById('songArtistInput');
+      const songUrlInput = document.getElementById('songUrlInput');
+      const addSongBtn = document.getElementById('addSongBtn');
+      
+      function getCurrentSongs() {
+        return currentPlaylist === 'denglijun' ? denglijunSongs : customSongs;
+      }
+      
+      function renderDenglijunList() {
+        const container = document.getElementById('denglijunList');
+        container.innerHTML = '';
+        denglijunSongs.forEach((song, index) => {
+          const item = document.createElement('div');
+          item.className = `playlist-item ${currentPlaylist === 'denglijun' && currentIndex === index ? 'active' : ''}`;
+          item.innerHTML = `<div class="playlist-info"><div class="playlist-title">${song.title}</div><div class="playlist-artist">${song.artist}</div></div>`;
+          item.addEventListener('click', () => {
+            currentPlaylist = 'denglijun';
+            currentIndex = index;
+            loadAndPlay();
+            updateActiveStates();
+            renderAllLists();
+          });
+          container.appendChild(item);
+        });
+      }
+      
+      function renderCustomList() {
+        const container = document.getElementById('customSongList');
+        container.innerHTML = '';
+        customSongs.forEach((song, index) => {
+          const item = document.createElement('div');
+          item.className = `playlist-item ${currentPlaylist === 'custom' && currentIndex === index ? 'active' : ''}`;
+          const isM3U8 = song.url.toLowerCase().includes('.m3u8');
+          const typeIcon = isM3U8 ? '📺' : '🎵';
+          item.innerHTML = `
+            <div class="playlist-info">
+              <div class="playlist-title">${typeIcon} ${song.title}</div>
+              <div class="playlist-artist">${song.artist || '未知歌手'}</div>
+            </div>
+            <div class="playlist-delete" data-index="${index}">✕</div>
+          `;
+          item.addEventListener('click', (e) => {
+            if (e.target.classList.contains('playlist-delete')) return;
+            currentPlaylist = 'custom';
+            currentIndex = index;
+            loadAndPlay();
+            updateActiveStates();
+            renderAllLists();
+          });
+          const deleteBtn = item.querySelector('.playlist-delete');
+          deleteBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const idx = parseInt(deleteBtn.dataset.index);
+            customSongs.splice(idx, 1);
+            localStorage.setItem('customSongs', JSON.stringify(customSongs));
+            if (currentPlaylist === 'custom') {
+              if (idx === currentIndex) {
+                if (customSongs.length > 0) {
+                  currentIndex = Math.min(currentIndex, customSongs.length - 1);
+                  loadAndPlay();
+                } else {
+                  currentPlaylist = 'denglijun';
+                  currentIndex = 0;
+                  loadAndPlay();
+                }
+              } else if (idx < currentIndex) {
+                currentIndex--;
+              }
+            }
+            updateActiveStates();
+            renderAllLists();
+          });
+          container.appendChild(item);
+        });
+      }
+      
+      function renderAllLists() {
+        renderDenglijunList();
+        renderCustomList();
+      }
+      
+      function loadAndPlay() {
+        const songs = getCurrentSongs();
+        if (songs.length === 0) return;
+        if (audio) { audio.pause(); audio = null; }
+        audio = new Audio(songs[currentIndex].url);
+        audio.volume = parseFloat(volumeProgress.style.width) / 100 || 0.7;
+        musicTitle.textContent = songs[currentIndex].title;
+        musicArtist.textContent = songs[currentIndex].artist || '未知歌手';
+        audio.addEventListener('ended', playNext);
+        audio.addEventListener('error', playNext);
+        if (isPlaying) audio.play().catch(e => { isPlaying = false; playBtn.textContent = '▶️'; playBtn.classList.remove('playing'); });
+      }
+      
+      function togglePlay() {
+        const songs = getCurrentSongs();
+        if (songs.length === 0) return;
+        if (!audio) loadAndPlay();
+        if (isPlaying) {
+          audio.pause();
+          playBtn.textContent = '▶️';
+          playBtn.classList.remove('playing');
+        } else {
+          audio.play().catch(e => { alert('播放失败，请检查网络或URL'); });
+          playBtn.textContent = '⏸️';
+          playBtn.classList.add('playing');
+        }
+        isPlaying = !isPlaying;
+      }
+      
+      function playPrev() {
+        const songs = getCurrentSongs();
+        if (songs.length === 0) return;
+        currentIndex = (currentIndex - 1 + songs.length) % songs.length;
+        loadAndPlay();
+        if (isPlaying) audio.play();
+        renderAllLists();
+        updateActiveStates();
+      }
+      
+      function playNext() {
+        const songs = getCurrentSongs();
+        if (songs.length === 0) return;
+        currentIndex = (currentIndex + 1) % songs.length;
+        loadAndPlay();
+        if (isPlaying) audio.play();
+        renderAllLists();
+        updateActiveStates();
+      }
+      
+      function setVolume(percent) {
+        if (audio) audio.volume = Math.max(0, Math.min(1, percent / 100));
+        volumeProgress.style.width = percent + '%';
+      }
+      
+      function updateActiveStates() { renderAllLists(); }
+      
+      tabDenglijun.addEventListener('click', () => {
+        tabDenglijun.classList.add('active');
+        tabCustom.classList.remove('active');
+        contentDenglijun.classList.add('active');
+        contentCustom.classList.remove('active');
+        currentPlaylist = 'denglijun';
+        updateActiveStates();
+      });
+      
+      tabCustom.addEventListener('click', () => {
+        tabCustom.classList.add('active');
+        tabDenglijun.classList.remove('active');
+        contentCustom.classList.add('active');
+        contentDenglijun.classList.remove('active');
+        currentPlaylist = 'custom';
+        updateActiveStates();
+      });
+      
+      addSongBtn.addEventListener('click', () => {
+        const title = songNameInput.value.trim();
+        const url = songUrlInput.value.trim();
+        if (!title) { alert('请输入歌曲名称'); return; }
+        if (!url) { alert('请输入音频URL'); return; }
+        if (!url.startsWith('http://') && !url.startsWith('https://')) { alert('请输入以http://或https://开头的有效URL'); return; }
+        const artist = songArtistInput.value.trim() || '自定义';
+        customSongs.push({ title, artist, url });
+        localStorage.setItem('customSongs', JSON.stringify(customSongs));
+        songNameInput.value = ''; songArtistInput.value = ''; songUrlInput.value = '';
+        renderCustomList();
+        alert('歌曲添加成功！可以在"我的歌单"中查看');
+        if (currentPlaylist === 'custom' && !audio && customSongs.length > 0) {
+          currentIndex = customSongs.length - 1;
+          loadAndPlay();
+        }
+      });
+      
+      function init() {
+        playBtn.addEventListener('click', togglePlay);
+        prevBtn.addEventListener('click', playPrev);
+        nextBtn.addEventListener('click', playNext);
+        volumeSlider.addEventListener('click', function(e) {
+          const rect = this.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const percent = (x / rect.width) * 100;
+          setVolume(percent);
+        });
+        renderAllLists();
+        setTimeout(() => {
+          if (denglijunSongs.length > 0) {
+            currentPlaylist = 'denglijun';
+            currentIndex = 0;
+            loadAndPlay();
+          }
+        }, 1000);
+      }
+      init();
+    })();
+  </script>
+  
+  <!-- 复制功能 - 使用原生JavaScript -->
+  <script>
+    (function() {
+      function copyTextToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        textarea.setSelectionRange(0, 99999);
+        try {
+          const successful = document.execCommand('copy');
+          const toast = document.createElement('div');
+          toast.className = 'copy-success';
+          toast.textContent = successful ? '✅ 复制成功，请前往APP粘贴接口' : '❌ 复制失败，请手动复制';
+          document.body.appendChild(toast);
+          setTimeout(() => { toast.remove(); }, 3000);
+        } catch (err) {
+          alert('复制失败，请手动复制');
+        }
+        document.body.removeChild(textarea);
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        const copyButtons = document.querySelectorAll('.copy-btn');
+        copyButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const text = this.getAttribute('data-clipboard-text');
+            if (text) copyTextToClipboard(text);
+          });
+        });
+      });
+    })();
+  </script>
+  
+  <!-- 星空提示 -->
+  <div style="position: fixed; bottom: 10px; right: 10px; background: rgba(8, 20, 40, 0.7); padding: 8px 15px; border-radius: 30px; font-size: 0.8rem; color: #aac0e0; backdrop-filter: blur(5px); border: 1px solid rgba(100, 160, 255, 0.3); z-index: 9999;">
+    ✨ 深邃星空 · 自定义音乐版
+  </div>
+  
+  <!-- 本文件完全独立，星空幻彩背景 -->
+</body>
+</html>
