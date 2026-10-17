@@ -1,0 +1,2632 @@
+{
+  "version": "1.0",
+  "exportTime": "2026-10-16T03:34:34.671Z",
+  "vodSeries": [
+    {
+      "id": 1792121674669,
+      "title": "幼小衔接",
+      "category": "幼小衔接",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "认识数字0-20",
+          "url": "https://hwvideo.ahaschool.com.cn/ea04eb3ab23e47c884806b9a096ea525/4a1cdad6bb4540d2bc8f51db078ebdc5-dbe49770f4a2df89d89a468e2ae8b549-sd.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "数字的起源",
+          "url": "https://hwvideo.ahaschool.com.cn/ea04eb3ab23e47c884806b9a096ea525/4a1cdad6bb4540d2bc8f51db078ebdc5-dbe49770f4a2df89d89a468e2ae8b549-sd.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "0可以忽略不计吗",
+          "url": "https://hwvideo.ahaschool.com.cn/ea04eb3ab23e47c884806b9a096ea525/4a1cdad6bb4540d2bc8f51db078ebdc5-dbe49770f4a2df89d89a468e2ae8b549-sd.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "认识0-5",
+          "url": "https://hwvideo.ahaschool.com.cn/1757219e16eb467b8010726e697ea103/2aa7ec52e4cc4608873f8f3c1e5b71a0-c4eced8984b5517bb0f1b642f3e1f9bf-sd.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "认识6-10",
+          "url": "https://hwvideo.ahaschool.com.cn/ea149cbb7e8a4e37ba46b8e9803a39e1/4c5434ca1650476ebc87dea37ff753d1-4d090e69eecf24445b3f00f24feb645f-sd.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "书写1-10",
+          "url": "https://hwvideo.ahaschool.com.cn/d7773e7be208452c9c8fedffd26bf673/d7b4379f697b4059943ab7e8beadfcfb-840a794ad0881e2fffa51cb8e1b07afe-sd.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "1-10的顺序数",
+          "url": "https://hwvideo.ahaschool.com.cn/239ec9f1b2ef450197561d986fd66410/b38639f784eb4c4db3894bbb3acfb033-0695e1a58c83e20c21546ed103f4b366-sd.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "10-1的倒序数",
+          "url": "https://hwvideo.ahaschool.com.cn/d93a5d161dad4a1288fe7a523442877d/f05f14fa12bf40edbaa0dbbfe6ae0f9f-c36e81761808ed65ee9cd93558d7d0fe-sd.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "认识11-20",
+          "url": "https://hwvideo.ahaschool.com.cn/89b9414b6a024617a78e8c37e396eb52/ad1d0be00f7444b1a5115521bb339be1-7430c161cbff7c2aa5afc620329e05e5-sd.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "11-20的书写",
+          "url": "https://hwvideo.ahaschool.com.cn/fb5c4e4490ee401ca5b8c7630d4304b9/93be3baf7ed947aab37160e8a79915ab-9a2adab6fd160a135d63152e7cb99d7d-sd.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "从1-100",
+          "url": "https://hwvideo.ahaschool.com.cn/d8d5810837ab47c7866ebca096c4136e/9f48692023334dcc8a0edf40bdc97b09-05c5910324c91fa2547dc53cde4fcd55-sd.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "数位和数的构成",
+          "url": "https://hwvideo.ahaschool.com.cn/71afab46f6ee45d49bc06e90cb07a13c/699e0d6db3334526b3ea806329c8cede-3cf7bede8bb4221e2b451bcba48a9740-sd.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "10以内的加减法",
+          "url": "https://hwvideo.ahaschool.com.cn/59da7cda93eb4acfba27c741e450bff0/66755a5d37444fab9d770181062b8f4c-199a826d8c283225d766fcfafdcc0292-sd.m3u8"
+        },
+        {
+          "num": 14,
+          "title": "减号及减法运算",
+          "url": "https://hwvideo.ahaschool.com.cn/59da7cda93eb4acfba27c741e450bff0/66755a5d37444fab9d770181062b8f4c-199a826d8c283225d766fcfafdcc0292-sd.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "减号及减法算式",
+          "url": "https://hwvideo.ahaschool.com.cn/59da7cda93eb4acfba27c741e450bff0/66755a5d37444fab9d770181062b8f4c-199a826d8c283225d766fcfafdcc0292-sd.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "根据场景写算式",
+          "url": "https://hwvideo.ahaschool.com.cn/d01d53e022fd4916b72ee27709c76f99/08d9b06fab864842b936194b56cd6ae2-884758f2a531e719c3114c1ffbdee0aa-sd.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "逆向加法",
+          "url": "https://hwvideo.ahaschool.com.cn/dc3b8db312564796a84702fab9246f95/a2cceed7560543099adfa07e6a221e00-14478ed07906726ccb8cbefafb1ed0e5-sd.m3u8"
+        },
+        {
+          "num": 18,
+          "title": "逆向减法",
+          "url": "https://hwvideo.ahaschool.com.cn/c88c84b3dcfe48b7bf1b84051dc7abb1/bbaafba8195745e5b5b10049073692bd-1c19dc4bed29ae30abe86cd68743dbff-sd.m3u8"
+        },
+        {
+          "num": 19,
+          "title": "连加和连减",
+          "url": "https://hwvideo.ahaschool.com.cn/a0066a3baceb4dccb7e4caeffabe04d2/20b0fb0c4ad746ba838007b5649d072e-6021299549144bf6e8a5a3e68d31588e-sd.m3u8"
+        },
+        {
+          "num": 20,
+          "title": "20以内的加减法",
+          "url": "https://hwvideo.ahaschool.com.cn/3bf99569077f4dfcbb9435e9c5a6a384/3fe6482ab9fa42e0bc5ca03363ff902c-2d3be031fbedf97b845093484210c5b5-sd.m3u8"
+        },
+        {
+          "num": 21,
+          "title": "进位的概念",
+          "url": "https://hwvideo.ahaschool.com.cn/3bf99569077f4dfcbb9435e9c5a6a384/3fe6482ab9fa42e0bc5ca03363ff902c-2d3be031fbedf97b845093484210c5b5-sd.m3u8"
+        },
+        {
+          "num": 22,
+          "title": "进位加法",
+          "url": "https://hwvideo.ahaschool.com.cn/f877886320784db3954b402c2c3f5a77/203762b84f5242febc62be4d36fedc11-685b920ed9dbe6d7c575187429cd0361-sd.m3u8"
+        },
+        {
+          "num": 23,
+          "title": "10以内不进位加法",
+          "url": "https://hwvideo.ahaschool.com.cn/5f2664b1efbf461e95b544e523c16c2a/c25b6b79cb03415bbb78b36c12a16a91-a12cca46ede943a6f7acabcc8b39617c-sd.m3u8"
+        },
+        {
+          "num": 24,
+          "title": "退位的概念",
+          "url": "https://hwvideo.ahaschool.com.cn/df5bb812c67446239cf6b4db84c505ae/4530830d207848ba8d927a58a891cb2e-02fdaadf762711abc257a18c749936b6-sd.m3u8"
+        },
+        {
+          "num": 25,
+          "title": "破十法",
+          "url": "https://hwvideo.ahaschool.com.cn/31ddd7f8fc284784995ecf73bb31dd90/f4083650189a4e5c98d4a682ac0b160f-00ba32391d49cbb9f85c140ae3ee17ce-sd.m3u8"
+        },
+        {
+          "num": 26,
+          "title": "认识单双数",
+          "url": "https://hwvideo.ahaschool.com.cn/0a68b01e1b0b4c7ca5089b259fc9c56b/720b54f78a874773a564f1acd83a5b6d-a78f3a3770915661c6e5ca52082dc39b-sd.m3u8"
+        },
+        {
+          "num": 27,
+          "title": "认识双数",
+          "url": "https://hwvideo.ahaschool.com.cn/0a68b01e1b0b4c7ca5089b259fc9c56b/720b54f78a874773a564f1acd83a5b6d-a78f3a3770915661c6e5ca52082dc39b-sd.m3u8"
+        },
+        {
+          "num": 28,
+          "title": "认识单数",
+          "url": "https://hwvideo.ahaschool.com.cn/73d564ea9f2d48f69688f4a66cd8c294/703c6f3e1649436e879c18b2c7da6a20-cfdc7268725ae0357e804583eae4ef5d-sd.m3u8"
+        },
+        {
+          "num": 29,
+          "title": "认识10以上的单双数",
+          "url": "https://hwvideo.ahaschool.com.cn/b92607456635407699981f5bd3e9e4e4/59ad8f1f2a73448f9f54ae5e9acf8525-671122d1c00b395d5b8e8961a5f1fb86-sd.m3u8"
+        },
+        {
+          "num": 30,
+          "title": "人民币",
+          "url": "https://hwvideo.ahaschool.com.cn/c4316a1a3968429db131986ae6264662/0160dd40f4a446cd80f453084d5c1626-e3985eb9d3913168fb0b785649736f4b-sd.m3u8"
+        },
+        {
+          "num": 31,
+          "title": "认识人民币",
+          "url": "https://hwvideo.ahaschool.com.cn/c4316a1a3968429db131986ae6264662/0160dd40f4a446cd80f453084d5c1626-e3985eb9d3913168fb0b785649736f4b-sd.m3u8"
+        },
+        {
+          "num": 32,
+          "title": "简单的购物",
+          "url": "https://hwvideo.ahaschool.com.cn/d0545be48eee41aa83befd55a2d610ee/fda6b4d0f98a47b29dcc153384123c4d-f4f645e9b96089a8f7eae7d7d1691adc-sd.m3u8"
+        },
+        {
+          "num": 33,
+          "title": "认识时间",
+          "url": "https://hwvideo.ahaschool.com.cn/54db60c3a2c144d28bf627af88eb2e1b/fb0f8adff612414e8fbdf65dcec5b24f-6fc2c73c62e827d9ccf970d4c5f5ad55-sd.m3u8"
+        },
+        {
+          "num": 34,
+          "title": "认识表盘",
+          "url": "https://hwvideo.ahaschool.com.cn/54db60c3a2c144d28bf627af88eb2e1b/fb0f8adff612414e8fbdf65dcec5b24f-6fc2c73c62e827d9ccf970d4c5f5ad55-sd.m3u8"
+        },
+        {
+          "num": 35,
+          "title": "认识非整点时间",
+          "url": "https://hwvideo.ahaschool.com.cn/e689ba91edfd409cb51acab964c23b54/f96cc68a60b3433b8d13257404325f8e-4cfafd04cb67d8887cd83148dac3b5f1-sd.m3u8"
+        },
+        {
+          "num": 36,
+          "title": "12小时制与24小时制",
+          "url": "https://hwvideo.ahaschool.com.cn/be565a4cc4554cae8fbcf0d67ca96b9f/c487b643e3374b68b2e2c591df28d605-5a572b401b827ad4426fff0fba1b2344-sd.m3u8"
+        },
+        {
+          "num": 37,
+          "title": "关于时间的计算",
+          "url": "https://hwvideo.ahaschool.com.cn/8dac8757e6264efb874394ed97630544/514e8f3533974720b912a7c1efdbc284-d5d7bc0555cf8fb64bbe0d16745873cd-sd.m3u8"
+        },
+        {
+          "num": 38,
+          "title": "天枰的换代",
+          "url": "https://hwvideo.ahaschool.com.cn/03758eddfb3342f9b3d2e092803d1042/d99a333858524b889f6e9d30f937b439-bb6dcde5debb3e28b1dfb076cdc9e5bc-sd.m3u8"
+        },
+        {
+          "num": 39,
+          "title": "认识天枰",
+          "url": "https://hwvideo.ahaschool.com.cn/03758eddfb3342f9b3d2e092803d1042/d99a333858524b889f6e9d30f937b439-bb6dcde5debb3e28b1dfb076cdc9e5bc-sd.m3u8"
+        },
+        {
+          "num": 40,
+          "title": "简单的天枰换代",
+          "url": "https://hwvideo.ahaschool.com.cn/af8443a3f32f46a78862e01a526d3333/7515ae2d31cc4fd883b5e9d44c468b15-6c6a07a6f81ef8d43d15f94e0f68e177-sd.m3u8"
+        },
+        {
+          "num": 41,
+          "title": "复杂的天枰换代",
+          "url": "https://hwvideo.ahaschool.com.cn/0aab1b9c82bf404f8124fa075d32008a/69d3c6c0568643098cb5ef87ae5b64cc-05d6ac23ab800e057a4ebbd9191287b9-sd.m3u8"
+        },
+        {
+          "num": 42,
+          "title": "认识平面图形",
+          "url": "https://hwvideo.ahaschool.com.cn/408012ea9b7d46d9ae1218bc7d2fee27/32bba2b3f20d401d8394c41e28735d41-394f44ab39371799c91ed097aac9c011-sd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674670,
+      "title": "5年级语文下册1单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "1 \"古诗三首\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_d3c86ab12ef7693cff9310c43429949e3ac017c9.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_79864ee4d832f0b78010cf7eebd143e0ef160c61.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/2d570164387702298057684865/v.f1024175.m3u8?t=66608304&sign=ef6e5254757d1dd51873c11af52fc8f8"
+        },
+        {
+          "num": 4,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1decf2f53efdc18d2b4a96192942881245424cf4.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/2658077d387702298057385590/v.f1024175.m3u8?t=66608328&sign=891151abc4c06704283fe056b3a9b2ba"
+        },
+        {
+          "num": 6,
+          "title": "2 \"祖父的园子\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c515403b2c7dc0708d6fbe489d34a5bc0487b8ce.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_d2cd49a2f940c6108196f088bfaf70a2d5731444.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_593dca7d2263ffa86e4e1f582e587db71784b549.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/c4bdb517387702298059550057/v.f1024175.m3u8?t=66608340&sign=196515a2cb64e91365cda167dcde730f"
+        },
+        {
+          "num": 10,
+          "title": "3 \"月是故乡明\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_428ee4586b02010be3c8de934a7a96dd4471fbb3.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_2d3059de8976d82ac17589f0f6bb9284b4cc3071.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a3dd8bf5995633b64d6a25f2cb953f61f56b4af5.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/ce01689d387702298059942436/v.f1024175.m3u8?t=66608362&sign=1118d061dc696ef48cd5c009fa965fe5"
+        },
+        {
+          "num": 14,
+          "title": "4 \"梅花魂\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_d9f59a9fb59a60d362f3bb6d5fa7b765482332fb.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_7d3877f1f25841e22929edfd01ecb164fcb92073.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c3f897bc865b6abeddcf355dc5b17d681ba835e7.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/f9bf0dd6387702298060439445/v.f1024175.m3u8?t=66608381&sign=4e0a49f20e248051b225bcc5f4968bfc"
+        },
+        {
+          "num": 18,
+          "title": "习作一",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ae2c8c814150e131d7f754a4e520555a1380b035.m3u8"
+        },
+        {
+          "num": 19,
+          "title": "语文园地一",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b2833688f807276a70e05824bba99a0c70733c6e.m3u8"
+        },
+        {
+          "num": 20,
+          "title": "单元总结一",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_f00cb7a62167c4ee47322a169671cde537a1a231.m3u8"
+        },
+        {
+          "num": 21,
+          "title": "单元复习1",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/5fde237a387702298272072397/v.f1024175.m3u8?t=66608584&sign=8010193f9f7230d9a23c77d66375d6e0"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674671,
+      "title": "5年级语文下册2单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "5\"草船借箭\" 预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ed211f97826704d0eddccbd064ea9381f4e085de.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_3e111d3b5d5a8414af686bf32c77dd179d376179.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_562664258f53e4adfa79757dc8291c0cf149418a.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/037be53b387702298060891592/v.f1024175.m3u8?t=666080af&sign=8cda408c687d1a7bbe5dc0f0b6631541"
+        },
+        {
+          "num": 5,
+          "title": "6 \"景阳冈\"预习1",
+          "url": "https://cdn14.bookln.cn/itm_665964_86e73880-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "预习2",
+          "url": "https://cdn14.bookln.cn/itm_665964_8b8e7970-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "1课时",
+          "url": "https://cdn14.bookln.cn/itm_665964_8ee9d970-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "2课时",
+          "url": "https://cdn14.bookln.cn/itm_665964_1706862625198.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/502ff058387702298061855507/v.f1024175.m3u8?t=66608129&sign=84968bbcd3f4377ec90cf2de6307a078"
+        },
+        {
+          "num": 10,
+          "title": "7 \"猴王出世\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_d5403a5d60403dafba5122aa1ebcb91e08ee299f.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_755f83b87139df6a3247e32bd8f127a2807470c6.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_fce9f7e2c3cbb7cc02fddb0a6acb5a0a4722557a.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/93797478387702298062402788/v.f1024175.m3u8?t=66608155&sign=12bc340a8b68908309d9477e85ff419f"
+        },
+        {
+          "num": 14,
+          "title": "8 \"红楼春趣\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b78515a9b229bb0cac571727027b2d583407477b.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_409df4810cbb179efd988b9d58cd954e10a97a8e.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_4eff35476685185107cbfb378ff81d9ab9e48c5b.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/9f7ece9d387702298062954682/v.f1024175.m3u8?t=66608185&sign=40f5dc57facfcdc71a03553650226849"
+        },
+        {
+          "num": 18,
+          "title": "习作二",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_92ea9e07912e2e1a72c73a68753be518c0abc6f5.m3u8"
+        },
+        {
+          "num": 19,
+          "title": "语文园地二",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_13ad4885354747f17540da893bec85c96900a132.m3u8"
+        },
+        {
+          "num": 20,
+          "title": "单元总结二",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_0f6b01cbb638d15246d61dcd587908e6aa73c1d9.m3u8"
+        },
+        {
+          "num": 21,
+          "title": "单元复习2",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/557a6e0c387702298044481400/v.f1024175.m3u8?t=66608553&sign=a3ab65d4934b29d9d300cbd91a60b690"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674672,
+      "title": "5年级语文下册3单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "综合性学习——遨游汉字王国 汉字真有趣 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_05c570b7a22a09c24550b4c8ac3027e1437ddbff.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "综合性学习——遨游汉字王国 汉字真有趣 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_e751a0bc2cdc21670e4a0c6b6c5225bca1ce6812.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "单元复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/50c263b6387702298044279351/v.f1024175.m3u8?t=666084f4&sign=58e45fc0eed58e8366fb995761b71f41"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674673,
+      "title": "5年级语文下册4单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "9 \"古诗三首\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_53afbf196fe6356f7899190626d8122c9c1aae22.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_cdbfef9f8b691e026c7ebffd4393d7d047cee140.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/dbcc265b387702298063207985/v.f1024175.m3u8?t=666081f2&sign=dfbc829276ec670f10957d153b72b61d"
+        },
+        {
+          "num": 4,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_4d800c39cb52b8010797db465bf03615a7050267.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/e2ca71d6387702298063505457/v.f1024175.m3u8?t=66608227&sign=27654becf72a9bcc249df3ce42ee43a3"
+        },
+        {
+          "num": 6,
+          "title": "3课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1088e41341b5e9a55b862eaec74275f63c7d3d8e.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/e7721a74387702298063700953/v.f1024175.m3u8?t=66608258&sign=a7f85c300bb40a07ee47fded1e0fb04a"
+        },
+        {
+          "num": 8,
+          "title": "10 \"青山处处埋忠骨\"预习1",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_f5897843bf3834fba6a864b4160d0d032f6517c0.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "预习2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_16df383696d0085657653ef2378103b50c13dbd7.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_8620a93c4242fd20b7274669aa78d7f0b2e118e9.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/cf18917f387702298049146857/v.f1024175.m3u8?t=666083bd&sign=c7d8a9faf5b7d14ea6aac9febdbd402f"
+        },
+        {
+          "num": 12,
+          "title": "11 \"军神\"预习 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_6e89d6e9dcc7ce0e1dcb8cb96a564ba9db4f1022.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "预习 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a2995ada83c3bfbb177f6c67935858797c4d807f.m3u8"
+        },
+        {
+          "num": 14,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_6f0602c5b5adb11cf8d029bee2caab26393c8174.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/dd4dac5e387702298049776028/v.f1024175.m3u8?t=666083d9&sign=48de0ed7236f9121644950f1925dbb85"
+        },
+        {
+          "num": 16,
+          "title": "12 \"清贫\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_162d724a2df1c04cb653ec7eafd20e64f296e5ca.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_321a691a73edf3b56bd6f305022eec4e571a95a0.m3u8"
+        },
+        {
+          "num": 18,
+          "title": "课后复习",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/044b10ec387702298050056018/v.f1024175.m3u8?t=666083f1&sign=f60af2f2fcace930637e8e1c6efb811a"
+        },
+        {
+          "num": 19,
+          "title": "习作 第1节",
+          "url": "https://cdn14.bookln.cn/itm_665964_9d6239c0-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 20,
+          "title": "习作 第2节",
+          "url": "https://cdn14.bookln.cn/itm_665964_a1a11bf0-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 21,
+          "title": "语文园地4 第1节",
+          "url": "https://cdn14.bookln.cn/itm_665964_988060d0-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 22,
+          "title": "语文园地4 第2节",
+          "url": "https://cdn14.bookln.cn/itm_665964_a5b78e90-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 23,
+          "title": "单元总结四",
+          "url": "https://cdn14.bookln.cn/itm_665964_93ba7450-ff32-11eb-bc18-1f2842545e0a.m3u8"
+        },
+        {
+          "num": 24,
+          "title": "单元复习4",
+          "url": "https://1251672659.vod2.myqcloud.com/4d190af3vodtransgzp1251672659/9ffad69c387702298045360869/v.f1024175.m3u8?t=666084ac&sign=e7c4026c19c854e1a31e514901a63e68"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674675,
+      "title": "5年级语文下册5单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "13\"人物描写一组\"预习 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_93521849cdfe05db4a564e5f3be9a1ddd7920e41.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "预习第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_64687d2383e73a63f7dea8a5b950bd0edfc62101.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_283388f83cd22c7f33ba6abb0d599c291b7cdfa2.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "14\"刷子李\"预习第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_05a1126e1eca5aee57061fde04eb9e77f7b5944e.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "1预习第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ae773f0bd931e29c30a606d07b8035133ef9e449.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ad2b4cb6572a07a818689a3abab4b953add18f8f.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "习作五",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_5262350a716511a77c96314b8ae5346a119fe1ad.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "习作例文",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_212b6d111facef497d143c91fc21a8ce346ca5a2.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674676,
+      "title": "5年级语文下册6单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "15 \"自相矛盾\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_7c25d180b7a266fa7993280c1b3a2357cbb24f81.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_490fef7383e5f78fe83a59a0c87b892186ef2393.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_327d0933f6e0a45f113e47de7af172aa9bbce74f.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "3课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_f38473d5e3f030f80f9ae8e1e11f7702052b51e2.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "16 \"田忌赛马\"预习第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_52eee34d64da81f35cfe0340a9dd4c5f38c45f92.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "预习 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ad1ab669a0604cbe93bd05f36cbb4f7d6450d5d8.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_aa4c6a6105f0bf5545473bf068eff4609e12643d.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_30560dbabf91e9876207ea64e8930cc0208e1c20.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "17\"跳水\"预习第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_50b2bb7ef294c07778f92c8a954acb99683f6b60.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "预习 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_e59976cb5cb8724c128a2a74d2ac0fbd765e1a34.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "预习3",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_8c0380576d8e18f28b8997808e7b508b0854c89e.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_9c15d02af5d6570229719a9b196ad6b2f61bc777.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_f291496be178dd02748b304b01d71f48dee33719.m3u8"
+        },
+        {
+          "num": 14,
+          "title": "习作六",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_67a8501be6cf1567317aed154cee52d4c3ddab02.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "语文园地6 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a9994d16ea0ac049eadd0b20e4bfb937a049d6ec.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "语文园地6 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ddc54890f7a3a6ab813470d6574e62208e3e631d.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "单元总结6",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_9c7a4fb0cb364d5bd445a9225dc66ead00db5aea.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674677,
+      "title": "5年级语文下册7单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "18 \"威尼斯的小艇\"预习 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_458df4bdeb045f404259fcbfe96e79c172dde29c.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "预习 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_3c00a0c3d19ae64cc43cefd89b1aa661b69a42cb.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_afd4929364603e4edbb425674c33de88cfb2a912.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_01d8dc4aa6d2724a7acd065648a076bbd8b43b4b.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "19\"牧场之国\"1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c235f065b59cf6e8a27aa4277c07c52b6f92f82d.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_4239dee36de13d3226c41308958d3ba9caa11ced.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "20 \"金字塔\"1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_3e3c36d556250bd4c3754abc2afc09a70033f95f.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "习作七",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_cfc71618417aaf8f421e072dcb66744a956384c2.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "语文园地七",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_5b526062806abf47125f05c85d06cfadc5727f97.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "单元总结七",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1eb379c354d9f70054d004c1e33469229e9e480b.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674678,
+      "title": "5年级语文下册8单元微课",
+      "category": "5年级语文下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "21杨氏之子 我的预习我做主",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_e7b1eb6e5294ef3e957bceed9e9375508802a8fa.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_26da782d877c194b26b8213ce9dbda817a190114.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "22\"手指\"预习 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_675e866bca233c23d8431efdd704559214ae4b97.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "预习第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_8e9db8fc8cffad5c09460076a2c15f154bc8b491.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_4b31072cb46801d48f39da99fce8ae540b29ccad.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_8d919071d10b89fbba5f9f6026c644ddfd5e643c.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "23\"童年的发现\"预习",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_6a1b6e6bb632d446586437670591f7d27e774f7b.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "1课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_3450260bc649e596d843d03d678efe42f9b1879a.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "2课时",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1a7187fe27fe05d8a23982b04044ef0d0c4507f4.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "习作8",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_3cb56ee9aaf5ff3065c1d64066017ded0802afac.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "语文园地8",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_7028901c6de3f39179a3234fa99f80930fcf1aff.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "单元总结八",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_104541fc15f82269921a4fa49e8febbf59afc4c0.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://mpimg.cn/view.php/4f78c91a4b44aa4f9c396dfdca4b5803.jpg&xkzl"
+    },
+    {
+      "id": 1792121674679,
+      "title": "5年级语文下册视频讲阅读",
+      "category": "5年级语文下册视频讲阅读",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "语文5下 1-1 祖父 后园 我",
+          "url": "https://oss.tesoon.com/tesoon/video/20221127/YMdDYCbphf.mp4"
+        },
+        {
+          "num": 2,
+          "title": "语文5下 1-2 花脸",
+          "url": "https://oss.tesoon.com/tesoon/video/20221208/38deQrAYET.mp4"
+        },
+        {
+          "num": 3,
+          "title": "语文5下 1-3 古诗对比阅读",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/13古诗对比阅读-81736.mp4"
+        },
+        {
+          "num": 4,
+          "title": "语文5下 2-1 赤壁之战",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/21赤壁之战-75243.mp4"
+        },
+        {
+          "num": 5,
+          "title": "语文5下 2-2 水浒传选段",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/22水浒传选段-81737.mp4"
+        },
+        {
+          "num": 6,
+          "title": "语文5下 2-3 西游记选段",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/23西游记选段-81738.mp4"
+        },
+        {
+          "num": 7,
+          "title": "语文5下 3-1 牛与物理",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/31牛与物理-75244.mp4"
+        },
+        {
+          "num": 8,
+          "title": "语文5下 3-2 汉字主题非连续性文本阅读",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/32汉字主题非连续性文本阅读-81739.mp4"
+        },
+        {
+          "num": 9,
+          "title": "语文5下 3-3 关于中小学生汉字书写问题的研究报告",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/33关于中小学生汉字书写问题的研究报告-81740.mp4"
+        },
+        {
+          "num": 10,
+          "title": "语文5下 4-1 倔强的小红军",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/41倔强的小红军-75249.mp4"
+        },
+        {
+          "num": 11,
+          "title": "语文5下 4-2 革命主题非连续性文本阅读",
+          "url": "https://oss.tesoon.com/tesoon/video/20221208/fcWxQCtN34.mp4"
+        },
+        {
+          "num": 12,
+          "title": "语文5下 4-3 陶母责子",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/43陶母责子-81732.mp4"
+        },
+        {
+          "num": 13,
+          "title": "语文5下 5-1 泥人张",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/51泥人张-75245.mp4"
+        },
+        {
+          "num": 14,
+          "title": "语文5下 5-2 鲁智深倒拔垂杨柳",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/52鲁智深倒拔垂杨柳-81741.mp4"
+        },
+        {
+          "num": 15,
+          "title": "语文5下 5-3刘宽",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/语文5下53刘宽-120348.mp4"
+        },
+        {
+          "num": 16,
+          "title": "语文5下 6-1 智断羊皮案",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/61智断羊皮案-75248.mp4"
+        },
+        {
+          "num": 17,
+          "title": "语文5下 6-2 智慧故事二则",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/62智慧故事二则-81733.mp4"
+        },
+        {
+          "num": 18,
+          "title": "语文5下 6-3 买鹿制楚",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/63买鹿制楚-81734.mp4"
+        },
+        {
+          "num": 19,
+          "title": "语文5下 7-1 俄罗斯乡村素描",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/71俄罗斯乡村素描-75247.mp4"
+        },
+        {
+          "num": 20,
+          "title": "语文5下 7-2 密西西比河风光",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/72密西西比河风光-81742.mp4"
+        },
+        {
+          "num": 21,
+          "title": "语文5下 7-3 敦煌莫高窟非连续性文本阅读",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/73敦煌莫高窟非连续性文本阅读-81743.mp4"
+        },
+        {
+          "num": 22,
+          "title": "语文5下 8-1 郑板桥吟诗讽知府",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/81郑板桥吟诗讽知府-75242.mp4"
+        },
+        {
+          "num": 23,
+          "title": "语文5下 8-2 猫伯伯",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/82猫伯伯-81744.mp4"
+        },
+        {
+          "num": 24,
+          "title": "语文5下 8-3 新英格兰天气",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/08/83新英格兰天气-81745.mp4"
+        },
+        {
+          "num": 25,
+          "title": "1单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_844ea0886212ab44f68859d65bfff96041325654.m3u8"
+        },
+        {
+          "num": 26,
+          "title": "2单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_7b3ba86927563043cce911cf741a50dfe4b694cb.m3u8"
+        },
+        {
+          "num": 27,
+          "title": "4单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_2c0a0ba6768632fc1ff7caf49d8780eadaa916e3.m3u8"
+        },
+        {
+          "num": 28,
+          "title": "6单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_443591060558f99dad10ecadb3538349c61364c1.m3u8"
+        },
+        {
+          "num": 29,
+          "title": "7单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_fa9c93475766b959163afa9c47843dc38461ca20.m3u8"
+        },
+        {
+          "num": 30,
+          "title": "8单元日积月累",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_6ac19f1612529552b96a25dcc8a97fa565bdc689.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674680,
+      "title": "5年级数学下册1单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "教材例题1",
+          "url": "https://oss.tesoon.com/tesoon/video/20221129/K8s743X2Xy.mp4"
+        },
+        {
+          "num": 2,
+          "title": "教材例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/2RJ数学五年级教材P2例2第一单元第2课时观察物体（三）（2）-119387.mp4"
+        },
+        {
+          "num": 3,
+          "title": "知识点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/11/29/%E4%BE%8B1%E8%A7%82%E5%AF%9F%E7%89%A9%E4%BD%93%C2%B7%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83%C2%B7RJ5%E4%B8%8B-82460.mp4"
+        },
+        {
+          "num": 4,
+          "title": "疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/12/%E7%96%91%E9%9A%BE%E7%82%B9%C2%B7%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83%C2%B7RJ%E4%BA%94%E4%B8%8B%E7%96%91%E9%9A%BE%E7%82%B9%E8%A7%86%E9%A2%91%E8%AF%BE-125217.mp4"
+        },
+        {
+          "num": 5,
+          "title": "确定正方体的个数",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/12/%E7%AC%AC2%E9%A1%B5%E7%94%B1%E5%B9%B3%E9%9D%A2%E5%9B%BE%E5%BD%A2%E5%92%8C%E5%B0%8F%E6%AD%A3%E6%96%B9%E4%BD%93%E7%9A%84%E4%B8%AA%E6%95%B0%E7%A1%AE%E5%AE%9A%E7%AB%8B%E4%BD%93%E5%9B%BE%E5%BD%A2-74272.mp4"
+        },
+        {
+          "num": 6,
+          "title": "观察物体的应用",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/%E7%AC%AC4%E9%A1%B5%E6%A0%B9%E6%8D%AE%E4%BB%8E%E4%B8%89%E4%B8%AA%E6%96%B9%E5%90%91%E8%A7%82%E5%AF%9F%E5%88%B0%E7%9A%84%E5%9B%BE%E5%BD%A2%E6%8E%A8%E6%B5%8B%E6%91%86%E6%88%90%E5%87%A0%E4%BD%95%E7%BB%84%E5%90%88%E4%BD%93%E7%9A%84%E5%B0%8F%E6%AD%A3%E6%96%B9%E4%BD%93%E7%9A%84%E6%95%B0%E9%87%8F-119446.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674681,
+      "title": "5年级数学下册2单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "教材例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/5RJ数学五年级教材P5例1第二单元第1课时因数和倍数-119415.mp4"
+        },
+        {
+          "num": 2,
+          "title": "教材例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/6RJ数学五年级教材P6例2、例3第二单元第2课时因数和倍数-119412.mp4"
+        },
+        {
+          "num": 3,
+          "title": "因数和倍数疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/13/%E7%96%91%E9%9A%BE%E7%82%B91%C2%B71.%E5%9B%A0%E6%95%B0%E5%92%8C%E5%80%8D%E6%95%B0%E7%9A%84%E8%AE%A4%E8%AF%86%C2%B7%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83%C2%B7RJ%E4%BA%94%E4%B8%8B%E7%96%91%E9%9A%BE%E7%82%B9%E8%A7%86%E9%A2%91%E8%AF%BE-125218.mp4"
+        },
+        {
+          "num": 4,
+          "title": "因数和倍数疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/%E7%96%91%E9%9A%BE%E7%82%B92%C2%B71.%E5%9B%A0%E6%95%B0%E5%92%8C%E5%80%8D%E6%95%B0%E7%9A%84%E8%AE%A4%E8%AF%86%C2%B7%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83%C2%B7RJ%E4%BA%94%E4%B8%8B%E7%96%91%E9%9A%BE%E7%82%B9%E8%A7%86%E9%A2%91%E8%AF%BE-125219.mp4"
+        },
+        {
+          "num": 5,
+          "title": "倍数关系",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/第7页探究如果两个数都是另一个数的倍数，那么它们的和或差也是这个数的倍数-122209.mp4"
+        },
+        {
+          "num": 6,
+          "title": "因数和倍数的应用",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/12/%E7%AC%AC5%E9%A1%B5%E7%94%A8%E5%88%97%E4%B8%BE%E6%B3%95%E8%A7%A3%E5%86%B3%E4%B8%8E%E5%9B%A0%E6%95%B0%E3%80%81%E5%80%8D%E6%95%B0%E6%9C%89%E5%85%B3%E7%9A%84%E5%AE%9E%E9%99%85%E9%97%AE%E9%A2%98-74271.mp4"
+        },
+        {
+          "num": 7,
+          "title": "因数和倍数1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/%E7%AC%AC7%E9%A1%B5%E6%8E%A2%E7%A9%B6%E5%A6%82%E6%9E%9C%E4%B8%A4%E4%B8%AA%E6%95%B0%E9%83%BD%E6%98%AF%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%95%B0%E7%9A%84%E5%80%8D%E6%95%B0%EF%BC%8C%E9%82%A3%E4%B9%88%E5%AE%83%E4%BB%AC%E7%9A%84%E5%92%8C%E6%88%96%E5%B7%AE%E4%B9%9F%E6%98%AF%E8%BF%99%E4%B8%AA%E6%95%B0%E7%9A%84%E5%80%8D%E6%95%B0-122209.mp4"
+        },
+        {
+          "num": 8,
+          "title": "奇数与偶数",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC8%E9%A1%B5%E5%B7%B2%E7%9F%A5%E5%A5%87%E6%95%B0%E4%B8%AA%E5%81%B6%E6%95%B0%E7%9A%84%E5%92%8C%EF%BC%8C%E6%B1%82%E5%81%B6%E6%95%B0%E7%9A%84%E9%97%AE%E9%A2%98-74267.mp4"
+        },
+        {
+          "num": 9,
+          "title": "求偶数和的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第8页已知奇数个偶数的和，求偶数的问题-74267.mp4"
+        },
+        {
+          "num": 10,
+          "title": "奇偶的变化规律1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/10/%E5%A5%87%E6%95%B0%E5%92%8C%E5%81%B6%E6%95%B0%E7%9A%84%E5%8F%98%E5%8C%96%E8%A7%84%E5%BE%8B1-74901.mp4"
+        },
+        {
+          "num": 11,
+          "title": "奇偶的变化规律2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/10/%E5%A5%87%E6%95%B0%E5%92%8C%E5%81%B6%E6%95%B0%E7%9A%84%E5%8F%98%E5%8C%96%E8%A7%84%E5%BE%8B2-74900.mp4"
+        },
+        {
+          "num": 12,
+          "title": "2.5的倍数特征教材例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/8RJ数学五年级教材P9例1第二单元第1课时2、5的倍数的特征-119413.mp4"
+        },
+        {
+          "num": 13,
+          "title": "3的倍数特征例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/9RJ数学五年级教材P10例2第二单元第2课时3的倍数的特征-119422.mp4"
+        },
+        {
+          "num": 14,
+          "title": "2.3.5倍数疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/14/疑难点1·第1节2.2、5、3的倍数·第二单元·RJ五下疑难点视频课-125220.mp4"
+        },
+        {
+          "num": 15,
+          "title": "2.3.5倍数疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/17/疑难点2·第1节2.2、5、3的倍数·第二单元·RJ五下疑难点视频课-125221.mp4"
+        },
+        {
+          "num": 16,
+          "title": "3",
+          "url": "5的倍数特征,https://oss.tesoon.com/tesoon/symlinks/22/12/12/%E7%AC%AC9%E9%A1%B5%E4%BE%9D%E6%8D%AE%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E5%92%8C3%E3%80%815%E7%9A%84%E5%80%8D%E6%95%B0%E7%9A%84%E7%89%B9%E5%BE%81%E8%BF%9B%E8%A1%8C%E5%86%99%E6%95%B0%E6%97%B6%E5%87%BA%E7%8E%B0%E9%81%97%E6%BC%8F-74270.mp4"
+        },
+        {
+          "num": 17,
+          "title": "2.3.5倍数疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/17/疑难点3·第1节2.2、5、3的倍数·第二单元·RJ五下疑难点视频课-125222.mp4"
+        },
+        {
+          "num": 18,
+          "title": "2.3.5倍数疑难点4",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/11/疑难点1·第2节2.2、5、3的倍数·第二单元·RJ五下疑难点视频课-125223.mp4"
+        },
+        {
+          "num": 19,
+          "title": "2.3.5倍数疑难点5",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/11/疑难点2·第2节2.2、5、3的倍数·第二单元·RJ五下疑难点视频课-125233.mp4"
+        },
+        {
+          "num": 20,
+          "title": "3.5倍数特征写数",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/12/第9页依据排列组合和3、5的倍数的特征进行写数时出现遗漏-74270.mp4"
+        },
+        {
+          "num": 21,
+          "title": "倍数的应用",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/12/%E7%AC%AC9%E9%A1%B5%E5%88%A4%E6%96%AD%E5%A4%9A%E4%B8%AA%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97%E7%BB%84%E6%88%90%E7%9A%84%E5%A4%9A%E4%BD%8D%E6%95%B0%E6%98%AF%E5%90%A6%E6%98%AF3%E7%9A%84%E5%80%8D%E6%95%B0-74269.mp4"
+        },
+        {
+          "num": 22,
+          "title": "9的倍数特征",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/%E7%AC%AC10%E9%A1%B5%E6%8E%A2%E7%A9%B69%E7%9A%84%E5%80%8D%E6%95%B0%E7%9A%84%E7%89%B9%E5%BE%81%E5%8F%8A%E5%88%A4%E6%96%AD%E6%96%B9%E6%B3%95-119447.mp4"
+        },
+        {
+          "num": 23,
+          "title": "质数与合数例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/11RJ数学五年级教材P14例1第二单元第1课时质数和合数-119414.mp4"
+        },
+        {
+          "num": 24,
+          "title": "质数与合数疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/14/疑难点1·3.质数和合数·第二单元·RJ五下疑难点视频课-125251.mp4"
+        },
+        {
+          "num": 25,
+          "title": "质数与合数疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/15/疑难点2·3.质数和合数·第二单元·RJ五下疑难点视频课-125290.mp4"
+        },
+        {
+          "num": 26,
+          "title": "质数与合数疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/15/疑难点3·3.质数和合数·第二单元·RJ五下疑难点视频课-125302.mp4"
+        },
+        {
+          "num": 27,
+          "title": "求质数的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC11%E9%A1%B5%E6%8E%A8%E7%90%86%E5%B9%B6%E5%B0%9D%E8%AF%95%E8%AE%A1%E7%AE%97%E6%B1%82%E8%B4%A8%E6%95%B0%E7%9A%84%E5%AE%9E%E9%99%85%E9%97%AE%E9%A2%98-74266.mp4"
+        },
+        {
+          "num": 28,
+          "title": "和的奇偶性例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/12RJ数学五年级教材P15例2第二单元第2课时探究和的奇偶性-119423.mp4"
+        },
+        {
+          "num": 29,
+          "title": "奇偶性的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC12%E9%A1%B5%E5%88%A9%E7%94%A8%E5%92%8C%E7%9A%84%E5%A5%87%E5%81%B6%E6%80%A7%E8%A7%A3%E7%AD%94%E5%AE%9E%E9%99%85%E9%97%AE%E9%A2%98-74265.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674682,
+      "title": "5年级数学下册3单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "认识长方体例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/15RJ数学五年级教材P18、P19例1、例2第三单元第1课时认识长方体-119421.mp4"
+        },
+        {
+          "num": 2,
+          "title": "认识长方体例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/16RJ数学五年级教材P20例3第三单元第2课时认识正方体-119399.mp4"
+        },
+        {
+          "num": 3,
+          "title": "长方体与正方体的疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/19/疑难点·1.长方体和正方体的认识·第三单元·RJ五下疑难点视频课-125311.mp4"
+        },
+        {
+          "num": 4,
+          "title": "长方体与正方体的表面积疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/23/疑难点1·2.长方体和正方体的表面积·第三单元·RJ五下疑难点视频课-125312.mp4"
+        },
+        {
+          "num": 5,
+          "title": "长方体与正方体的表面积疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/23/疑难点2·2.长方体和正方体的表面积·第三单元·RJ五下疑难点视频课-125313.mp4"
+        },
+        {
+          "num": 6,
+          "title": "长方体与正方体的体积疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/30/疑难点1·第1节·3.长方体和正方体的体积·第三单元·RJ五下疑难点视频课-125321.mp4"
+        },
+        {
+          "num": 7,
+          "title": "长方体与正方体的体积疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/30/疑难点2·第1节·3.长方体和正方体的体积·第三单元·RJ五下疑难点视频课-125322.mp4"
+        },
+        {
+          "num": 8,
+          "title": "长方体与正方体的体积疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/01/疑难点1·第3节·3.长方体和正方体的体积·第三单元·RJ五下疑难点视频课-125323.mp4"
+        },
+        {
+          "num": 9,
+          "title": "长方体与正方体的体积疑难点4",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/01/疑难点2·第3节·3.长方体和正方体的体积·第三单元·RJ五下疑难点视频课-125325.mp4"
+        },
+        {
+          "num": 10,
+          "title": "捆扎的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC16%E9%A1%B5%E7%94%BB%E7%A4%BA%E6%84%8F%E5%9B%BE%E8%A7%A3%E5%86%B3%E7%89%A9%E4%BD%93%E6%8D%86%E6%89%8E%E9%97%AE%E9%A2%98-74264.mp4"
+        },
+        {
+          "num": 11,
+          "title": "正方体的相对面",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC17%E9%A1%B5%E5%80%9F%E5%8A%A9%E6%8E%A8%E7%90%86%E6%B3%95%E6%88%96%E6%8E%92%E9%99%A4%E6%B3%95%E5%88%A4%E6%96%AD%E6%AD%A3%E6%96%B9%E4%BD%93%E7%9A%84%E7%9B%B8%E5%AF%B9%E9%9D%A2-74263.mp4"
+        },
+        {
+          "num": 12,
+          "title": "图形展开图例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/18RJ数学五年级教材P23第三单元第1课时长方体、正方体的展开图-119396.mp4"
+        },
+        {
+          "num": 13,
+          "title": "正方体的展开图",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第17页借助推理法或排除法判断正方体的相对面-74263.mp4"
+        },
+        {
+          "num": 14,
+          "title": "长方体正方体的表面积例题1",
+          "url": "https://oss.tesoon.com/tesoon/video/20230116/XE5aGw3db3.mp4"
+        },
+        {
+          "num": 15,
+          "title": "求长方体的表面积",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/JywJ2ZCBBX.mp4"
+        },
+        {
+          "num": 16,
+          "title": "图形合并表面积的变化规律",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第20页用列举法探究正方体拼合导致表面积变化的规律-74261.mp4"
+        },
+        {
+          "num": 17,
+          "title": "图形的体积与体积单位例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/21RJ数学五年级教材P27、P28第三单元第1课时体积和体积单位-119409.mp4"
+        },
+        {
+          "num": 18,
+          "title": "图形体积与体积公式例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/22RJ数学五年级教材P29~P31第三单元第2课时长方体、正方体体积公式的推导-119395.mp4"
+        },
+        {
+          "num": 19,
+          "title": "长方体正方体统一体积单位例题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/23RJ数学五年级教材P31第三单元第3课时长方体和正方体统一的体积计算公式-119407.mp4"
+        },
+        {
+          "num": 20,
+          "title": "长方体与正方体单位进率例题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/24RJ数学五年级教材P34、P35第三单元第4课时体积单位间的进率-119390.mp4"
+        },
+        {
+          "num": 21,
+          "title": "求长方体的体积",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第22页根据长方体各部分的特征求长方体的体积-74262.mp4"
+        },
+        {
+          "num": 22,
+          "title": "求柱体的体积",
+          "url": "https://oss.tesoon.com/tesoon/video/20230103/mHdzHethD6.mp4"
+        },
+        {
+          "num": 23,
+          "title": "最多装几盒问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/人5视频30-74260.mp4"
+        },
+        {
+          "num": 24,
+          "title": "容积和容器单位",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/26RJ数学五年级教材P38第三单元第5课时容积和容积单位-119404.mp4"
+        },
+        {
+          "num": 25,
+          "title": "求容器的容积",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/CZe5Nz6DrT.mp4"
+        },
+        {
+          "num": 26,
+          "title": "不规则图形的体积计算例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/27RJ数学五年级教材P39第三单元第6课时不规则物体体积的计算-119392.mp4"
+        },
+        {
+          "num": 27,
+          "title": "等量代换求物体的体积",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/%E7%AC%AC27%E9%A1%B5%E7%94%A8%E7%AD%89%E9%87%8F%E4%BB%A3%E6%8D%A2%E6%B3%95%E8%A7%A3%E5%86%B3%E7%A8%8D%E5%A4%8D%E6%9D%82%E7%9A%84%E6%B1%82%E7%89%A9%E4%BD%93%E4%BD%93%E7%A7%AF%E9%97%AE%E9%A2%98-74259.mp4"
+        },
+        {
+          "num": 28,
+          "title": "排水法求体积",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/第28页用排水法解决稍复杂的求物体体积问题-122206.mp4"
+        },
+        {
+          "num": 29,
+          "title": "物体的容积问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/CWsEpMFpF4.mp4"
+        },
+        {
+          "num": 30,
+          "title": "接触面积最小问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第32页探究用长方体容器的不同面作底面时水与容器的接触面积最小问题-74257.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674683,
+      "title": "5年级数学下册4单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "分数的意义例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/34RJ数学五年级教材P45、P46例1第四单元第1课时分数的产生和意义-119389.mp4"
+        },
+        {
+          "num": 2,
+          "title": "分数的意义疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/04/疑难点1·第1节·1.分数的意义·第四单元·RJ五下疑难点视频课-125339.mp4"
+        },
+        {
+          "num": 3,
+          "title": "分数的意义疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/04/疑难点2·第1节·1.分数的意义·第四单元·RJ五下疑难点视频课-125359.mp4"
+        },
+        {
+          "num": 4,
+          "title": "分数的意义疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/05/疑难点·第2节·1.分数的意义·第四单元·RJ五下疑难点视频课-125360.mp4"
+        },
+        {
+          "num": 5,
+          "title": "真分数与假分数例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/38RJ数学五年级教材P53例1、例2第四单元第1课时真分数和假分数（1）-119401.mp4"
+        },
+        {
+          "num": 6,
+          "title": "真分数与假分数例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/39RJ数学五年级教材P54例3第四单元第2课时真分数和假分数（2）-119394.mp4"
+        },
+        {
+          "num": 7,
+          "title": "真分数和假分数疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/01/18/疑难点·2.真分数和假分数·第四单元·RJ五下疑难点视频课-125410.mp4"
+        },
+        {
+          "num": 8,
+          "title": "单位1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第34页画图表示同一个分数时，所选单位“1”不同，结果也不同-74256.mp4"
+        },
+        {
+          "num": 9,
+          "title": "分数的基本性质例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/40RJ数学五年级教材P57例1、例2第四单元分数的基本性质-119393.mp4"
+        },
+        {
+          "num": 10,
+          "title": "分数的基本性质疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/14/疑难点1·3.分数的基本性质·第四单元·RJ五下疑难点视频课-125411.mp4"
+        },
+        {
+          "num": 11,
+          "title": "分数的基本性质疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点2·3.分数的基本性质·第四单元·RJ五下疑难点视频课-125414.mp4"
+        },
+        {
+          "num": 12,
+          "title": "最大公因数例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/42RJ数学五年级教材P60例1、例2第四单元第1课时最大公因数-119410.mp4"
+        },
+        {
+          "num": 13,
+          "title": "最大公约因数的应用例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/43RJ数学五年级教材P62例3第四单元第2课时最大公因数的应用-119397.mp4"
+        },
+        {
+          "num": 14,
+          "title": "约分例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/45RJ数学五年级教材P65例4第四单元第3课时约分-119406.mp4"
+        },
+        {
+          "num": 15,
+          "title": "约分疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/14/疑难点1·第1节·4.约分·第四单元·RJ五下疑难点视频课-125412.mp4"
+        },
+        {
+          "num": 16,
+          "title": "约分疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点2·第1节·4.约分·第四单元·RJ五下疑难点视频课-125415.mp4"
+        },
+        {
+          "num": 17,
+          "title": "约分疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/30/疑难点·第2节·4.约分·第四单元·RJ五下疑难点视频课-125416.mp4"
+        },
+        {
+          "num": 18,
+          "title": "约分疑难点4",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点3·第1节·4.约分·第四单元·RJ五下疑难点视频课-125418.mp4"
+        },
+        {
+          "num": 19,
+          "title": "最小公倍数例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/47RJ数学五年级教材P68、P69例1、例2第四单元第1课时最小公倍数-119411.mp4"
+        },
+        {
+          "num": 20,
+          "title": "最小公倍数的应用例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/48RJ数学五年级教材P70例3第四单元第2课时最小公倍数的应用-119405.mp4"
+        },
+        {
+          "num": 21,
+          "title": "通分例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/50RJ数学五年级教材P73、P74例4、例5第四单元第3课时通分-119400.mp4"
+        },
+        {
+          "num": 22,
+          "title": "通分疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点1·第1节·5.通分·第四单元·RJ五下疑难点视频课-125417.mp4"
+        },
+        {
+          "num": 23,
+          "title": "通分疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点2·第1节·5.通分·第四单元·RJ五下疑难点视频课-125419.mp4"
+        },
+        {
+          "num": 24,
+          "title": "通分疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/27/疑难点·第2节·5.通分·第四单元·RJ五下疑难点视频课-125420.mp4"
+        },
+        {
+          "num": 25,
+          "title": "分数的基本性质妙用1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/16/%E5%88%86%E6%95%B0%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8%E7%9A%84%E5%A6%99%E7%94%A81-74886.mp4"
+        },
+        {
+          "num": 26,
+          "title": "分数的基本性质妙用2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/16/%E5%88%86%E6%95%B0%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8%E7%9A%84%E5%A6%99%E7%94%A82-74885.mp4"
+        },
+        {
+          "num": 27,
+          "title": "分数的基本性质妙用3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/16/%E5%88%86%E6%95%B0%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8%E7%9A%84%E5%A6%99%E7%94%A83-74884.mp4"
+        },
+        {
+          "num": 28,
+          "title": "分数与除法例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/36RJ数学五年级教材P49例2、例3第四单元第2课时分数与除法（1）-119403.mp4"
+        },
+        {
+          "num": 29,
+          "title": "分数与除法例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/37RJ数学五年级教材P50例4第四单元第3课时分数与除法（2）-119391.mp4"
+        },
+        {
+          "num": 30,
+          "title": "分数与除法的问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/s6XeRJHmzR.mp4"
+        },
+        {
+          "num": 31,
+          "title": "求一个数是另一个数的几分之几的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第37页找规律用除法解决“求一个数是另一个数的几分之几”的问题-74255.mp4"
+        },
+        {
+          "num": 32,
+          "title": "分数与小数的互化例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/52RJ数学五年级教材P77例1、例2第四单元分数和小数的互化-119402.mp4"
+        },
+        {
+          "num": 33,
+          "title": "分数与小数的互化疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点·6.分数和小数的互化·第四单元·RJ五下疑难点视频课-125421.mp4"
+        },
+        {
+          "num": 34,
+          "title": "假分数与带分数的互化问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第39页用综合分析法解决假分数和带分数互化的问题-74254.mp4"
+        },
+        {
+          "num": 35,
+          "title": "分数推算问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第40页用逆推法解决分数推算问题-74253.mp4"
+        },
+        {
+          "num": 36,
+          "title": "公因数的问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第43页用转化法解决有关最大公因数的实际问题-74252.mp4"
+        },
+        {
+          "num": 37,
+          "title": "约分问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/19/第45页抓不变量解决有关约分的问题-74250.mp4"
+        },
+        {
+          "num": 38,
+          "title": "求3个数的公倍数问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/第48页用求三个数的最小公倍数的方法解决追及问题-122208.mp4"
+        },
+        {
+          "num": 39,
+          "title": "分数比大小",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/20/%E5%88%86%E6%95%B0%E6%AF%94%E5%A4%A7%E5%B0%8F%E6%9C%89%E5%A6%99%E6%8B%9B1-74877.mp4"
+        },
+        {
+          "num": 40,
+          "title": "最大公约数植树问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/15/第44页用最大公因数解决植树类问题-122207.mp4"
+        },
+        {
+          "num": 41,
+          "title": "最小公倍数解决时钟问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第55页用最小公倍数的知识解决稍复杂的时钟问题-74246.mp4"
+        },
+        {
+          "num": 42,
+          "title": "3个数最小公倍数变式问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/EyRDHdhFkC.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674684,
+      "title": "5年级数学下册5单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "图形的旋转变化例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/58RJ数学五年级教材P83例1第五单元第1课时图形的旋转变化-119416.mp4"
+        },
+        {
+          "num": 2,
+          "title": "旋转后的图形例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/59RJ数学五年级教材P84例2、例3第五单元第2课时在方格纸上画出简单图形旋转后的图形-119419.mp4"
+        },
+        {
+          "num": 3,
+          "title": "利用平移旋转设计图形例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/60RJ数学五年级教材P87例4第五单元第3课时利用平移、旋转设计图案-119429.mp4"
+        },
+        {
+          "num": 4,
+          "title": "疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/11/20/疑难点·第五单元·RJ五下疑难点视频课-125422.mp4"
+        },
+        {
+          "num": 5,
+          "title": "旋转问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/hx3pn8GZDG.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674685,
+      "title": "5年级数学下册6单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "通分母分数的加减法例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/62RJ数学五年级教材P89例1第六单元同分母分数加、减法-119427.mp4"
+        },
+        {
+          "num": 2,
+          "title": "同分母分数加减法疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点·1.同分母分数加、减法·第六单元·RJ五下疑难点视频课-125423.mp4"
+        },
+        {
+          "num": 3,
+          "title": "同分母加减问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第62页通过列举推算解决同分母分数加、减法的问题-74244.mp4"
+        },
+        {
+          "num": 4,
+          "title": "异分母分数的加减法例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/64RJ数学五年级教材P93例1第六单元异分母分数加、减法-119417.mp4"
+        },
+        {
+          "num": 5,
+          "title": "异父母分数加减法疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点·2.异分母分数加、减法·第六单元·RJ五下疑难点视频课-125424.mp4"
+        },
+        {
+          "num": 6,
+          "title": "相邻自然数问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第67页1/a－1/b＝1/ab（a＜b，a、b为相邻的非零自然数）的应用-74242.mp4"
+        },
+        {
+          "num": 7,
+          "title": "填分数问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第66页用观察法找突破口解决填分数问题-74243.mp4"
+        },
+        {
+          "num": 8,
+          "title": "分数的加减法混合运算例题1",
+          "url": "https://oss.tesoon.com/tesoon/video/20221201/CjXxHSpbmd.mp4"
+        },
+        {
+          "num": 9,
+          "title": "分数加减法简单计算例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/67RJ数学五年级教材P98例2第六单元第2课时分数加减法的简便运算-119426.mp4"
+        },
+        {
+          "num": 10,
+          "title": "分数加减法疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点1·3.分数的加法和减法·第六单元·RJ五下疑难点视频课-125425.mp4"
+        },
+        {
+          "num": 11,
+          "title": "分数加减法疑难点2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点2·3.分数的加法和减法·第六单元·RJ五下疑难点视频课-125426.mp4"
+        },
+        {
+          "num": 12,
+          "title": "分数加减法疑难点3",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点3·3.分数的加法和减法·第六单元·RJ五下疑难点视频课-125427.mp4"
+        },
+        {
+          "num": 13,
+          "title": "用分数加减法解决问题例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/68RJ数学五年级教材P99例3第六单元第3课时用分数加减法解决问题-119425.mp4"
+        },
+        {
+          "num": 14,
+          "title": "分数加减法问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/EeMMdBXpRP.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674686,
+      "title": "5年级数学下册7单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "认识拆线统计图例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/72RJ数学五年级教材P104、P105第七单元第1课时认识折线统计图-119428.mp4"
+        },
+        {
+          "num": 2,
+          "title": "复式拆线统计图的意义例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/73RJ数学五年级教材P107、P108第七单元第2课时复式折线统计图的意义和特点-119424.mp4"
+        },
+        {
+          "num": 3,
+          "title": "疑难点1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点·第2节·第七单元·RJ五下疑难点视频课-125428.mp4"
+        },
+        {
+          "num": 4,
+          "title": "拆线统计图问题",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/Qd5FYzyTPB.mp4"
+        },
+        {
+          "num": 5,
+          "title": "拆线统计解决问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/%E7%AC%AC73%E9%A1%B5%E6%A0%B9%E6%8D%AE%E7%BB%9F%E8%AE%A1%E8%A1%A8%E7%BB%98%E5%88%B6%E5%A4%8D%E5%BC%8F%E6%8A%98%E7%BA%BF%E7%BB%9F%E8%AE%A1%E5%9B%BE%EF%BC%8C%E5%B9%B6%E8%A7%A3%E5%86%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E5%AE%9E%E9%99%85%E9%97%AE%E9%A2%98-74240.mp4"
+        },
+        {
+          "num": 6,
+          "title": "找次品问题的方法例题1",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/75RJ数学五年级教材P112第八单元第1课时找次品问题的基本解决策略和方法-119420.mp4"
+        },
+        {
+          "num": 7,
+          "title": "找次品问题的方法例题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/23/12/07/76RJ数学五年级教材P112第八单元第2课时稍复杂的找次品问题-119388.mp4"
+        },
+        {
+          "num": 8,
+          "title": "找次品问题1",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/JhCFFHkNH5.mp4"
+        },
+        {
+          "num": 9,
+          "title": "找次品问题2",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第76页用推理法解决复杂的找次品问题-74238.mp4"
+        },
+        {
+          "num": 10,
+          "title": "找次品的方法",
+          "url": "https://oss.tesoon.com/tesoon/video/20231115/F7TwFrpX2D.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674687,
+      "title": "5年级数学下册8单元",
+      "category": "5年级数学下册(教材帮)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "疑难点",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/24/02/15/疑难点1·第八单元·RJ五下疑难点视频课-125429.mp4"
+        },
+        {
+          "num": 2,
+          "title": "最小公倍数问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第78页用最小公倍数的知识解决稍复杂的实际问题-74237.mp4"
+        },
+        {
+          "num": 3,
+          "title": "拍水法解决问题",
+          "url": "https://oss.tesoon.com/tesoon/symlinks/22/12/21/第81页用排水法测量不规则物体的体积-74236.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674688,
+      "title": "六年级数学下册 负 数",
+      "category": "六年级数学下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "负数的认识 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_49c52e233e09a7cde559805762db248f8bf57650.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "负数的认识 教材例题",
+          "url": "https://cdn14.bookln.cn/tm665964_e7d786cf9405c0013e52285501c08ec758e6cb46.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "负数的认识 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_610e13f4a98fdd51a774484c5e4d617614cd3bde.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "解决问题 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c8a8f33ef8f90143fc69b45fc9bd7febde21c202.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "解决问题 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_9595c728626f87461560d16cf7ed608c9bd1acc1.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "解决问题 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_5c6653c9c84d526186004803229f6f147029b8cd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674689,
+      "title": "六年级数学下册  百分数（二）",
+      "category": "六年级数学下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "折扣和成数 知识要点1",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_67cea7e69cb8e592be99224b3856b42d10a3d6ab.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "折扣和成数 知识要点2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a75bf664d05c5e25512d48622eaffce33cd09059.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "折扣和成数 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_261698b7a9ebeb9361fb41b9a725b697e51d83aa.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "折扣和成数 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_56b92afcc5304bbeb3cd291983fed33d0fee80db.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674690,
+      "title": "六年级数学下册 圆柱与圆锥",
+      "category": "六年级数学下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "圆柱的认识 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_79770dca15046f0be9cab426741127155e616a88.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "圆柱的认识 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a41c0c9b0f01cf07797bdb229bb74ea860eeb2ff.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "圆柱的认识 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_99a93e73bba2f5b65e2ba6b3b63d35f19f3f49c2.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "圆柱的表面积 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c31a329dca7df9081fc7d651dec30cb9283eb433.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "圆柱的表面积 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b868b78cd18bb1456147a1cedd0b927b0fd6ab17.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "圆柱的表面积 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_0581b2d2dd2893ad99ec74e99cdb044b57091687.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "圆柱的表面积 培优例题2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_128c5d2ee79db0b489027946e857457f29c5fbb7.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "圆柱的体积 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_6b4c1cb7e2ddc6044f279a7ac3e4b84cb99ab07d.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "圆柱的体积 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_ea16016978abd2ab61d8fd102ef1c7b9440591dd.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "圆柱的体积 培优例题1",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_93903996a26f35a3e11d9b431e34c75711e40195.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "圆柱的体积 培优例题2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a9322579f201e20a27fcc0ea63287ff8c0044e65.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "圆锥的认识 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_18862c633e74eece654faf206f6deba73695dca7.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "圆锥的认识 教材+培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_51860ea4bee234af15fee36d33351cc727496a7b.m3u8"
+        },
+        {
+          "num": 14,
+          "title": "圆锥的体积 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_40ae4fa5ae27df3be8a7a0d865ac70612d091921.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "圆锥的体积 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_d667cbcfcc68ba6de5cefcbd37a2897929650154.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "圆锥的体积 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_e4edf615653548ddb498face0ce3541dc17e276b.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674691,
+      "title": "六年级数学下册  比 例",
+      "category": "六年级数学下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "比例的意义和基本性质 知识要点",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c4ed37b4ee87c5341276f2d1ac9557a49ad66145.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "比例的意义和基本性质 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1dfaeaff420fb518280984e236dba485d1e50184.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "比例的意义和基本性质 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b0e6b3dd0ff1b7a996e55fcecfcd82cb635f4cfd.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "鸽巢问题 知识要点1",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_5746545f98236d844bd60d09f0d0444a6b2576ed.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "鸽巢问题 知识要点2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_1ac38140391f5d4e9b38827167c8ff0414ad476c.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "鸽巢问题 知识要点3",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_251c37e057889e290f6055392ed5e7d0405208cd.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "鸽巢问题 教材例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_685ce91d93f43e4dc7b1a493ccd745e4820f5c2f.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "鸽巢问题 培优例题",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b13bf4ebaa958bcd8bc41642badc953eda76e5aa.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "鸽巢问题 培优例题2",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_5b5a9f95af9c3719adce2f6faf6b8f8418f8e6ee.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674692,
+      "title": "六单元 整理和复习",
+      "category": "六年级数学下册(教材搭档)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "数的认识（1） 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_c3f9ab97ea188ac06247fc20dd546b40cd26b6f9.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "数的认识（1） 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_a2c5abd4df27f97a32344a1b5dff696ac60d17ed.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "数的认识（1） 第3节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b6cdcdba494aca41175b88ea24a1cad9dc8faa7a.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "数的认识（2） 第1节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_4622dcb9803c6ba912870a005665a20cb8637742.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "数的认识（2） 第2节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_0040f28b1002771c37e128d35a95f67e4c8f2c47.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "数的认识（2） 第3节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_b5bf1f770a290f4a8f50be5b09f697bf7223ac59.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "数的认识（2） 第4节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_337099bdeacc5d895dbb4cc938137c1cbf7523a0.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "数的认识（2） 第5节",
+          "url": "https://m3u8cdn15.bookln.cn/tm665964_9076d75f972d3b1cef9b1639a20836ce82eb5e1c.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674693,
+      "title": "1单元[正数与负数]",
+      "category": "慕课堂(六年级数学下册)作业",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "在直线上表示正数、0和负数【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66177182d08ef17128124184.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674694,
+      "title": "2单元[百分数二]",
+      "category": "慕课堂(六年级数学下册)作业",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "1.折扣【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66175ff209a5817128079224.mp4"
+        },
+        {
+          "num": 2,
+          "title": "2.成数【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66175ff38eb2d17128079234.mp4"
+        },
+        {
+          "num": 3,
+          "title": "3.税率【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66175ff49191b17128079244.mp4"
+        },
+        {
+          "num": 4,
+          "title": "4.利率【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66175ff5e85dc17128079254.mp4"
+        },
+        {
+          "num": 5,
+          "title": "5.解决问题【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66175ff70dbf217128079274.mp4"
+        },
+        {
+          "num": 6,
+          "title": "2.圆柱的认识【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760117dd0217128079534.mp4"
+        },
+        {
+          "num": 7,
+          "title": "3.圆柱的表面积（1） 【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760128536b17128079544.mp4"
+        },
+        {
+          "num": 8,
+          "title": "4.圆柱的表面积（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617601362e3b17128079554.mp4"
+        },
+        {
+          "num": 9,
+          "title": "5.圆柱的体积计算公式及推导【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176014582b717128079564.mp4"
+        },
+        {
+          "num": 10,
+          "title": "6.圆柱的容积计算【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760152935717128079574.mp4"
+        },
+        {
+          "num": 11,
+          "title": "7.圆柱的体积（解决问题）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760161f71517128079584.mp4"
+        },
+        {
+          "num": 12,
+          "title": "8.圆柱的体积（练习课）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760171f34817128079594.mp4"
+        },
+        {
+          "num": 13,
+          "title": "12.圆柱和圆锥的体积（练习课）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617601bbb0ef17128079634.mp4"
+        },
+        {
+          "num": 14,
+          "title": "13.整理和复习【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617601ce318317128079644.mp4"
+        },
+        {
+          "num": 15,
+          "title": "【周测卷】人6数第3周 圆柱的认识、圆柱的表面积（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/661760228366b17128079704.mp4"
+        },
+        {
+          "num": 16,
+          "title": "【周测卷】人6数第3周 圆柱的认识、圆柱的表面积（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/66176023c623717128079714.mp4"
+        },
+        {
+          "num": 17,
+          "title": "【周测卷】人6数第4周 圆柱的体积、圆锥的认识（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66176024e095e17128079724.mp4"
+        },
+        {
+          "num": 18,
+          "title": "【周测卷】人6数第4周 圆柱的体积、圆锥的认识（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/6617602613c4117128079744.mp4"
+        },
+        {
+          "num": 19,
+          "title": "【周测卷】人6数第5周 圆锥的体积 整理和复习（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66176027115dc17128079754.mp4"
+        },
+        {
+          "num": 20,
+          "title": "【周测卷】人6数第5周 圆锥的体积 整理和复习（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/661760280217c17128079764.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674695,
+      "title": "4单元[比例]",
+      "category": "慕课堂(六年级数学下册)作业",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "1.比例的意义【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176042c4b3517128080024.mp4"
+        },
+        {
+          "num": 2,
+          "title": "2.比例的基本性质知识【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176043cfa6c17128080034.mp4"
+        },
+        {
+          "num": 3,
+          "title": "3.解比例【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617718caa41f17128124284.mp4"
+        },
+        {
+          "num": 4,
+          "title": "5.正比例【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176045c05cc17128080054.mp4"
+        },
+        {
+          "num": 5,
+          "title": "7.反比例【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176047d3a4417128080074.mp4"
+        },
+        {
+          "num": 6,
+          "title": "8.练习课（比例的意义和基本性质）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617604acbba417128080104.mp4"
+        },
+        {
+          "num": 7,
+          "title": "9.比例尺（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617604bcddb817128080114.mp4"
+        },
+        {
+          "num": 8,
+          "title": "10.比例尺（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617604cc1ebf17128080124.mp4"
+        },
+        {
+          "num": 9,
+          "title": "11.比例尺（3）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617604d96c1517128080134.mp4"
+        },
+        {
+          "num": 10,
+          "title": "12.图形的放大与缩小【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617604ebd1f517128080144.mp4"
+        },
+        {
+          "num": 11,
+          "title": "13.用比例解决问题（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617718fcc10617128124314.mp4"
+        },
+        {
+          "num": 12,
+          "title": "14.用比例解决问题（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176052206dd17128080184.mp4"
+        },
+        {
+          "num": 13,
+          "title": "【周测卷】人6数 第6周 比例的意义和基本性质 解比例（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177191e867217128124334.mp4"
+        },
+        {
+          "num": 14,
+          "title": "【周测卷】人6数 第6周 比例的意义和基本性质 解比例（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177192ab5b217128124344.mp4"
+        },
+        {
+          "num": 15,
+          "title": "【周测卷】人6数 第7周 正比例和反比例（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177193cf93e17128124354.mp4"
+        },
+        {
+          "num": 16,
+          "title": "【周测卷】人6数 第7周 正比例和反比例（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177194c367417128124364.mp4"
+        },
+        {
+          "num": 17,
+          "title": "【周测卷】人6数 第8周 比例尺 图形的放大与缩小（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177195bcf3717128124374.mp4"
+        },
+        {
+          "num": 18,
+          "title": "【周测卷】人6数 第8周 比例尺 图形的放大与缩小（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177196bc38517128124384.mp4"
+        },
+        {
+          "num": 19,
+          "title": "【周测卷】人6数 第9周 用比例解决问题 整理和复习（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/6617719802b6017128124404.mp4"
+        },
+        {
+          "num": 20,
+          "title": "【周测卷】人6数 第9周 用比例解决问题 整理和复习（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/66177198e902317128124404.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674696,
+      "title": "5单元5[数学广角] （鸽巢问题）",
+      "category": "慕课堂(六年级数学下册)作业",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "【周测卷】人6数第10周 鸽巢问题（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/6617719ec0dcf17128124464.mp4"
+        },
+        {
+          "num": 2,
+          "title": "【周测卷】人6数第10周 鸽巢问题（二级）",
+          "url": "https://bf.wookey.cn/mk/202204/6617719fd836017128124474.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674697,
+      "title": "6单元[整理与复习]",
+      "category": "慕课堂(六年级数学下册)作业",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "3.数的运算（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760738447f17128080514.mp4"
+        },
+        {
+          "num": 2,
+          "title": "4.数的运算（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176074595a517128080524.mp4"
+        },
+        {
+          "num": 3,
+          "title": "5.数的运算（3）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760755c6fc17128080534.mp4"
+        },
+        {
+          "num": 4,
+          "title": "6.数的运算（4）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661771b033d1a17128124644.mp4"
+        },
+        {
+          "num": 5,
+          "title": "7.式与方程（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176077eec8f17128080554.mp4"
+        },
+        {
+          "num": 6,
+          "title": "8.式与方程（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176078de51c17128080564.mp4"
+        },
+        {
+          "num": 7,
+          "title": "9.比和比例（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176079dff9017128080574.mp4"
+        },
+        {
+          "num": 8,
+          "title": "10.比和比例（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617607b0239f17128080594.mp4"
+        },
+        {
+          "num": 9,
+          "title": "11.平面图形的认识与测量（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617607ccec2c17128080604.mp4"
+        },
+        {
+          "num": 10,
+          "title": "12.平面图形的认识与测量（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617607deeedf17128080614.mp4"
+        },
+        {
+          "num": 11,
+          "title": "13.立体图形的认识与测量（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617607f1c26517128080634.mp4"
+        },
+        {
+          "num": 12,
+          "title": "14.立体图形的认识与测量（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/6617608028c5017128080644.mp4"
+        },
+        {
+          "num": 13,
+          "title": "15.图形的运动【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760812d0b917128080654.mp4"
+        },
+        {
+          "num": 14,
+          "title": "16.图形与位置【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176082b61c817128080664.mp4"
+        },
+        {
+          "num": 15,
+          "title": "20.数学思考（1）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176083b749b17128080674.mp4"
+        },
+        {
+          "num": 16,
+          "title": "21.数学思考（2）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/66176084ec32a17128080684.mp4"
+        },
+        {
+          "num": 17,
+          "title": "22.数学思考（3）【作业】",
+          "url": "https://bf.wookey.cn/mk/202005/661760860fe1c17128080704.mp4"
+        },
+        {
+          "num": 18,
+          "title": "【周测卷】人6数 第11周 数的认识 数的运算（一级）",
+          "url": "https://bf.wookey.cn/mk/202005/6617608977c7617128080734.mp4"
+        },
+        {
+          "num": 19,
+          "title": "【周测卷】人6数 第11周 数的认识 数的运算（二级）",
+          "url": "https://bf.wookey.cn/mk/202005/6617608aae5b817128080744.mp4"
+        },
+        {
+          "num": 20,
+          "title": "【周测卷】人6数第12周 式与方程 比和比例（一级）",
+          "url": "https://bf.wookey.cn/mk/202006/6617608be3fb917128080754.mp4"
+        },
+        {
+          "num": 21,
+          "title": "【周测卷】人6数第12周 式与方程 比和比例（二级）",
+          "url": "https://bf.wookey.cn/mk/202006/6617608cdfea017128080764.mp4"
+        },
+        {
+          "num": 22,
+          "title": "【周测卷】人6数 第13周 图形的认识与测量（一级）",
+          "url": "https://bf.wookey.cn/mk/202006/6617608dbc23517128080774.mp4"
+        },
+        {
+          "num": 23,
+          "title": "【周测卷】人6数 第13周 图形的认识与测量（二级）",
+          "url": "https://bf.wookey.cn/mk/202006/661760964414a17128080864.mp4"
+        },
+        {
+          "num": 24,
+          "title": "【周测卷】人6数 第14周 图形的运动 图形与位置(一级)",
+          "url": "https://bf.wookey.cn/mk/202006/661760954826217128080854.mp4"
+        },
+        {
+          "num": 25,
+          "title": "【周测卷】人6数 第14周 图形的运动 图形与位置(二级)",
+          "url": "https://bf.wookey.cn/mk/202006/6617609414e8717128080844.mp4"
+        },
+        {
+          "num": 26,
+          "title": "【周测卷】人6数 第15周 统计与概率（一级）",
+          "url": "https://bf.wookey.cn/mk/202211/6617608fd560a17128080794.mp4"
+        },
+        {
+          "num": 27,
+          "title": "【周测卷】人6数 第15周 统计与概率（二级）",
+          "url": "https://bf.wookey.cn/mk/202211/66176090ba2f117128080804.mp4"
+        },
+        {
+          "num": 28,
+          "title": "【周测卷】人6数 第16周 数学思考 综合实践（一级）",
+          "url": "https://bf.wookey.cn/mk/202211/66176091c020e17128080814.mp4"
+        },
+        {
+          "num": 29,
+          "title": "【周测卷】人6数 第16周 数学思考 综合实践（二级）",
+          "url": "https://bf.wookey.cn/mk/202211/66176092cf21d17128080824.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    },
+    {
+      "id": 1792121674698,
+      "title": "同上一堂课(六年级数学下)",
+      "category": "同上一堂课(六年级数学下)",
+      "content": "",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "同上一堂课",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/8e20908a240e43a1a64e393faabd3666/450.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "同上一堂课2",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/fe4d964dc0b94405a733b565ce81b54e/450.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "同上一堂课3",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/7f09a638e4f8479bab32abe01fd8dbcc/450.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "同上一堂课4",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/2ee7b8721ba045e6b3fc1cf0195c53dc/450.m3u8"
+        },
+        {
+          "num": 5,
+          "title": "同上一堂课5",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/b9b7c8b9b6a94b1694dbb05f3fc8a320/450.m3u8"
+        },
+        {
+          "num": 6,
+          "title": "同上一堂课6",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/b5042eeb3161483788c8863533f4d8f8/450.m3u8"
+        },
+        {
+          "num": 7,
+          "title": "同上一堂课7",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/d74ac9fd6c1b449bb1f9064d38faa684/450.m3u8"
+        },
+        {
+          "num": 8,
+          "title": "同上一堂课8",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/45296d888e594750b847c99ecb054331/450.m3u8"
+        },
+        {
+          "num": 9,
+          "title": "同上一堂课9",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/072d26776e9e4883b806bed1eb0372a4/450.m3u8"
+        },
+        {
+          "num": 10,
+          "title": "同上一堂课10",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/30d255f2d65543dca44b9923693218bb/450.m3u8"
+        },
+        {
+          "num": 11,
+          "title": "同上一堂课11",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/cd0fbef21c90417c9b7e2e1353b78324/450.m3u8"
+        },
+        {
+          "num": 12,
+          "title": "同上一堂课12",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/34b5d86274e4427196cfac09350c8fff/450.m3u8"
+        },
+        {
+          "num": 13,
+          "title": "同上一堂课13",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/c68dc4250b624eb0bb1ca4c2731dd40f/450.m3u8"
+        },
+        {
+          "num": 14,
+          "title": "同上一堂课14",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/b3567e9bf4734644bb1261a72f5b5034/450.m3u8"
+        },
+        {
+          "num": 15,
+          "title": "同上一堂课15",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/21adf93a4c204fae8d0b0b4813cdd888/450.m3u8"
+        },
+        {
+          "num": 16,
+          "title": "同上一堂课16",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/26b24596da944c94abf434ebc9cdd3f2/450.m3u8"
+        },
+        {
+          "num": 17,
+          "title": "同上一堂课17",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/249b64723ae84322a0494f6005109b09/450.m3u8"
+        },
+        {
+          "num": 18,
+          "title": "同上一堂课18",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/adb105cc64454a25bd76f28590013d87/450.m3u8"
+        },
+        {
+          "num": 19,
+          "title": "同上一堂课19",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/cd4538061c054517983fde2a888887cd/450.m3u8"
+        },
+        {
+          "num": 20,
+          "title": "同上一堂课20",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/2b9fef68851d463bac711a4b27739ef1/450.m3u8"
+        },
+        {
+          "num": 21,
+          "title": "同上一堂课21",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/9e0341cea70747e2b72f2fcdf0791c1a/450.m3u8"
+        },
+        {
+          "num": 22,
+          "title": "同上一堂课22",
+          "url": "https://hls.cntv.lxdns.com/asp/hls/450/0303000a/3/default/f717c1fa12d1493b91b21da602b69363/450.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": ""
+    }
+  ],
+  "liveChannels": [],
+  "playHistory": [],
+  "favorites": [],
+  "mvData": {},
+  "seriesDetailUrls": {},
+  "sourceList": [
+    {
+      "id": "1",
+      "name": "✨星空影仓多站融合解析",
+      "url": "https://jx.xmflv.com/?url=",
+      "safe": true
+    }
+  ],
+  "hlsBufferTarget": "60",
+  "customBg": "",
+  "playerMode": "native"
+}
