@@ -1,0 +1,352 @@
+{
+  "version": "1.0",
+  "exportTime": "2026-10-17T00:25:48.372Z",
+  "vodSeries": [
+   
+    {
+      "id": 1,
+      "title": "累积法",
+      "category": "八年级物理上册大招专题1",
+      "content": "大招专题1 长度测量的特殊方法 - 累积法",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/53bf6ca5bf894b36aba5b2bded111bc21778465984185.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/5616976df6a94e1887cc21dcfb67adbb.jpg"
+    },
+    {
+      "id": 2,
+      "title": "平移法",
+      "category": "八年级物理上册大招专题1",
+      "content": "大招专题1 长度测量的特殊方法 - 平移法",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/f17f7df120174054ab84c7d97dbc32b21778466239371.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/1956bfbf901340098bd331d8cb038440.jpg"
+    },
+    {
+      "id": 3,
+      "title": "化曲为直法",
+      "category": "八年级物理上册大招专题1",
+      "content": "大招专题1 长度测量的特殊方法 - 化曲为直法",
+      "episodes": [
+        {
+          "num": 3,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/d00f2f3ddbc84630ba0d5389051be2531778466489599.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/085e73df3b75408c9f4ae55865d9ee57.jpg"
+    },
+    {
+      "id": 4,
+      "title": "滚轮法",
+      "category": "八年级物理上册大招专题1",
+      "content": "大招专题1 长度测量的特殊方法 - 滚轮法",
+      "episodes": [
+        {
+          "num": 4,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/e9d4b53fa8ed4017846d440b80b5614a1778039725811.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/85071b644a7749e1bd931cc94226b85e.jpg"
+    },
+    {
+      "id": 5,
+      "title": "s-t图像",
+      "category": "八年级物理上册大招专题2",
+      "content": "大招专题2 速度的图像问题 - s-t图像",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/b2d5cf7d23894f679ead69afe39c083f1778466235226.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/eb824a1368d944119633027a03bce058.jpg"
+    },
+    {
+      "id": 6,
+      "title": "v-t图像",
+      "category": "八年级物理上册大招专题2",
+      "content": "大招专题2 速度的图像问题 - v-t图像",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/5f5285b1b9f14577a829d95d78b617f21778039713935.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/db292e45ff724c9d9f65abf392c3b248.jpg"
+    },
+    {
+      "id": 7,
+      "title": "六种物态变化的辨识",
+      "category": "八年级物理上册大招专题3",
+      "content": "大招专题3 物态变化的辨识及吸、放热的判断 - 六种物态变化的辨识",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/3a9d7280c6cf4a5aa817fa57e97f5b081778465974684.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/3b046a7290b04508b28e110025f812d1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "熔化、凝固图像",
+      "category": "八年级物理上册大招专题4",
+      "content": "大招专题4 与物态变化有关的图像问题 - 熔化、凝固图像",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/f49d40f2aceb4ed8806fc830ba7c573b1778039775864.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/852935252200418994396cdd6ac4aa50.jpg"
+    },
+    {
+      "id": 9,
+      "title": "沸腾图像",
+      "category": "八年级物理上册大招专题4",
+      "content": "大招专题4 与物态变化有关的图像问题 - 沸腾图像",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/4a548c71a6ef41b29e9e64126b1d29d51778039712630.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/3cac08a5389547df85c8b5eb32bd3a97.jpg"
+    },
+    {
+      "id": 10,
+      "title": "光的直线传播作图",
+      "category": "八年级物理上册大招专题5",
+      "content": "大招专题5 光的直线传播、反射和折射作图 - 光的直线传播作图",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/0d0283b07bd14c5790512e712573b03f1778466107459.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/a470ded4f04b4cd8bf73fe433d8f4d99.jpg"
+    },
+    {
+      "id": 11,
+      "title": "光的反射作图",
+      "category": "八年级物理上册大招专题5",
+      "content": "大招专题5 光的直线传播、反射和折射作图 - 光的反射作图",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/53bf6ca5bf894b36aba5b2bded111bc21778465984185.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/df4612dd23424402a1bd2270e2be4dff.jpg"
+    },
+    {
+      "id": 12,
+      "title": "平面镜成像作图",
+      "category": "八年级物理上册大招专题5",
+      "content": "大招专题5 光的直线传播、反射和折射作图 - 平面镜成像作图",
+      "episodes": [
+        {
+          "num": 3,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/80e456fd15a143fda12de55d64df8d5e1778465982851.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/b24667890b7c438f83a108850b4e5bfb.jpg"
+    },
+    {
+      "id": 13,
+      "title": "光的折射作图",
+      "category": "八年级物理上册大招专题5",
+      "content": "大招专题5 光的直线传播、反射和折射作图 - 光的折射作图",
+      "episodes": [
+        {
+          "num": 4,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/5697f804b2b2464f9b44ae4e490c4cbe1778039777183.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/dd1eba562452446e9b72fd527419d94c.jpg"
+    },
+    {
+      "id": 14,
+      "title": "透镜作图",
+      "category": "八年级物理上册大招专题6",
+      "content": "大招专题6 透镜作图 - 透镜作图",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/16fadc2b853f43f2a5453411bcf92f101778465976373.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/aec59a9f11ad4abea40f593858aa65aa.jpg"
+    },
+    {
+      "id": 15,
+      "title": "变距问题",
+      "category": "八年级物理上册大招专题7",
+      "content": "大招专题7 凸透镜成像规律的动态问题 - 变距问题",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/a2f6000a4cb74564865ad98bd7d8ef251778465986493.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/edb914a123bf49db8e75a6175cbd1074.jpg"
+    },
+    {
+      "id": 16,
+      "title": "变焦问题",
+      "category": "八年级物理上册大招专题7",
+      "content": "大招专题7 凸透镜成像规律的动态问题 - 变焦问题",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/cace51989244451dad3c124aeb1cff981778465977327.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/231b05de8ae3405b99a37e9ef39410f9.jpg"
+    },
+    {
+      "id": 17,
+      "title": "移动速度问题",
+      "category": "八年级物理上册大招专题7",
+      "content": "大招专题7 凸透镜成像规律的动态问题 - 移动速度问题",
+      "episodes": [
+        {
+          "num": 3,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/313dd595fcd1414889e00b8e8669a1911778465981946.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/56f8fb5875b5404b9bc2a8cf8e644f55.jpg"
+    },
+    {
+      "id": 18,
+      "title": "有天平(或电子秤)无量筒测密度",
+      "category": "八年级物理上册大招专题8",
+      "content": "大招专题8 特殊方法测密度 - 有天平(或电子秤)无量筒测密度",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/322aab01077d4989bac35f016db109541778039730525.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/b8d3e4b24f544289a5217c1ca71ee639.jpg"
+    },
+    {
+      "id": 19,
+      "title": "有天平无砝码测密度",
+      "category": "八年级物理上册大招专题8",
+      "content": "大招专题8 特殊方法测密度 - 有天平无砝码测密度",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/3caed15296d14c8aa292f5a42b98f2db1778465978868.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/b3b88d41b4914bae815a9a87b761785c.jpg"
+    },
+    {
+      "id": 20,
+      "title": "等值问题",
+      "category": "八年级物理上册大招专题9",
+      "content": "大招专题9 密度的综合计算 - 等值问题",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/051754359c334145a1a892d629f428e31778465979770.mp4"
+        }
+      ],
+      "detailPage": "https://lxscdn.baoxuexi.cn/columnArticle/7366da993c044b2583a41509b76ac936.jpg",
+      "cover": ""
+    },
+    {
+      "id": 21,
+      "title": "图像问题",
+      "category": "八年级物理上册大招专题9",
+      "content": "大招专题9 密度的综合计算 - 图像问题",
+      "episodes": [
+        {
+          "num": 2,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/c243c7c3b9904e6fafc8bcde543562251778465985510.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/ba07caedd19c4f49af74b8d88d2ddb18.jpg"
+    },
+    {
+      "id": 22,
+      "title": "空心、实心问题",
+      "category": "八年级物理上册大招专题9",
+      "content": "大招专题9 密度的综合计算 - 空心、实心问题",
+      "episodes": [
+        {
+          "num": 3,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/1ea218c6d16343b2ab3f3022c17f42d01778465981180.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/12578949ebd34660b3ef3b22d85e1026.jpg"
+    },
+     {
+      "id": 23,
+      "title": "混合问题",
+      "category": "八年级物理上册大招专题9",
+      "content": "大招专题9 密度的综合计算 -混合问题",
+      "episodes": [
+        {
+          "num": 4,
+          "title": "正片",
+          "url": "https://lxscdn.baoxuexi.cn/onLine/featureIncrement/mp4/202605/aae8deeb67f7458db6fd646a0e97980c1778466494884.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://lxscdn.baoxuexi.cn/columnArticle/a73385abddd24c1bbecda7e76157a7cd.jpg"
+    }
+  ]
+}
