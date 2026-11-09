@@ -1,0 +1,2177 @@
+{
+  "version": "1.0",
+  "exportTime": "2026-11-08T23:33:21.396Z",
+  "vodSeries": [
+    {
+      "id": 1793751683485,
+      "title": "2026-08-27 14:06:22",
+      "category": "🕘️更新时间",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "2026-08-27 14:06:22",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-1.png"
+    },
+    {
+      "id": 1793751683486,
+      "title": "CCTV-1",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://198.204.228.26/live/cctv1hd.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://204.12.221.218:8181/3m1080p/cctv1.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-1.png"
+    },
+    {
+      "id": 1793751683487,
+      "title": "CCTV-2",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://198.204.228.26/live/cctv2hd.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://204.12.221.218:8181/3m1080p/cctv2.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://192.151.150.154/live/cctv2hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-2.png"
+    },
+    {
+      "id": 1793751683488,
+      "title": "CCTV-3",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-3",
+          "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-3.png"
+    },
+    {
+      "id": 1793751683489,
+      "title": "CCTV-4",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://173.208.212.130:8181/1080p/cctv4.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://74.91.26.218:82/live/cctv4hd.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-4.png"
+    },
+    {
+      "id": 1793751683490,
+      "title": "CCTV-5",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://107.150.60.122/live/cctv5hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-5.png"
+    },
+    {
+      "id": 1793751683491,
+      "title": "CCTV-5+",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://120.76.248.139/live/bfgd/4200000246.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png"
+    },
+    {
+      "id": 1793751683492,
+      "title": "CCTV-6",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-6",
+          "url": "http://74.91.26.218:82/live/cctv6hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-6.png"
+    },
+    {
+      "id": 1793751683493,
+      "title": "CCTV-8",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-8",
+          "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://i.imgur.com/GyHaZ8X.png"
+    },
+    {
+      "id": 1793751683494,
+      "title": "CCTV-9",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://74.91.26.218:82/live/cctv9hd.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://192.151.150.154/live/cctv9hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-9.png"
+    },
+    {
+      "id": 1793751683495,
+      "title": "CCTV-10",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-10.png"
+    },
+    {
+      "id": 1793751683496,
+      "title": "CCTV-11",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-11.png"
+    },
+    {
+      "id": 1793751683497,
+      "title": "CCTV-12",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-12",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-12.png"
+    },
+    {
+      "id": 1793751683498,
+      "title": "CCTV-13",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-13",
+          "url": "http://120.76.248.139/live/bfgd/4200000067.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-13.png"
+    },
+    {
+      "id": 1793751683499,
+      "title": "CCTV-16",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "CCTV-16",
+          "url": "https://hls-gateway.vpstv.net/streams/709089.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CCTV-16.png"
+    },
+    {
+      "id": 1793751683500,
+      "title": "CCTV-17",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://74.91.26.218:82/live/cctv17hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://i.imgur.com/jSQURxS.png"
+    },
+    {
+      "id": 1793751683501,
+      "title": "CETV-1",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000135.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://198.204.228.26/live/cetv1hd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CETV-1.png"
+    },
+    {
+      "id": 1793751683502,
+      "title": "CETV-2",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/51/20240709/index.m3u8?msisdn=b637d3083747642f29b310fc5ba99367&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20260827062127&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=47.92.23.141&SecurityKey=20260827062127&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.8.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=6d02a32cc3b54abfae11971b15d053b8&ddCalcu=86bdv30a52a0aad3521cbc137b95141aebaf&sv=10004&ct=android"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CETV-2.png"
+    },
+    {
+      "id": 1793751683503,
+      "title": "CETV-3",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://198.204.228.26/live/cetv3.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://107.150.60.122/live/cetv3.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CETV-3.png"
+    },
+    {
+      "id": 1793751683504,
+      "title": "CETV-4",
+      "category": "📺央视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/51/20240709/index.m3u8?msisdn=b637d3083747642f29b310fc5ba99367&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20260827062127&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=47.92.23.141&SecurityKey=20260827062127&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.8.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=960f499360818845510385e0e5605573&ddCalcu=3976v50a5fb04a6959e306e0588138081455&sv=10004&ct=android"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/CETV-4.png"
+    },
+    {
+      "id": 1793751683505,
+      "title": "文化精品",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://hls-gateway.vpstv.net/streams/708832.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://107.150.60.122/live/ysjp.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/文化精品.png"
+    },
+    {
+      "id": 1793751683506,
+      "title": "央视台球",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://hls-gateway.vpstv.net/streams/708855.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/央视台球.png"
+    },
+    {
+      "id": 1793751683507,
+      "title": "风云音乐",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "风云音乐",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/风云音乐.png"
+    },
+    {
+      "id": 1793751683508,
+      "title": "第一剧场",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "第一剧场",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/第一剧场.png"
+    },
+    {
+      "id": 1793751683509,
+      "title": "风云剧场",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://hls-gateway.vpstv.net/streams/708861.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://173.208.212.130:8181/720p/fyjc.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/风云剧场.png"
+    },
+    {
+      "id": 1793751683510,
+      "title": "怀旧剧场",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://hls-gateway.vpstv.net/streams/708853.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/怀旧剧场.png"
+    },
+    {
+      "id": 1793751683511,
+      "title": "女性时尚",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "女性时尚",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/女性时尚.png"
+    },
+    {
+      "id": 1793751683512,
+      "title": "高尔夫网球",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://hls-gateway.vpstv.net/streams/708857.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://104.152.209.49:8181/720p/gefwq.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/高尔夫网球.png"
+    },
+    {
+      "id": 1793751683513,
+      "title": "风云足球",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "风云足球",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/风云足球.png"
+    },
+    {
+      "id": 1793751683514,
+      "title": "兵器科技",
+      "category": "💰央视付费频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "兵器科技",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/兵器科技.png"
+    },
+    {
+      "id": 1793751683515,
+      "title": "广东卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000092.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广东卫视.png"
+    },
+    {
+      "id": 1793751683516,
+      "title": "香港卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "香港卫视",
+          "url": "http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/香港卫视.png"
+    },
+    {
+      "id": 1793751683517,
+      "title": "浙江卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江卫视.png"
+    },
+    {
+      "id": 1793751683518,
+      "title": "湖南卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://74.91.26.218:82/live/hnwshd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/湖南卫视.png"
+    },
+    {
+      "id": 1793751683519,
+      "title": "北京卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000083.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://107.150.60.122/live/bjwshd.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://104.152.209.49:8181/720p/bjws.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/北京卫视.png"
+    },
+    {
+      "id": 1793751683520,
+      "title": "湖北卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000102.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/湖北卫视.png"
+    },
+    {
+      "id": 1793751683521,
+      "title": "黑龙江卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000095.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/黑龙江卫视.png"
+    },
+    {
+      "id": 1793751683522,
+      "title": "重庆卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/重庆卫视.png"
+    },
+    {
+      "id": 1793751683523,
+      "title": "东方卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/东方卫视.png"
+    },
+    {
+      "id": 1793751683524,
+      "title": "东南卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000483.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/东南卫视.png"
+    },
+    {
+      "id": 1793751683525,
+      "title": "甘肃卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000119.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png"
+    },
+    {
+      "id": 1793751683526,
+      "title": "广西卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "广西卫视",
+          "url": "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广西卫视.png"
+    },
+    {
+      "id": 1793751683527,
+      "title": "贵州卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://107.150.60.122/live/gzwshd.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://204.12.221.218:8181/3m1080p/gzws.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/贵州卫视.png"
+    },
+    {
+      "id": 1793751683528,
+      "title": "海南卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000473.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png"
+    },
+    {
+      "id": 1793751683529,
+      "title": "河北卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://event.pull.hebtv.com/live/live101.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/河北卫视.png"
+    },
+    {
+      "id": 1793751683530,
+      "title": "江苏卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://104.152.209.49:8181/720p/jsws.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/江苏卫视.png"
+    },
+    {
+      "id": 1793751683531,
+      "title": "江西卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/江西卫视.png"
+    },
+    {
+      "id": 1793751683532,
+      "title": "辽宁卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://198.204.228.26/live/lnwshd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/辽宁卫视.png"
+    },
+    {
+      "id": 1793751683533,
+      "title": "内蒙古卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "内蒙古卫视",
+          "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://i.imgur.com/WeugJBE.png"
+    },
+    {
+      "id": 1793751683534,
+      "title": "宁夏卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://107.150.60.122/live/nxws.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://198.204.228.26/live/nxws.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/宁夏卫视.png"
+    },
+    {
+      "id": 1793751683535,
+      "title": "青海卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000111.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/青海卫视.png"
+    },
+    {
+      "id": 1793751683536,
+      "title": "山东卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://120.76.248.139/live/bfgd/4200000099.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://198.204.228.26/live/sdwshd.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sdwshd"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/山东卫视.png"
+    },
+    {
+      "id": 1793751683537,
+      "title": "山西卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "山西卫视",
+          "url": "http://204.12.221.218:8181/3m1080p/sxws.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/山西卫视.png"
+    },
+    {
+      "id": 1793751683538,
+      "title": "陕西卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "陕西卫视",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/陕西卫视.png"
+    },
+    {
+      "id": 1793751683539,
+      "title": "四川卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "四川卫视",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/四川卫视.png"
+    },
+    {
+      "id": 1793751683540,
+      "title": "深圳卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000100.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/深圳卫视.png"
+    },
+    {
+      "id": 1793751683541,
+      "title": "西藏卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "西藏卫视",
+          "url": "http://120.76.248.139/live/bfgd/4200000121.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/西藏卫视.png"
+    },
+    {
+      "id": 1793751683542,
+      "title": "新疆卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "新疆卫视",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/新疆卫视.png"
+    },
+    {
+      "id": 1793751683543,
+      "title": "云南卫视",
+      "category": "📡卫视频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://120.76.248.139/live/bfgd/4200000482.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://192.151.150.154/live/ynwshd.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/云南卫视.png"
+    },
+    {
+      "id": 1793751683544,
+      "title": "广东珠江",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://cdn2.163189.xyz/live/gdzj/stream.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://r.jdshipin.com/sE5vO"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gdzja.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广东珠江.png"
+    },
+    {
+      "id": 1793751683545,
+      "title": "广东体育",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "广东体育",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广东体育.png"
+    },
+    {
+      "id": 1793751683546,
+      "title": "广东新闻",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "广东新闻",
+          "url": "https://hls-gateway.vpstv.net/streams/708873.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广东新闻.png"
+    },
+    {
+      "id": 1793751683547,
+      "title": "广东卫视",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "广东卫视",
+          "url": "https://hls-gateway.vpstv.net/streams/476943.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广东卫视.png"
+    },
+    {
+      "id": 1793751683548,
+      "title": "大湾区卫视",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://198.204.228.26/live/nfws.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/大湾区卫视.png"
+    },
+    {
+      "id": 1793751683549,
+      "title": "广州综合",
+      "category": "☘️广东频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/广州综合.png"
+    },
+    {
+      "id": 1793751683550,
+      "title": "浙江钱江",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江钱江",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江钱江.png"
+    },
+    {
+      "id": 1793751683551,
+      "title": "浙江钱江都市",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-xwl.cztv.com/live/channel02720Plxw.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江钱江都市.png"
+    },
+    {
+      "id": 1793751683552,
+      "title": "浙江生活",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江生活",
+          "url": "http://ls.qingting.fm/live/1099.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江生活.png"
+    },
+    {
+      "id": 1793751683553,
+      "title": "浙江经济生活",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江经济生活.png"
+    },
+    {
+      "id": 1793751683554,
+      "title": "浙江教育",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江教育",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江教育.png"
+    },
+    {
+      "id": 1793751683555,
+      "title": "浙江民生",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江民生.png"
+    },
+    {
+      "id": 1793751683556,
+      "title": "浙江新闻",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江新闻.png"
+    },
+    {
+      "id": 1793751683557,
+      "title": "浙江少儿",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang6.png"
+    },
+    {
+      "id": 1793751683558,
+      "title": "浙江教科",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江教科.png"
+    },
+    {
+      "id": 1793751683559,
+      "title": "浙江经济",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/720p.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江经济.png"
+    },
+    {
+      "id": 1793751683560,
+      "title": "之江纪录",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/之江纪录.png"
+    },
+    {
+      "id": 1793751683561,
+      "title": "浙江国际",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江国际.png"
+    },
+    {
+      "id": 1793751683562,
+      "title": "嘉兴新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "嘉兴新闻综合",
+          "url": "http://live.zohi.tv/video/s10001-fztv-1/index.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/嘉兴新闻综合.png"
+    },
+    {
+      "id": 1793751683563,
+      "title": "湖州新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "湖州新闻综合",
+          "url": "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/湖州新闻综合.png"
+    },
+    {
+      "id": 1793751683564,
+      "title": "湖州文化娱乐",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "湖州文化娱乐",
+          "url": "http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/湖州文化娱乐.png"
+    },
+    {
+      "id": 1793751683565,
+      "title": "浙江经视",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江经视",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江经视.png"
+    },
+    {
+      "id": 1793751683566,
+      "title": "浙江数码时代",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江数码时代.png"
+    },
+    {
+      "id": 1793751683567,
+      "title": "浙江教科影视",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江教科影视",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江教科影视.png"
+    },
+    {
+      "id": 1793751683568,
+      "title": "浙江公共新闻",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江公共新闻.png"
+    },
+    {
+      "id": 1793751683569,
+      "title": "浙江休闲台",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江休闲台",
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江休闲台.png"
+    },
+    {
+      "id": 1793751683570,
+      "title": "浙江遂昌",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "浙江遂昌",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/浙江遂昌.png"
+    },
+    {
+      "id": 1793751683571,
+      "title": "诸暨新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/诸暨新闻综合.png"
+    },
+    {
+      "id": 1793751683572,
+      "title": "龙游生活娱乐",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "龙游生活娱乐",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/龙游生活娱乐.png"
+    },
+    {
+      "id": 1793751683573,
+      "title": "龙游新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "龙游新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/龙游新闻综合.png"
+    },
+    {
+      "id": 1793751683574,
+      "title": "龙泉新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "龙泉新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/龙泉新闻综合.png"
+    },
+    {
+      "id": 1793751683575,
+      "title": "青田电视台",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "青田电视台",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/青田电视台.png"
+    },
+    {
+      "id": 1793751683576,
+      "title": "遂昌综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "遂昌综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/遂昌综合.png"
+    },
+    {
+      "id": 1793751683577,
+      "title": "象山综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/象山综合.png"
+    },
+    {
+      "id": 1793751683578,
+      "title": "萧山生活",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed?"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/萧山生活.png"
+    },
+    {
+      "id": 1793751683579,
+      "title": "缙云综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/缙云综合.png"
+    },
+    {
+      "id": 1793751683580,
+      "title": "缙云新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "缙云新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/缙云新闻综合.png"
+    },
+    {
+      "id": 1793751683581,
+      "title": "绍兴电视台公共",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "绍兴电视台公共",
+          "url": "http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/绍兴电视台公共.png"
+    },
+    {
+      "id": 1793751683582,
+      "title": "湖州公共民生",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "湖州公共民生",
+          "url": "http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/湖州公共民生.png"
+    },
+    {
+      "id": 1793751683583,
+      "title": "海宁新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "海宁新闻综合",
+          "url": "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/海宁新闻综合.png"
+    },
+    {
+      "id": 1793751683584,
+      "title": "洞头综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/洞头综合.png"
+    },
+    {
+      "id": 1793751683585,
+      "title": "武义新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png"
+    },
+    {
+      "id": 1793751683586,
+      "title": "松阳综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8?zzhed?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/松阳综合.png"
+    },
+    {
+      "id": 1793751683587,
+      "title": "普陀电视台",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "普陀电视台",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/普陀电视台.png"
+    },
+    {
+      "id": 1793751683588,
+      "title": "新昌生活",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "新昌生活",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/新昌生活.png"
+    },
+    {
+      "id": 1793751683589,
+      "title": "新昌新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "新昌新闻综合",
+          "url": "https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/新昌新闻综合.png"
+    },
+    {
+      "id": 1793751683590,
+      "title": "文成综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/文成综合.png"
+    },
+    {
+      "id": 1793751683591,
+      "title": "文成新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "文成新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/文成新闻综合.png"
+    },
+    {
+      "id": 1793751683592,
+      "title": "开化新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "开化新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png"
+    },
+    {
+      "id": 1793751683593,
+      "title": "开化国家公园",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8"
+        },
+        {
+          "num": 3,
+          "title": "线路3",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8"
+        },
+        {
+          "num": 4,
+          "title": "线路4",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/开化国家公园.png"
+    },
+    {
+      "id": 1793751683594,
+      "title": "庆元综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?zzhed?"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/庆元综合.png"
+    },
+    {
+      "id": 1793751683595,
+      "title": "庆元新闻综合",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "庆元新闻综合",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl="
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/庆元新闻综合.png"
+    },
+    {
+      "id": 1793751683596,
+      "title": "平湖民生休闲",
+      "category": "☘️浙江频道",
+      "content": "[星空资料]提醒⚠️👉资源来自网络收集，拒绝收费!",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "线路1",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed"
+        },
+        {
+          "num": 2,
+          "title": "线路2",
+          "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8"
+        }
+      ],
+      "detailPage": "",
+      "cover": "https://www.xn--rgv465a.top/tvlogo/平湖民生休闲.png"
+    }
+  ],
+  "liveChannels": [],
+  "playHistory": [],
+  "favorites": [],
+  "mvData": {},
+  "seriesDetailUrls": {},
+  "sourceList": [
+    {
+      "id": "1",
+      "name": "✨星空影仓转用解析",
+      "url": "https://jx.xmflv.com/?url=",
+      "safe": true
+    }
+  ],
+  "hlsBufferTarget": "60",
+  "customBg": "",
+  "playerMode": "native"
+}
