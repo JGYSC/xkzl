@@ -1,0 +1,475 @@
+{
+  "classNameList": [
+    "初中语文",
+    "初中数学",
+    "初中英语",
+    "初中物理",
+    "初中生物",
+    "初中历史",
+    "初中道法",
+    "初中地理",
+    "初中化学",
+    "初中小四门",
+    "初中复习",
+    "儿童编程",
+    "家电维修"
+  ],
+  "VideoClassInfoList": {
+         "初中语文":[
+        {
+    "title": "初中语文基础精讲与提升",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/e68e680eb8abcd158c596709a6ad3220e3df85a7.jpg",
+         "videoCount": 45,
+        "bvid": "BV1koAmz8E7K"
+        }, 
+          {
+    "title": "初中必读名著",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/f19f73abd043dae36a8bac4fc0ea5c8deb804251.jpg",
+         "videoCount": 12,
+        "bvid": "BV1ZdM76TEmF"
+        }, 
+        {
+    "title": "初中语文复习",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/57748ebc334909b169fee7dd4f3259e34853028f.png",
+         "videoCount": 17,
+        "bvid": "BV1RH5LzWEL7"
+        }, 
+        {
+    "title": "初中文言文全集",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/21102077b8530db0d6a29a7099b1f7b2fc28c2b5.jpg@600w_600h_1c.png",
+         "videoCount": 66,
+        "bvid": "BV1pbN36DEAJ"
+      },
+       {
+    "title": "初中文言文解题技巧",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/88f90d07bbeb0f7cfd1b611e15f7d49b02860a5d.png",
+         "videoCount": 25,
+        "bvid": "BV16Kc8e5E5r"
+      },
+      {
+    "title": "初中爆笑语文",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/d940fe8d20106135b0a2aaa5c6d2c8cff58f680b.jpg",
+         "videoCount": 38,
+        "bvid": "BV1PPtRz7ELd"
+      }  
+      ],
+        "初中数学":[
+      {
+    "title": "湘教版八年级数学上册",
+        "picUrl": "https://i0.hdslb.com/bfs/face/31026b998d293f92bdf5ce671f523af12ed6949b.jpg",
+         "videoCount": 18,
+        "bvid": "BV11RKo6WEwi"
+      },
+      {
+    "title": "湘教版八年级数学上册名师课堂",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/c486f1665312e771b6d05e1d27e01d335a10cf87.png@672w_378h_1c.webp",
+         "videoCount": 32,
+        "bvid": "BV1No4y1Q7uS"
+      },
+      {
+    "title": "八年级数学上册必刷题",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/95580281f4d6a93388704ab959269513d5c5e80a.png@600w_600h_1c.png",
+         "videoCount": 82,
+        "bvid": "BV1iP41137CZ"
+      },
+     {
+    "title": "八年级数学上册因式分解",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/863b50a62846c69d9b8cc2376a3f9a77357d1c23.jpg",
+         "videoCount": 4,
+        "bvid": "BV1MMbd6jE6c"
+      },
+     {
+    "title": "初中数学几何辅助线",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/6a790dc809e559c162a0d0a1b4f10594583c3322.jpg@600w_600h_1c.png",
+         "videoCount": 54,
+        "bvid": "BV1s4XUBCEoT"
+      },
+    {
+    "title": "初中数学知识点精讲",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/ac5e97ceba61857e9820197aee149e89182c31ff.jpg@672w_378h_1c.webp",
+         "videoCount": 117,
+        "bvid": "BV1se411k74f"
+      },
+    {
+    "title": "万维中考数学基础点",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/713e210925def77564e42ec886f58ec03a3613df.jpg@672w_378h_1c.webp",
+         "videoCount": 24,
+        "bvid": "BV1TL4izAE3p"
+      },
+      {
+    "title": "万维数学几何模型",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/c70b9886515401c7fb3a121924440c4dbb5381b8.jpg@672w_378h_1c.webp",
+         "videoCount": 25,
+        "bvid": "BV1ajWGzYEJm"
+      } 
+      ],
+    "初中英语":[
+     {
+    "title": "初中英语八年级上册暑假超前学",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/555f27e301a5033b6b7d541eded092aba44e5bd1.jpg@600w_600h_1c.png",
+         "videoCount": 33,
+        "bvid": "BV1sgNq6fEpr"
+      },
+       {
+    "title": "初中英语八年级上册同步练习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/1374edaa9b9bc17fe543d9dd6a6e67a30a646dea.jpg",
+         "videoCount": 73,
+        "bvid": "BV1tmqaBcEDC"
+      }, 
+      {
+    "title": "初中英语语法与词汇中考题型专练",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/cf43569a329805a981c888d764d7597aa811a9a9.jpg@672w_378h_1c.webp",
+         "videoCount": 24,
+        "bvid": "BV1S6Lc6ZE9Z"
+      },
+    {
+    "title": "英语分级造句训练",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/855b8ede0c2cdce109f169e133a2726d8ef8c96b.jpg@600w_600h_1c.png",
+         "videoCount": 45,
+        "bvid": "BV1uWEC6HEtp"
+      },
+     {
+    "title": "中考英语总复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/97f7dbd05f3c4941f3a8e271d1fc57774cdaa98c.jpg",
+         "videoCount": 142,
+        "bvid": "BV1y9kMBqEcN"
+      },
+    {
+    "title": "初中英语单词2500词汇速记",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/a81a9b3644444e0f8d45f885641574006a683764.jpg@672w_378h_1c.webp",
+         "videoCount": 53,
+        "bvid": "BV1TV5y6VEzv"
+      }
+       ],
+        "初中物理":[
+        {
+    "title": "八年级物理上册",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/1bedb480003bbbedaa79627ba514aab60b83cd05.jpg@600w_600h_1c.png",
+         "videoCount": 41,
+        "bvid": "BV1EJ3JzhECW"
+      },
+      {
+    "title": "八年级物理动画",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/464aa5a0dad70ab7d2715e3c383b846b4391e619.jpg",
+         "videoCount": 144,
+        "bvid": "BV1VU5jzREts"
+      },
+       {
+    "title": "八年级物理上册必刷题",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/eb42297d12e76e73d5ef28963f132330f98f6954.jpg",
+         "videoCount": 16,
+        "bvid": "BV1qp3kzoEwc"
+      },
+      {
+    "title": "万维物理基础题",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/c844a337a27f61b07031c61091d75847aae51be0.jpg",
+         "videoCount": 33,
+        "bvid": "BV1Q9Ji66EDo"
+      }, 
+      {
+    "title": "初中物理全集",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/3279f6adb663d6582c52f1ee0db262b3d33cac99.jpg",
+         "videoCount": 75,
+        "bvid": "BV12v2zYLE8n"
+      },  
+      {
+    "title": "中考物理总复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/9e96ca7d0a496f4370f89285daf81ea6d8fa62ed.png",
+         "videoCount": 77,
+        "bvid": "BV1tN411f7hC"
+      },
+      {
+    "title": "中考物理总复习2",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/cb4f7bd7d30cbd21f2a1c4f76d04189adbb459f2.jpg",
+         "videoCount": 43,
+        "bvid": "BV1vaVwzjES5"
+      },
+        {
+    "title": "中考物理总复习3",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/5ca423e93e612d3d7d0949471c783c2b4577fe72.jpg",
+         "videoCount": 70,
+        "bvid": "BV13i4y1b7jr"
+      }   
+      ],
+       "初中历史":[
+        {
+    "title": "2026新改版【人教版历史八年级上册+下册历史｜课本精讲】",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/df825578db9d5e1b8c7cf869638b7c75e3f6eb04.jpg@600w_600h_1c.png",
+         "videoCount": 20,
+        "bvid": "BV1SpNB6zEfM"
+      },
+        {
+    "title": "八年级历史上册",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/ef77bfa3719608a55aec394d7de445a220c95b11.jpg@600w_600h_1c.png",
+         "videoCount": 3,
+        "bvid": "BV18KTg6eEfu"
+      },
+       {
+    "title": "八年级历史上册知识点梳理",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/5df2adde5ac31ce92d05b2f39bc842b05c1f5a18.jpg@600w_600h_1c.png",
+         "videoCount": 21,
+        "bvid": "BV1Tpq6BnEST"
+      },
+     {
+    "title": "八年级历史上册选择题专项训练",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/135b20b1efeea0b60c52a1fdb57c2d166f3f8d6f.jpg",
+         "videoCount": 6,
+        "bvid": "BV1wZBLBVE3M"
+      },
+      {
+    "title": "八年级历史上册材料题专项训练",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/e525227a114c27128b39d1ab60f0592a5165f62f.jpg@600w_600h_1c.png",
+         "videoCount": 31,
+        "bvid": "BV1XDUYBTEjp"
+      },
+       {
+    "title": "中国近代史",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/1bc7d7883dd0883961bcf2bf413f1587ef2042ba.jpg@1200w_630h",
+         "videoCount": 127,
+        "bvid": "BV13TqSBnEQv"
+      },
+       {
+    "title": "中国近代史2",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/723898f8e96f6e74b897b57666ce9e0a132e7704.png@384w_216h_1c.webp",
+         "videoCount": 24,
+        "bvid": "BV1Cp7WziE9F"
+      }  
+      ],
+     "初中道法":[
+         {
+    "title": "八年级道德与法治动画课",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/03a1f80f2309575eb14b370adf59cbf0775e9e68.png@600w_600h_1c.png",
+         "videoCount": 16,
+        "bvid": "BV1dP38zHEbt"
+      },
+        {
+    "title": "初中道法八上 知识梳理朗读",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/23879c48165705dc9793c731641b0665be7b9e3f.jpg@600w_600h_1c.png",
+         "videoCount": 12,
+        "bvid": "BV1ChebzWEMW"
+      },
+       {
+    "title": "八年级上册道德与法治核心知识点梳理",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/867fe4a91f85b804e39b0228ce5ae7c6a642f72f.png@600w_600h_1c.png",
+         "videoCount": 10,
+        "bvid": "BV1p94y1J7Cw"
+      },
+      {
+    "title": "初中道德与法治中考技巧课",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/5af375347a6afc38ba3ee172d5936f24f6116715.jpg", 
+        "videoCount": 113,
+        "bvid": "BV1SdySBPEEH"
+      },
+      {
+    "title": "初中道德与法治中考复习",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/3314c7c9d0c6a746064339a39c4962e89f55dfd5.jpg", 
+         "videoCount": 88,
+        "bvid": "BV16mQ5BMEz1"
+      }  
+      ], 
+        "初中地理":[
+        {
+    "title": "湘教版地理八年级地理上册",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/867fe4a91f85b804e39b0228ce5ae7c6a642f72f.png@600w_600h_1c.png",
+         "videoCount": 36,
+        "bvid": "BV18dkzBiEYS"
+      },
+       {
+    "title": "湘教版地理八年级上册第一,二单元复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/b48035ea2d6090fc9de2c297ceac912849c4ab3a.jpg@1280w_720h",
+         "videoCount": 36,
+        "bvid": "BV1aAxDzCEt4"
+      },  
+      {
+    "title": "湘教版地理八年级上册期中复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/8dc53e5b21fad665d97fc489df45927f4ef1db28.jpg",
+         "videoCount": 1,
+        "bvid": "BV1fS1XBZEgT"
+      },  
+      {
+    "title": "湘教版地理八年级上册三,四单元复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/fa9798e7cd8334145c02d4fe5ca90aeafdd1b8d4.jpg",
+         "videoCount": 1,
+        "bvid": "BV1jnviBEEvX"
+      },  
+      {
+    "title": "湘教版地理八年级上册期末复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/b48035ea2d6090fc9de2c297ceac912849c4ab3a.jpg",
+         "videoCount": 1,
+        "bvid": "BV1aAxDzCEt4"
+      },  
+      {
+    "title": "湘教版地理八年级地理上册知识点朗读",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/4fb31b0afc2138f728feb11bacc66f2ecbd9fae0.jpg@600w_600h_1c.png",
+         "videoCount": 16,
+        "bvid": "BV1K3HYz6Ep1"
+      },
+      {
+    "title": "初中地理中考复习动画片",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/38a7a9855f9fa746d7b69e833634eedc2259e1fe.jpg",
+         "videoCount": 61,
+        "bvid": "BV1zh3x6TEBf"
+      }
+      ],
+         "初中生物":[
+        {
+    "title": "八年级生物上册",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/292e2d83de9527b7e147b59bc8215c77f6782ea3.jpg@600w_600h_1c.png",
+         "videoCount": 13,
+        "bvid": "BV1BwVH6tENW"
+      },
+      {
+    "title": "初中生物复习1",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/860d38729f2f322a2e366eabd97781a34f1b1504.jpg",
+         "videoCount": 14,
+        "bvid": "BV1vgM36yEyD"
+      },
+      {
+    "title": "初中生物复习2",
+        "picUrl": "https://i2.hdslb.com/bfs/face/ccc6e8febbcbf3834393b24b2980c66f29e82747.jpg",
+         "videoCount": 34,
+        "bvid": "BV1GwReBHE2B"
+      },
+      {
+    "title": "八年级生物动画",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/75867d452933d60ea9184be79c262c05a9c57896.jpg",
+         "videoCount": 34,
+        "bvid": "BV1cM1pBjEDY"
+      }
+      ],
+     "初中化学":[ 
+       {
+    "title": "初中化学全套实验视频课",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/31b985375bfad4485b96fe6dcf7f60f491f417e0.jpg",
+         "videoCount": 15,
+        "bvid": "BV1ac3v6UEjf"
+      }
+      ],
+   "初中复习":[  
+    {
+    "title": "初中七年级小四门知识点复习",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/76ebe833324bb10580ecaf288015dd4dc200ca67.jpg",
+         "videoCount": 1,
+        "bvid": "BV1smE9zREJS"
+      },
+      {
+    "title": "初中八年级小四门知识点复习",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/41b8355af38fc325d967a9da57132992d5c1353d.jpg",
+         "videoCount": 1,
+        "bvid": "BV1kRiYBHEKQ"
+      }
+      ],
+     "儿童编程": [
+      {
+        "title": "scratch编程入门",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/dee763fdad47fd241f0e6907033dfefa7eb2ab11.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 189,
+        "bvid": "BV1mt4y1s7Gt"
+      },
+      {
+        "title": "幼儿scratch编程入门",
+        "picUrl": "http://i0.hdslb.com/bfs/archive/639913a83435922ad97e402b39827b0f6905c5df.png@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 36,
+        "bvid": "BV1gZ4y1M7L1"
+      },
+      {
+        "title": "Scratch编程实战",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/cb25ec2b9ad0895497fe233ae4e2495f2b3ccc6a.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 26,
+        "bvid": "BV12J411X7tY"
+      },
+      {
+        "title": "scratch小游戏编程",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/ac4c8588c368bac281b6e706b15967211988ca25.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 36,
+        "bvid": "BV1uQ4y127iP"
+      },
+      {
+        "title": "Scratch故事创编",
+        "picUrl": "http://i2.hdslb.com/bfs/archive/43db153d71c0b41b9e4d46e7abebb8cfefc56570.png@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 12,
+        "bvid": "BV1Mk4y1C76T"
+      },
+      {
+        "title": "Scratch编程进阶",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/d4b236252ef617245edb6b159c77099281737ad4.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 27,
+        "bvid": "BV1AJ411r7Yg"
+      },
+      {
+        "title": "儿童python基础课",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/83ef42cd502ee2bd10d99252f6edff6fafcad302.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 26,
+        "bvid": "BV1y7411J73R"
+      },
+      {
+        "title": "少儿python编程",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/eaae360ed21f6c0562e40645ab849a8406087d4a.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 87,
+        "bvid": "BV1RV411B7XQ"
+      },
+      {
+        "title": "趣味python教学",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/48cd01fed9785e96e4fee80772bdbef63ede5e7e.jpg@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 28,
+        "bvid": "BV17y4y177hT"
+      },
+      {
+        "title": "少儿C++课程",
+        "picUrl": "http://i0.hdslb.com/bfs/archive/0beb1058f3b0fd0a04b826d5216a5d2c75981d9c.png@672w_380h_!web-video-rcmd-cover.webp",
+        "videoCount": 15,
+        "bvid": "BV1Mf4y1M78H"
+      }
+      ],
+       "家电维修":[  
+    {
+    "title": "电子基本元器件",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/edc9ba28892a680cee630972bccb745c2498be17.jpg",
+         "videoCount": 7,
+        "bvid": "BV17e4y1m73M"
+      },
+      {
+    "title": "空调原理与维修",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/a9f0230007ce5213125e70deb484d73dc6c4f724.jpg",
+         "videoCount": 156,
+        "bvid": "BV1yvyZBSEDK"
+      },
+       {
+    "title": "洗衣机原理与维修",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/01d6c186205e36da684ae90f1ab556a652501b32.jpg",
+         "videoCount": 6,
+        "bvid": "BV19wum6UEd1"
+      },
+      {
+    "title": "零基础家电维修",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/2c8b67bff2b5abbb2a29a49cace127890bd914c2.jpg",
+         "videoCount": 6,
+        "bvid": "BV1NShR6jEyj"
+      }, 
+      {
+    "title": "家电维修全集",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/10e6c4a3216b936e9e47eaebd21919e9886db44b.jpg",
+         "videoCount": 96,
+        "bvid": "BV14rJA66EXP"
+      },
+      {
+    "title": "电动车维修1",
+        "picUrl": "https://i0.hdslb.com/bfs/archive/2d23c0217680a9a77f162b16e171cc7a3eb7b236.jpg",
+         "videoCount": 23,
+        "bvid": "BV1RKPrzPEVK"
+      },
+      {
+    "title": "电动车维修2",
+        "picUrl": "https://i2.hdslb.com/bfs/archive/182be6d4259f163564ee5ef096d2f0a0f7e76787.jpg",
+         "videoCount": 115,
+        "bvid": "BV1kDnnzhEE1"
+      },
+       {
+    "title": "踏板摩托车维修",
+        "picUrl": "https://i1.hdslb.com/bfs/archive/ba62e5e3a31f5c946fc1a6d0f7b530f50ab49660.jpg",
+         "videoCount": 17,
+        "bvid": "BV1Y6ZJY8ECP"
+      }          
+      ]
+      }
+      }
