@@ -1,0 +1,2950 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>星空影仓 · 多站融合提取器 (闪电+极速+非凡+百度)</title>
+    <style>
+        *{box-sizing:border-box}
+        body{font-family:'Segoe UI',Roboto,sans-serif;background:#0f172a;margin:0;padding:20px;color:#f1f5f9}
+        .card{max-width:1800px;margin:0 auto;background:#1e293b;border-radius:28px;box-shadow:0 20px 35px -12px rgba(0,0,0,0.5);overflow:hidden}
+        .header{background:linear-gradient(145deg,#0f172a,#020617);color:#fff;padding:24px 32px;border-bottom:1px solid #334155}
+        .header h1{margin:0 0 6px;font-size:1.7rem}
+        .header p{margin:0;opacity:0.7;font-size:.85rem}
+        .content{padding:24px}
+        .two-columns{display:flex;flex-wrap:wrap;gap:24px}
+        .left-panel{flex:1.4;min-width:360px}
+        .right-panel{flex:2.2;min-width:420px}
+        .section-card{background:#0f172a;border-radius:20px;padding:20px;margin-bottom:20px;border:1px solid #334155}
+        .section-title{font-weight:700;font-size:1rem;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #3b82f6;display:flex;align-items:center;gap:8px;color:#facc15}
+        .flex-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px;align-items:flex-end}
+        .input-group{flex:1;min-width:180px}
+        .input-group label{font-size:.75rem;color:#94a3b8;margin-bottom:4px;display:block}
+        input,select,textarea{background:#1e293b;border:1px solid #475569;padding:10px 14px;border-radius:16px;color:#f1f5f9;font-size:.85rem;width:100%;outline:none;font-family:inherit}
+        textarea{resize:vertical;min-height:80px;font-size:.75rem;font-family:monospace}
+        input:focus,textarea:focus{border-color:#3b82f6}
+        button{background:#3b82f6;color:#fff;border:none;padding:10px 20px;border-radius:40px;font-weight:600;cursor:pointer;transition:.2s;font-size:.8rem}
+        button:hover{background:#2563eb;transform:translateY(-1px)}
+        .btn-outline{background:#334155;color:#e2e8f0;border:1px solid #475569}
+        .btn-outline:hover{background:#475569}
+        .btn-success{background:#10b981}
+        .btn-success:hover{background:#059669}
+        .btn-red{background:#ef4444}
+        .btn-red:hover{background:#dc2626}
+        .btn-purple{background:#8b5cf6}
+        .btn-purple:hover{background:#7c3aed}
+        .btn-gold{background:#f59e0b;color:#0f172a}
+        .btn-gold:hover{background:#d97706}
+        .btn-cyan{background:#06b6d4;color:#fff}
+        .btn-cyan:hover{background:#0891b2}
+        .btn-pink{background:#ec489a;color:#fff}
+        .btn-pink:hover{background:#db2777}
+        .btn-teal{background:#14b8a6;color:#fff}
+        .btn-teal:hover{background:#0d9488}
+        .btn-indigo{background:#6366f1;color:#fff}
+        .btn-indigo:hover{background:#4f46e5}
+        .btn-lightning{background:#f59e0b;color:#0f172a;font-weight:700}
+        .btn-lightning:hover{background:#d97706}
+        .btn-jisu{background:#f97316;color:#0f172a;font-weight:700}
+        .btn-jisu:hover{background:#ea580c}
+        .btn-multi{background:#a855f7;color:#fff;font-weight:700}
+        .btn-multi:hover{background:#9333ea}
+        .progress-bar{margin-top:12px;display:none}
+        .progress-track{background:#334155;border-radius:20px;height:8px;overflow:hidden}
+        .progress-fill{background:#3b82f6;width:0%;height:100%;transition:width .2s}
+        .progress-text{font-size:.7rem;margin-top:6px;color:#94a3b8;text-align:center}
+        .result-area{background:#0f172a;border-radius:20px;padding:20px;border:1px solid #334155;margin-top:20px}
+        pre{background:#020617;color:#a5f3fc;padding:16px;border-radius:16px;overflow-x:auto;font-size:11px;max-height:260px;white-space:pre-wrap;word-break:break-all}
+        .player-container{background:#000;border-radius:20px;overflow:hidden;margin-bottom:20px}
+        .player-header{background:#0f172a;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;border-bottom:1px solid #334155}
+        .now-playing{background:#1e293b;padding:5px 12px;border-radius:40px;font-size:.8rem;color:#facc15}
+        .drama-selector{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+        .drama-selector select{background:#1e293b;width:auto;min-width:140px;padding:6px 12px;font-size:.8rem}
+        .play-btn{background:#10b981;padding:6px 16px}
+        video{width:100%;max-height:420px;background:#000;display:block;object-fit:contain}
+        .episode-navigation{max-height:500px;overflow-y:auto;padding:8px}
+        .drama-group{margin-bottom:20px;border-bottom:1px solid #334155;padding-bottom:12px}
+        .drama-title{font-weight:600;font-size:.9rem;margin-bottom:10px;color:#facc15;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+        .drama-title .cover-preview{width:60px;height:80px;border-radius:6px;object-fit:cover;background:#1e293b;border:1px solid #475569;flex-shrink:0}
+        .drama-title .cover-preview-placeholder{width:60px;height:80px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#1e293b;border:1px solid #475569;color:#94a3b8;font-size:1.5rem;flex-shrink:0}
+        .episode-flex{display:flex;flex-wrap:wrap;gap:8px}
+        .episode-btn{background:#334155;border:none;color:#e2e8f0;padding:5px 14px;border-radius:30px;font-size:.7rem;cursor:pointer;transition:.1s}
+        .episode-btn:hover{background:#3b82f6;transform:scale(1.02)}
+        .episode-btn.active-episode{background:#10b981;color:#fff}
+        .badge{font-size:.6rem;padding:2px 8px;border-radius:20px}
+        .badge-tv{background:#10b981}
+        .cache-bar{background:#1e293b;border-radius:16px;padding:10px 16px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+        .log-area{background:#020617;border-radius:12px;padding:10px;font-size:.7rem;font-family:monospace;max-height:180px;overflow-y:auto;margin-top:12px;display:none}
+        .api-status{font-size:.75rem;margin-top:8px;color:#94a3b8}
+        footer{text-align:center;padding:16px;font-size:.7rem;color:#64748b;border-top:1px solid #334155}
+        .category-check-group{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:12px;background:#1e293b;padding:12px 16px;border-radius:20px}
+        .check-item{display:flex;align-items:center;gap:8px;font-size:.85rem}
+        .check-item input{width:18px;height:18px;cursor:pointer;margin:0}
+        .custom-cats-area{background:#1e293b;border-radius:20px;padding:16px;margin-bottom:20px;border:1px solid #475569}
+        .custom-cats-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:10px}
+        .custom-cat-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+        .custom-cat-tag{background:#2d3a5e;border-radius:32px;padding:4px 12px;display:inline-flex;align-items:center;gap:8px;font-size:.75rem}
+        .remove-cat-btn{background:none;border:none;color:#f87171;cursor:pointer;font-weight:bold;font-size:1rem;padding:0 4px}
+        .remove-cat-btn:hover{color:#ff4444;transform:none}
+        .export-toolbar{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+        .quick-actions{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 8px}
+        .hint-box{background:#1e293b;border-left:3px solid #f59e0b;padding:8px 14px;border-radius:8px;font-size:.8rem;color:#cbd5e1;margin-bottom:12px}
+        .hint-box strong{color:#facc15}
+        .player-timing-control{background:#0f172a;padding:8px 16px;border-bottom:1px solid #334155;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+        .player-timing-control .ctrl-group{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+        .player-timing-control label{font-size:.7rem;color:#94a3b8;display:flex;align-items:center;gap:4px;cursor:pointer}
+        .player-timing-control input[type="checkbox"]{width:16px;height:16px;cursor:pointer;accent-color:#10b981}
+        .player-timing-control input[type="number"]{width:42px;padding:3px 2px;background:#1e293b;border:1px solid #475569;color:#f1f5f9;border-radius:6px;text-align:center;font-size:.7rem;outline:none}
+        .player-timing-control .time-label{font-size:.65rem;color:#64748b;margin:0 2px}
+        .player-timing-control .apply-btn{background:#8b5cf6;border:none;border-radius:20px;color:#fff;font-size:.7rem;padding:4px 16px;cursor:pointer;transition:.2s}
+        .player-timing-control .apply-btn:hover{background:#7c3aed}
+        .player-timing-control .status-badge{font-size:.6rem;color:#94a3b8;background:#1e293b;padding:2px 10px;border-radius:12px;border:1px solid #334155;white-space:nowrap}
+        .player-timing-control .status-badge.active{border-color:#10b981;color:#34d399}
+        .cover-status{font-size:.7rem;color:#94a3b8;margin-left:8px}
+        .cover-status.has-cover{color:#10b981}
+        .cover-status.no-cover{color:#f87171}
+        .export-format-collapse{background:#1e293b;border-radius:16px;border:1px solid #334155;padding:10px 16px;margin:8px 0 12px}
+        .export-format-collapse .collapse-header{display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+        .export-format-collapse .collapse-header .arrow-btn{background:#334155;border:none;color:#e2e8f0;width:28px;height:28px;border-radius:50%;font-size:.8rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:.15s;padding:0}
+        .export-format-collapse .collapse-header .arrow-btn:hover{background:#3b82f6;color:#fff}
+        .export-format-collapse .collapse-body{display:none;padding-top:12px;border-top:1px solid #334155;margin-top:10px}
+        .export-format-collapse .collapse-body.open{display:block}
+        .export-format-collapse .format-options{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+        .export-format-collapse .format-options label{color:#94a3b8;font-size:.8rem;display:flex;align-items:center;gap:6px;cursor:pointer}
+        .export-format-collapse .format-options input[type="radio"]{accent-color:#3b82f6;width:16px;height:16px;cursor:pointer}
+        .export-format-collapse .format-desc{font-size:.65rem;color:#64748b;margin-left:4px}
+        .import-area{background:#0f172a;border-radius:16px;padding:14px;border:1px solid #334155;margin-top:12px}
+        .import-area .import-tabs{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+        .import-area .import-tabs .tab-btn{background:#1e293b;border:1px solid #475569;color:#94a3b8;padding:4px 16px;border-radius:30px;font-size:.7rem;cursor:pointer;transition:.15s}
+        .import-area .import-tabs .tab-btn:hover{background:#334155;color:#e2e8f0}
+        .import-area .import-tabs .tab-btn.active{background:#3b82f6;border-color:#3b82f6;color:#fff}
+        .import-area .tab-content{display:none}
+        .import-area .tab-content.active{display:block}
+        .import-area textarea{font-size:.7rem;font-family:monospace;min-height:100px}
+        .import-area .file-upload-zone{border:2px dashed #475569;border-radius:16px;padding:20px;text-align:center;color:#94a3b8;cursor:pointer;transition:.2s;position:relative}
+        .import-area .file-upload-zone:hover{border-color:#3b82f6;background:#1e293b}
+        .import-area .file-upload-zone.dragover{border-color:#10b981;background:#10b98120}
+        .import-area .file-upload-zone input[type="file"]{position:absolute;inset:0;opacity:0;cursor:pointer}
+        .import-area .file-upload-zone .icon{font-size:2rem;display:block;margin-bottom:6px}
+        .import-area .file-upload-zone .hint-text{font-size:.75rem}
+        .import-area .file-upload-zone .file-name{color:#facc15;font-weight:600;margin-top:4px}
+        .import-area .paste-actions{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+        .site-selector-compact{display:flex;align-items:center;gap:8px;background:#1e293b;padding:6px 16px 6px 20px;border-radius:40px;border:1px solid #475569;margin-bottom:12px;flex-wrap:wrap}
+        .site-selector-compact .site-name{font-weight:600;color:#facc15;font-size:.9rem;min-width:80px;cursor:default}
+        .site-selector-compact .site-arrow{background:#334155;border:none;color:#e2e8f0;width:28px;height:28px;border-radius:50%;font-size:.8rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:.15s;padding:0}
+        .site-selector-compact .site-arrow:hover{background:#3b82f6;color:#fff}
+        .site-selector-compact .site-arrow:active{transform:scale(0.92)}
+        .site-selector-compact .site-badge{font-size:.6rem;color:#94a3b8;margin-left:4px;background:#0f172a;padding:0 8px;border-radius:20px;border:1px solid #334155}
+        .site-manager-popup{display:none;background:#0f172a;border:1px solid #334155;border-radius:16px;padding:14px;margin-top:8px}
+        .site-manager-popup.open{display:block}
+        .site-manager-popup .site-list{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+        .site-manager-popup .site-tag{background:#1e293b;border:1px solid #475569;border-radius:30px;padding:4px 12px;display:inline-flex;align-items:center;gap:6px;font-size:.75rem;color:#e2e8f0}
+        .site-manager-popup .site-tag .del-btn{background:none;border:none;color:#f87171;cursor:pointer;font-weight:bold;font-size:.9rem;padding:0 4px}
+        .site-manager-popup .site-tag .del-btn:hover{color:#ff4444}
+        .site-manager-popup .site-tag.active-site{border-color:#10b981;background:#10b98120}
+        .site-manager-popup .site-input-group{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+        .site-manager-popup .site-input-group input{flex:1;min-width:140px;padding:6px 12px;background:#1e293b;border:1px solid #475569;border-radius:30px;color:#f1f5f9;font-size:.8rem;outline:none}
+        .site-manager-popup .site-input-group input:focus{border-color:#3b82f6}
+        .site-manager-popup .site-input-group button{padding:6px 16px;font-size:.7rem}
+        .site-manager-popup .hint{font-size:.65rem;color:#64748b;margin-top:6px}
+        .toggle-manager-btn{background:transparent;border:1px solid #475569;color:#94a3b8;padding:2px 12px;border-radius:30px;font-size:.65rem;cursor:pointer;transition:.15s}
+        .toggle-manager-btn:hover{background:#334155;color:#e2e8f0}
+        .cover-preview-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);backdrop-filter:blur(8px);z-index:1000;padding:20px;overflow-y:auto;align-items:center;justify-content:center}
+        .cover-preview-modal.active{display:flex}
+        .cover-preview-content{background:#1e293b;border-radius:20px;padding:24px;max-width:900px;width:100%;border:1px solid #334155;max-height:90vh;overflow-y:auto}
+        .cover-preview-content h3{color:#facc15;margin-bottom:12px}
+        .cover-preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
+        .cover-preview-item{background:#0f172a;border-radius:12px;overflow:hidden;border:1px solid #334155;text-align:center}
+        .cover-preview-item img{width:100%;aspect-ratio:3/4;object-fit:cover;background:#0f172a}
+        .cover-preview-item .pname{font-size:.65rem;padding:4px 6px;color:#94a3b8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .cover-preview-item .pstatus{font-size:.55rem;padding:0 6px 6px;color:#64748b}
+        .cover-preview-item .pstatus.has{color:#10b981}
+        .cover-preview-item .pstatus.no{color:#f87171}
+        .cover-preview-stats{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:.85rem;color:#94a3b8}
+        .cover-preview-stats span{color:#facc15}
+        .update-badge{background:#f59e0b;color:#0f172a;padding:0 8px;border-radius:20px;font-size:.6rem;font-weight:700;margin-left:6px}
+        .lightning-tip{background:#f59e0b10;border:1px solid #f59e0b40;border-radius:12px;padding:12px 16px;margin:8px 0 16px}
+        .lightning-tip strong{color:#facc15}
+        .lightning-tip code{background:#1e293b;padding:2px 8px;border-radius:4px;font-size:.7rem;color:#a5f3fc}
+        .jisu-tip{background:#f9731610;border:1px solid #f9731640;border-radius:12px;padding:12px 16px;margin:8px 0 16px}
+        .jisu-tip strong{color:#f97316}
+        .jisu-tip code{background:#1e293b;padding:2px 8px;border-radius:4px;font-size:.7rem;color:#a5f3fc}
+        .parser-selector{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+        .parser-selector .parser-btn{background:#334155;border:none;color:#e2e8f0;width:28px;height:28px;border-radius:50%;font-size:.8rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:.15s;padding:0}
+        .parser-selector .parser-btn:hover{background:#3b82f6;color:#fff}
+        .parser-selector .parser-btn:active{transform:scale(0.92)}
+        .parser-selector .parser-name{font-size:.7rem;color:#94a3b8;min-width:60px}
+        .proxy-config{background:#1e293b;border-radius:16px;padding:12px 16px;margin:10px 0 12px;border:1px solid #475569}
+        .proxy-config .proxy-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+        .proxy-config .proxy-row input{flex:2;min-width:200px;padding:8px 14px;background:#0f172a;border:1px solid #475569;border-radius:30px;color:#f1f5f9;font-size:.8rem;outline:none}
+        .proxy-config .proxy-row input:focus{border-color:#3b82f6}
+        .proxy-config .proxy-row select{padding:8px 14px;background:#0f172a;border:1px solid #475569;border-radius:30px;color:#f1f5f9;font-size:.8rem;outline:none;min-width:120px}
+        .proxy-config .proxy-row button{padding:6px 18px;font-size:.75rem}
+        .proxy-config .proxy-status{font-size:.65rem;color:#94a3b8;margin-top:6px}
+        .proxy-config .proxy-status .active{color:#10b981}
+        .proxy-config .proxy-status .inactive{color:#f87171}
+        .badge-proxy{background:#8b5cf6;color:#fff;padding:0 8px;border-radius:20px;font-size:.6rem;margin-left:6px}
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+<div class="card">
+    <div class="header">
+        <h1>⚡ 星空影仓 · 多站融合提取器</h1>
+        <p>✅ 支持 <span style="color:#facc15;">闪电资源</span> · <span style="color:#f97316;">极速资源</span> · <span style="color:#10b981;">非凡资源</span> · <span style="color:#3b82f6;">百度资源</span> 等 | 粘贴源码 / 上传 HTML/TXT/JSON | 自动识别站点类型</p>
+    </div>
+    <div class="content">
+        <div class="two-columns">
+            <div class="left-panel">
+                <div class="cache-bar">
+                    <div>💾 <span id="cacheStatus">检测缓存...</span> <span id="coverCount" class="cover-status"></span></div>
+                    <div style="display:flex;gap:8px;">
+                        <button id="saveCacheBtn" class="btn-outline" style="padding:4px 12px;">保存缓存</button>
+                        <button id="clearCacheBtn" class="btn-red" style="padding:4px 12px;">清除缓存</button>
+                    </div>
+                </div>
+
+                <!-- 代理服务器配置区域 -->
+                <div class="proxy-config">
+                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:6px;">
+                        <span style="font-weight:600;font-size:.8rem;color:#cbd5e1;">🌐 代理服务器 <span class="badge-proxy">自建</span></span>
+                        <span id="proxyStatus" class="proxy-status">⏳ 未检测</span>
+                    </div>
+                    <div class="proxy-row">
+                        <input type="text" id="proxyBaseUrl" placeholder="http://192.168.1.4:5000/proxy?url=" value="http://192.168.1.4:5000/proxy?url=">
+                        <select id="proxyPreset">
+                            <option value="https://api.allorigins.win/raw?url=">allorigins (默认)</option>
+                            <option value="http://192.168.1.12:5000/proxy?url="> 星空影仓专用代理1</option>
+                            <option value="http://192.168.1.4:5000/proxy?url=">星空影仓专用代理2</option>
+                            <option value="https://proxy.cors.io/?url=">cors.io</option>
+                       <option value="custom">自定义</option>
+                        </select>
+                        <button id="applyProxyBtn" class="btn-cyan" style="padding:6px 16px;">应用代理</button>
+                        <button id="testProxyBtn" class="btn-outline" style="padding:6px 14px;">测试</button>
+                    </div>
+                    <div class="proxy-status" id="proxyDetailStatus">当前代理: <span id="currentProxyDisplay">https://api.allorigins.win/raw?url=</span></div>
+                </div>
+
+                <!-- ====== 多站使用说明 ====== -->
+                <div class="lightning-tip">
+                    <strong>⚡ 闪电资源：</strong>在详情页右键「查看页面源代码」→ 复制 → 粘贴到下方 → 点「⚡ 闪电资源导入」<br>
+                    <strong>🔥 极速资源：</strong>在详情页右键「查看页面源代码」→ 复制 → 粘贴到下方 → 点「📖 解析并导入」自动识别<br>
+                    <strong>✅ 其他站点：</strong>非凡、百度等内置站点粘贴源码后点「📖 解析并导入」自动识别<br>
+                    <strong>📦 JSON 备份：</strong>上传星空影仓导出的 JSON → 自动入库（不自动更新）→ 右侧选剧 → 点「🔄 更新已选剧集」
+                </div>
+
+                <div class="section-card">
+                    <div class="section-title">📡 站点切换 <span class="site-badge" id="siteCounter">0 个站点</span></div>
+                    <div class="site-selector-compact">
+                        <button class="site-arrow" id="prevSiteBtn" title="上一个站点">▲</button>
+                        <span class="site-name" id="currentSiteDisplay">加载中...</span>
+                        <button class="site-arrow" id="nextSiteBtn" title="下一个站点">▼</button>
+                        <span style="font-size:.65rem;color:#64748b;margin-left:4px;" id="siteIndexDisplay">1/6</span>
+                        <button class="toggle-manager-btn" id="toggleManagerBtn">📂 管理</button>
+                    </div>
+                    <div class="site-manager-popup" id="siteManagerPopup">
+                        <div class="site-list" id="siteListContainer"></div>
+                        <div class="site-input-group">
+                            <input type="text" id="newSiteName" placeholder="名称" value="极速资源">
+                            <input type="text" id="newSiteUrl" placeholder="根URL" value="https://www.jisuzy.com">
+                            <button id="addSiteBtn" class="btn-outline" style="padding:6px 16px;">➕ 添加</button>
+                        </div>
+                        <div class="hint">💡 点击站点名快速切换 | 上下箭头切换当前站点</div>
+                    </div>
+                    <div class="input-group" style="margin-top:8px;">
+                        <label>🔗 当前站点根URL (自动同步)</label>
+                        <input type="text" id="baseSiteUrl" placeholder="https://www.jisuzy.com" value="https://www.jisuzy.com">
+                    </div>
+
+                    <!-- ====== 站点专用按钮 ====== -->
+                    <div class="flex-row" style="margin-top:8px;">
+                        <button id="lightningImportBtn" class="btn-lightning">⚡ 闪电资源导入</button>
+                        <button id="jisuImportBtn" class="btn-jisu">🔥 极速资源导入</button>
+                        <button id="lightningBatchBtn" class="btn-cyan">📚 批量提取闪电资源</button>
+                        <button id="jisuBatchBtn" class="btn-multi">📚 批量提取极速资源</button>
+                    </div>
+
+                    <div class="category-check-group">
+                        <div class="check-item"><input type="checkbox" id="cat1" value="1"> <span>🎬 电影 (ID=1)</span></div>
+                        <div class="check-item"><input type="checkbox" id="cat2" value="2"> <span>📺 电视剧 (ID=2)</span></div>
+                        <div class="check-item"><input type="checkbox" id="cat3" value="3"> <span>🎤 综艺 (ID=3)</span></div>
+                        <div class="check-item"><input type="checkbox" id="cat4" value="4"> <span>📀 动漫 (ID=4)</span></div>
+                    </div>
+                    <div class="custom-cats-area">
+                        <div class="custom-cats-header">
+                            <strong>➕ 自定义分类ID</strong>
+                            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+                                <input type="number" id="newCatIdInput" placeholder="ID" style="width:100px;padding:6px 10px;background:#1e293b;border:1px solid #475569;border-radius:16px;color:#f1f5f9;">
+                                <input type="text" id="newCatNameInput" placeholder="名称" style="width:120px;padding:6px 10px;background:#1e293b;border:1px solid #475569;border-radius:16px;color:#f1f5f9;">
+                                <button id="addCustomCatBtn" class="btn-outline" style="padding:6px 14px;">➕ 添加</button>
+                                <button id="quickAddGuochanBtn" class="btn-gold" style="padding:6px 14px;">🔥 国产剧(ID=20/13)</button>
+                            </div>
+                        </div>
+                        <div id="customCatsContainer" class="custom-cat-list"></div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="input-group">
+                            <label>起始页</label>
+                            <input type="number" id="startPage" value="1" min="1" style="width:100px;">
+                        </div>
+                        <div class="input-group">
+                            <label>结束页</label>
+                            <input type="number" id="endPage" value="3" min="1" style="width:100px;">
+                        </div>
+                        <div class="input-group">
+                            <label>请求间隔(ms)</label>
+                            <input type="number" id="delayMs" value="1500" min="200" style="width:100px;">
+                        </div>
+                    </div>
+                    
+                    <!-- ====== 解析接口选择器 ====== -->
+                    <div class="input-group">
+                        <label>🔧 解析接口 
+                            <span class="parser-selector" style="display:inline-flex;align-items:center;gap:4px;margin-left:6px;">
+                                <button id="prevParserBtn" class="parser-btn" title="上一个解析接口">◀</button>
+                                <span id="parserIndexDisplay" style="font-size:.65rem;color:#94a3b8;min-width:60px;">1/4</span>
+                                <button id="nextParserBtn" class="parser-btn" title="下一个解析接口">▶</button>
+                            </span>
+                        </label>
+                        <div style="display:flex;gap:8px;">
+                            <input type="text" id="parserUrlInput" placeholder="https://jx.bozpan.com/jx/?url=" value="https://jx.bozpan.com/jx/?url=" style="flex:1;">
+                            <button id="applyParserBtn" class="btn-outline" style="padding:6px 14px;white-space:nowrap;">应用</button>
+                        </div>
+                        <div style="font-size:.6rem;color:#64748b;margin-top:4px;" id="parserNameDisplay">当前: 备用解析</div>
+                    </div>
+
+                    <div class="flex-row" style="margin-top:12px;">
+                        <button id="startMultiExtractBtn" class="btn-success">🚀 批量提取</button>
+                        <button id="quickExtractGuochanBtn" class="btn-gold">🔥 一键提取国产剧</button>
+                        <button id="clearDataBtn" class="btn-outline">🗑️ 清空</button>
+                        <button id="updateSelectedDramaBtn" class="btn-purple" style="background:#8b5cf6;">🔄 更新已选剧集</button>
+                    </div>
+
+                    <div class="export-format-collapse">
+                        <div class="collapse-header" id="exportCollapseHeader">
+                            <span style="color:#94a3b8;font-size:.8rem;font-weight:500;">📤 导出格式 <span style="color:#64748b;font-size:.65rem;font-weight:400;">(点击箭头展开)</span></span>
+                            <button class="arrow-btn" id="exportCollapseArrow">▼</button>
+                        </div>
+                        <div class="collapse-body" id="exportCollapseBody">
+                            <div class="format-options">
+                                <label><input type="radio" name="exportFormat" value="json" checked> 📄 JSON <span class="format-desc">⭐推荐</span></label>
+                                <label><input type="radio" name="exportFormat" value="txt"> 📃 TXT</label>
+                                <label><input type="radio" name="exportFormat" value="dat"> 🔐 DAT</label>
+                                <label><input type="radio" name="exportFormat" value="html"> 🌐 HTML</label>
+                            </div>
+                            <div class="export-toolbar" style="margin-top:10px;">
+                                <button id="exportBtn" class="btn-pink">📥 导出</button>
+                                <button id="copyTxtBtn" class="btn-outline">📋 复制TXT</button>
+                                <button id="previewCoversBtn" class="btn-cyan">👁️ 预览封面</button>
+                            </div>
+                            <div style="font-size:.65rem;color:#94a3b8;margin-top:6px;">
+                                ✅ JSON包含 <code>id</code> 和 <code>cover</code> 字段，可直接导入星空影仓
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="import-area">
+                        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+                            <span style="font-size:.8rem;color:#facc15;font-weight:600;">📋 导入剧集源码 / JSON备份</span>
+                            <span style="font-size:.6rem;color:#64748b;">支持 HTML/TXT 源码，也支持星空影仓导出的 JSON 备份（自动识别站点并增量更新）</span>
+                        </div>
+                        <div class="import-tabs">
+                            <button class="tab-btn active" data-tab="pasteTab">📝 粘贴源码</button>
+                            <button class="tab-btn" data-tab="fileTab">📂 上传文件</button>
+                        </div>
+                        <div class="tab-content active" id="pasteTab">
+                            <textarea id="pasteHtmlInput" placeholder="粘贴从任意支持站点复制的详情页HTML源码...&#10;例如：闪电资源、极速资源、非凡资源、百度资源"></textarea>
+                            <div class="paste-actions">
+                                <button id="pasteImportBtn" class="btn-teal">📖 解析并导入 (自动识别)</button>
+                                <button id="lightningPasteBtn" class="btn-lightning">⚡ 闪电资源导入</button>
+                                <button id="jisuPasteBtn" class="btn-jisu">🔥 极速资源导入</button>
+                                <button id="pasteClearBtn" class="btn-outline" style="padding:6px 16px;">清空</button>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="fileTab">
+                            <div class="file-upload-zone" id="fileDropZone">
+                                <input type="file" id="fileInput" accept=".html,.htm,.txt,.xml,.json">
+                                <span class="icon">📁</span>
+                                <span class="hint-text">点击选择 或 拖拽文件到此处</span>
+                                <div class="file-name" id="selectedFileName">未选择文件</div>
+                            </div>
+                            <div class="paste-actions" style="margin-top:10px;">
+                                <button id="fileImportBtn" class="btn-indigo">📖 解析并导入文件 (自动识别)</button>
+                                <button id="fileLightningBtn" class="btn-lightning">⚡ 闪电资源文件</button>
+                                <button id="fileJisuBtn" class="btn-jisu">🔥 极速资源文件</button>
+                                <button id="fileClearBtn" class="btn-outline" style="padding:6px 16px;">清除文件</button>
+                            </div>
+                            <div style="font-size:.6rem;color:#64748b;margin-top:6px;">支持 .html .htm .txt .xml .json 格式；JSON 备份会自动识别站点并增量更新（电影类跳过）</div>
+                        </div>
+                    </div>
+
+                    <div id="progressBar" class="progress-bar">
+                        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+                        <div class="progress-text" id="progressText">等待开始</div>
+                    </div>
+                    <div id="apiStatus" class="api-status"></div>
+                    <div id="extractLog" class="log-area"></div>
+                </div>
+
+                <div class="section-card">
+                    <div class="section-title">🎯 单详情页URL导入</div>
+                    <div class="input-group">
+                        <label>详情页URL</label>
+                        <input type="text" id="singleDetailUrl" placeholder="https://www.shdianzy.com/voddetail/xxx.html 或 https://www.jisuzy.com/index.php/vod/detail/id/xxx.html">
+                    </div>
+                    <button id="fetchSingleBtn" class="btn-outline" style="margin-top:8px;">📖 导入单个剧集</button>
+                </div>
+
+                <div class="result-area" id="resultPanel" style="display:none;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                        <h3 style="font-size:.9rem;">📋 点播源文本</h3>
+                        <button id="copyResultBtn" class="btn-outline" style="padding:4px 12px;">复制</button>
+                    </div>
+                    <pre id="outputPre"></pre>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="player-container">
+                    <div class="player-header">
+                        <div class="now-playing">🎬 <span id="currentPlayingLabel">未播放</span></div>
+                        <div class="drama-selector">
+                            <select id="dramaSelect"><option value="">-- 选择剧集 --</option></select>
+                            <select id="episodeSelect"><option value="">-- 选择集数 --</option></select>
+                            <button id="playSelectedBtn" class="play-btn">▶ 播放</button>
+                        </div>
+                    </div>
+                    <div class="player-timing-control" id="timingControlBar">
+                        <div class="ctrl-group"><label><input type="checkbox" id="autoNextToggle"> ⏭️ 自动下一集</label></div>
+                        <div class="ctrl-group">
+                            <span class="time-label">⏱️ 起始</span>
+                            <input type="number" id="startMin" value="0" min="0" max="59"><span class="time-label">分</span>
+                            <input type="number" id="startSec" value="0" min="0" max="59"><span class="time-label">秒</span>
+                        </div>
+                        <div class="ctrl-group">
+                            <span class="time-label">⏹️ 结束跳转</span>
+                            <input type="number" id="endMin" value="0" min="0" max="59"><span class="time-label">分</span>
+                            <input type="number" id="endSec" value="0" min="0" max="59"><span class="time-label">秒</span>
+                        </div>
+                        <button id="applyTimingBtn" class="apply-btn">应用定时</button>
+                        <span id="timingStatus" class="status-badge">⏸️ 未启用</span>
+                    </div>
+                    <video id="playerVideo" controls preload="auto" style="width:100%;max-height:420px;"></video>
+                    <div style="background:#0f172a;padding:8px 16px;font-size:.7rem;color:#94a3b8;text-align:center;" id="playerInfo">🎞️ 自动提取封面 | 导出含id字段</div>
+                </div>
+
+                <div class="section-card" style="margin-top:0;">
+                    <div class="section-title">📚 已提取剧集导航</div>
+                    <div id="episodeNavigation" class="episode-navigation">
+                        <div style="color:#64748b;text-align:center;padding:30px;">暂无数据</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>⚡🔥 多站融合版 | 支持 闪电资源 / 极速资源 / 非凡资源 / 百度资源 | 自动识别站点类型 | <span style="color:#facc15;">「更新已选剧集」增量获取新集数</span></footer>
+</div>
+
+<!-- 封面预览弹窗 -->
+<div id="coverPreviewModal" class="cover-preview-modal">
+    <div class="cover-preview-content">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+            <h3>🖼️ 所有剧集封面预览</h3>
+            <button onclick="document.getElementById('coverPreviewModal').classList.remove('active')" style="background:#ef4444;border:none;color:#fff;padding:6px 18px;border-radius:30px;cursor:pointer;">关闭</button>
+        </div>
+        <div class="cover-preview-stats">
+            <span>📊 共 <span id="previewTotal">0</span> 部</span>
+            <span>🖼️ 有封面 <span id="previewHas" style="color:#10b981;">0</span> 部</span>
+            <span>📷 无封面 <span id="previewNo" style="color:#f87171;">0</span> 部</span>
+        </div>
+        <div id="coverPreviewGrid" class="cover-preview-grid"></div>
+    </div>
+</div>
+<script>
+    // ========== 全局变量 ==========
+    let dramaDatabase = new Map();
+    let currentPlaying = { drama: '', episodeNum: null };
+    let currentHls = null;
+    let isExtracting = false;
+    let customCategories = [];
+    let autoNextEnabled = false;
+    let startTimeSeconds = 0, endTimeSeconds = 0;
+    let timingApplied = false, hasSeekedToStart = false, isJumping = false;
+    let currentDramaName = '', currentEpisodeNum = 0;
+    const CACHE_KEY = 'multipage_extractor_v11_multi_site';
+    const SITES_STORAGE_KEY = 'starry_sites_list';
+    const PROXY_STORAGE_KEY = 'starry_proxy_url';
+    let selectedFile = null;
+    let fileContent = '';
+
+    // ========== 代理管理 ==========
+    let currentProxyUrl = 'https://api.allorigins.win/raw?url=';
+
+    function loadProxyFromStorage() {
+        const stored = localStorage.getItem(PROXY_STORAGE_KEY);
+        if (stored) {
+            currentProxyUrl = stored;
+        } else {
+            currentProxyUrl = 'https://api.allorigins.win/raw?url=';
+        }
+        document.getElementById('proxyBaseUrl').value = currentProxyUrl;
+        document.getElementById('currentProxyDisplay').textContent = currentProxyUrl;
+        updateProxyPresetSelect(currentProxyUrl);
+        updateProxyStatus('已加载');
+    }
+
+    function saveProxyToStorage() {
+        localStorage.setItem(PROXY_STORAGE_KEY, currentProxyUrl);
+        document.getElementById('currentProxyDisplay').textContent = currentProxyUrl;
+        updateProxyStatus('已保存');
+    }
+
+    function updateProxyPresetSelect(url) {
+        const select = document.getElementById('proxyPreset');
+        const options = select.options;
+        let matched = false;
+        for (let i = 0; i < options.length; i++) {
+            if (options[i].value === url) {
+                select.selectedIndex = i;
+                matched = true;
+                break;
+            }
+        }
+        if (!matched) {
+            select.value = 'custom';
+        }
+    }
+
+    function updateProxyStatus(msg) {
+        const el = document.getElementById('proxyStatus');
+        if (msg) {
+            el.innerHTML = `✅ ${msg}`;
+        } else {
+            el.innerHTML = `🌐 当前代理: ${currentProxyUrl.substring(0, 40)}...`;
+        }
+    }
+
+    function applyProxy() {
+        const input = document.getElementById('proxyBaseUrl').value.trim();
+        if (!input) { showToast('请输入代理地址', true); return; }
+        if (!input.startsWith('http://') && !input.startsWith('https://')) {
+            showToast('代理地址需以 http:// 或 https:// 开头', true);
+            return;
+        }
+        let proxyUrl = input;
+        if (!proxyUrl.includes('url=')) {
+            if (proxyUrl.endsWith('/')) {
+                proxyUrl += '?url=';
+            } else if (proxyUrl.includes('?')) {
+                proxyUrl += '&url=';
+            } else {
+                proxyUrl += '?url=';
+            }
+        }
+        currentProxyUrl = proxyUrl;
+        saveProxyToStorage();
+        document.getElementById('currentProxyDisplay').textContent = currentProxyUrl;
+        updateProxyPresetSelect(currentProxyUrl);
+        showToast(`✅ 代理已更新: ${currentProxyUrl.substring(0, 50)}...`);
+    }
+
+    async function testProxy() {
+        const testUrl = 'https://www.shdianzy.com/';
+        const proxy = currentProxyUrl;
+        showToast('⏳ 测试代理连通性...');
+        try {
+            const controller = new AbortController();
+            const tid = setTimeout(() => controller.abort(), 15000);
+            const res = await fetch(proxy + encodeURIComponent(testUrl), { signal: controller.signal });
+            clearTimeout(tid);
+            if (res.ok) {
+                const text = await res.text();
+                if (text.includes('闪电资源') || text.includes('shdianzy') || text.length > 500) {
+                    updateProxyStatus('✅ 代理有效 (检测到闪电资源)');
+                    showToast('✅ 代理测试通过');
+                } else {
+                    updateProxyStatus('⚠️ 代理返回内容异常');
+                    showToast('⚠️ 代理可能不可用', true);
+                }
+            } else {
+                updateProxyStatus('❌ 代理响应失败');
+                showToast('❌ 代理测试失败', true);
+            }
+        } catch (e) {
+            updateProxyStatus('❌ 代理不可达');
+            showToast(`❌ 代理测试错误: ${e.message}`, true);
+        }
+    }
+
+    async function fetchViaProxy(url, timeout = 30000) {
+        if (!currentProxyUrl) {
+            const controller = new AbortController();
+            const tid = setTimeout(() => controller.abort(), timeout);
+            try {
+                const res = await fetch(url, { signal: controller.signal });
+                clearTimeout(tid);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                return await res.text();
+            } catch(e) {
+                clearTimeout(tid);
+                throw new Error(`直接请求失败: ${e.message}`);
+            }
+        }
+        const proxyUrl = currentProxyUrl + encodeURIComponent(url);
+        const controller = new AbortController();
+        const tid = setTimeout(() => controller.abort(), timeout);
+        try {
+            const res = await fetch(proxyUrl, { signal: controller.signal });
+            clearTimeout(tid);
+            if (!res.ok) throw new Error(`代理HTTP ${res.status}`);
+            return await res.text();
+        } catch (e) {
+            clearTimeout(tid);
+            throw new Error(`代理请求失败: ${e.message}`);
+        }
+    }
+
+    document.getElementById('proxyPreset').addEventListener('change', function() {
+        const val = this.value;
+        if (val === 'custom') return;
+        document.getElementById('proxyBaseUrl').value = val;
+        applyProxy();
+    });
+
+    document.getElementById('applyProxyBtn').addEventListener('click', applyProxy);
+    document.getElementById('testProxyBtn').addEventListener('click', testProxy);
+
+    // ========== 解析接口管理 ==========
+    const PARSER_LIST = [
+        { name: '闪电资源', url: 'https://www.shankubf.com/m3u8/?url=' },
+        { name: '极速资源', url: 'https://jisuzyjx.com/play/?url=' },
+        { name: '星空解析', url: 'https://jx.xmflv.com/?url=' },
+        { name: '备用解析', url: 'https://jx.bozpan.com/jx/?url=' }
+    ];
+    let currentParserIndex = 0;
+
+    function loadParserFromStorage() {
+        const stored = localStorage.getItem('selected_parser_index');
+        if (stored !== null) {
+            const idx = parseInt(stored);
+            if (idx >= 0 && idx < PARSER_LIST.length) {
+                currentParserIndex = idx;
+            }
+        }
+        updateParserUI();
+    }
+
+    function saveParserToStorage() {
+        localStorage.setItem('selected_parser_index', currentParserIndex.toString());
+    }
+
+    function updateParserUI() {
+        const input = document.getElementById('parserUrlInput');
+        const display = document.getElementById('parserIndexDisplay');
+        const nameDisplay = document.getElementById('parserNameDisplay');
+        if (input && display) {
+            input.value = PARSER_LIST[currentParserIndex].url;
+            display.textContent = `${currentParserIndex + 1}/${PARSER_LIST.length}`;
+        }
+        if (nameDisplay) {
+            nameDisplay.textContent = `当前: ${PARSER_LIST[currentParserIndex].name}`;
+        }
+    }
+
+    function switchParser(direction) {
+        const newIndex = (currentParserIndex + direction + PARSER_LIST.length) % PARSER_LIST.length;
+        currentParserIndex = newIndex;
+        updateParserUI();
+        saveParserToStorage();
+        showToast(`✅ 切换至: ${PARSER_LIST[currentParserIndex].name}`);
+    }
+
+    function applyParserManually() {
+        const input = document.getElementById('parserUrlInput');
+        const url = input.value.trim();
+        if (url) {
+            const foundIndex = PARSER_LIST.findIndex(p => p.url === url);
+            if (foundIndex !== -1) {
+                currentParserIndex = foundIndex;
+                saveParserToStorage();
+                updateParserUI();
+                showToast(`✅ 已切换到: ${PARSER_LIST[currentParserIndex].name}`);
+            } else {
+                showToast(`✅ 已应用自定义解析接口`);
+                const nameDisplay = document.getElementById('parserNameDisplay');
+                if (nameDisplay) {
+                    nameDisplay.textContent = `当前: 自定义 (${url.substring(0, 30)}...)`;
+                }
+            }
+        }
+    }
+
+    // ========== 站点管理 ==========
+    let sites = [];
+    let activeSiteIndex = 0;
+
+    function loadSites() {
+        const stored = localStorage.getItem(SITES_STORAGE_KEY);
+        if (stored) {
+            try { sites = JSON.parse(stored); } catch(e) { sites = []; }
+        }
+        if (!sites || sites.length === 0) {
+            sites = [
+                { name: '闪电资源', url: 'https://www.shdianzy.com' },
+                { name: '极速资源', url: 'https://www.jisuzy.com' },
+                { name: '非凡资源', url: 'http://www.ffzy5.tv/index.php' },
+                { name: '星空百度', url: 'https://api.apibdzy.com/index.php' },
+                { name: '星空量子', url: 'http://lzizy3.com/index.php' }
+            ];
+        }
+        const seen = new Set();
+        sites = sites.filter(s => {
+            const key = s.url.trim();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+        if (sites.length === 0) {
+            sites = [{ name: '闪电资源', url: 'https://www.shdianzy.com' }];
+        }
+        if (activeSiteIndex >= sites.length) activeSiteIndex = 0;
+        renderCompactUI();
+        renderManagerList();
+        applyActiveSite();
+    }
+
+    function saveSites() {
+        localStorage.setItem(SITES_STORAGE_KEY, JSON.stringify(sites));
+        renderCompactUI();
+        renderManagerList();
+        document.getElementById('siteCounter').textContent = `${sites.length} 个站点`;
+    }
+
+    function renderCompactUI() {
+        const display = document.getElementById('currentSiteDisplay');
+        const indexDisplay = document.getElementById('siteIndexDisplay');
+        if (sites.length === 0) {
+            display.textContent = '无站点';
+            indexDisplay.textContent = '0/0';
+            return;
+        }
+        if (activeSiteIndex >= sites.length) activeSiteIndex = 0;
+        const site = sites[activeSiteIndex];
+        display.textContent = site.name;
+        indexDisplay.textContent = `${activeSiteIndex+1}/${sites.length}`;
+    }
+
+    function renderManagerList() {
+        const container = document.getElementById('siteListContainer');
+        if (!container) return;
+        if (sites.length === 0) {
+            container.innerHTML = '<div style="color:#64748b;font-size:.7rem;">暂无站点，请添加</div>';
+            return;
+        }
+        container.innerHTML = sites.map((site, idx) => {
+            const active = idx === activeSiteIndex ? 'active-site' : '';
+            return `<div class="site-tag ${active}">
+                <span style="cursor:pointer;font-weight:${idx===activeSiteIndex?'600':'400'};color:${idx===activeSiteIndex?'#10b981':'#e2e8f0'}" data-index="${idx}">${escapeHtml(site.name)}</span>
+                <button class="del-btn" data-idx="${idx}" title="删除">✖</button>
+            </div>`;
+        }).join('');
+
+        container.querySelectorAll('span[data-index]').forEach(span => {
+            span.addEventListener('click', function() {
+                const idx = parseInt(this.dataset.index);
+                if (!isNaN(idx) && idx >= 0 && idx < sites.length) {
+                    activeSiteIndex = idx;
+                    saveSites();
+                    applyActiveSite();
+                    showToast(`✅ 切换到 ${sites[idx].name}`);
+                }
+            });
+        });
+
+        container.querySelectorAll('.del-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const idx = parseInt(this.dataset.idx);
+                if (isNaN(idx)) return;
+                if (sites.length <= 1) { showToast('至少保留一个站点', true); return; }
+                if (confirm(`删除站点 "${sites[idx].name}"？`)) {
+                    sites.splice(idx, 1);
+                    if (activeSiteIndex >= sites.length) activeSiteIndex = sites.length - 1;
+                    if (idx === activeSiteIndex) activeSiteIndex = 0;
+                    saveSites();
+                    applyActiveSite();
+                    showToast(`🗑️ 已删除`);
+                }
+            });
+        });
+        document.getElementById('siteCounter').textContent = `${sites.length} 个站点`;
+    }
+
+    function applyActiveSite() {
+        if (sites.length === 0) return;
+        if (activeSiteIndex >= sites.length) activeSiteIndex = 0;
+        const site = sites[activeSiteIndex];
+        if (site) {
+            document.getElementById('baseSiteUrl').value = site.url;
+            renderCompactUI();
+            renderManagerList();
+            showToast(`📍 当前站点: ${site.name}`);
+        }
+    }
+
+    function switchSite(direction) {
+        if (sites.length === 0) return;
+        const newIdx = (activeSiteIndex + direction + sites.length) % sites.length;
+        activeSiteIndex = newIdx;
+        saveSites();
+        applyActiveSite();
+    }
+
+    // ========== 工具函数 ==========
+    function showToast(msg, isError = false) {
+        const statusDiv = document.getElementById('apiStatus');
+        statusDiv.innerHTML = isError ? `❌ ${msg}` : `✅ ${msg}`;
+        setTimeout(() => { if (statusDiv.innerHTML === `✅ ${msg}` || statusDiv.innerHTML === `❌ ${msg}`) statusDiv.innerHTML = ''; }, 3500);
+    }
+
+    function escapeHtml(str) { if (!str) return ''; return str.replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } [m])); }
+
+    function toChineseNum(num) {
+        if (num === 0) return '正片';
+        const digits = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+        if (num <= 10) { if (num === 10) return '十'; return digits[num]; }
+        if (num < 20) return '十' + digits[num % 10];
+        const tens = Math.floor(num / 10), ones = num % 10;
+        if (ones === 0) return digits[tens] + '十';
+        return digits[tens] + '十' + digits[ones];
+    }
+
+    function extractEpisodeNumber(str) {
+        if (!str) return null;
+        let match = str.match(/第?\s*(\d{1,3})\s*[集话期]/);
+        if (match) return parseInt(match[1], 10);
+        match = str.match(/[Ee][Pp]\s*(\d{1,3})/);
+        if (match) return parseInt(match[1], 10);
+        match = str.match(/(\d{1,2})\s*[集话期]/);
+        if (match) return parseInt(match[1], 10);
+        match = str.match(/更新第(\d+)集/);
+        if (match) return parseInt(match[1], 10);
+        if (str.includes('正片')) return 0;
+        return null;
+    }
+
+    // ========== 清理解析地址 ==========
+    function cleanLightningUrl(url) {
+        if (!url) return null;
+        if (url.includes('jiexi') || url.includes('parser') || url.includes('m3u8/?url=') || url.includes('jx.')) {
+            try {
+                const urlObj = new URL(url);
+                const params = new URLSearchParams(urlObj.search);
+                let realUrl = params.get('url') || params.get('v') || params.get('video') || params.get('src') || params.get('source');
+                if (realUrl) {
+                    return cleanLightningUrl(decodeURIComponent(realUrl));
+                }
+            } catch (e) {
+                const match = url.match(/[?&]url=([^&]+)/);
+                if (match) {
+                    return cleanLightningUrl(decodeURIComponent(match[1]));
+                }
+            }
+        }
+        if (url.startsWith('//')) url = 'https:' + url;
+        if (url.match(/\.(m3u8|mp4|flv|ts|mkv|webm)(\?|$)/i)) return url;
+        if (url.includes('jiexi') || url.includes('parser') || url.includes('m3u8/?url=')) {
+            const match = url.match(/(https?:\/\/[^\s"']+\.(?:m3u8|mp4|flv|ts)[^\s"']*)/i);
+            if (match) return cleanLightningUrl(match[1]);
+        }
+        return url.startsWith('http') ? url : null;
+    }
+
+    // ========== 极速资源 URL 标准化 ==========
+    function normalizeJisuUrl(url) {
+        if (!url) return null;
+        url = url.trim();
+
+        // 1. 已经是 m3u8 直链
+        if (/\.m3u8(\?|$)/i.test(url)) return url;
+
+        // 2. 极速云播跳转页：https://play.jisuzyv.com/play/xxxx
+        let m = url.match(/^https?:\/\/play\.jisuzyv\.com\/play\/([A-Za-z0-9]+)/i);
+        if (m) {
+            return `https://vv.jisuzyv.com/play/${m[1]}/index.m3u8`;
+        }
+
+        // 3. vv.jisuzyv.com/play/xxx （不带 index.m3u8）
+        m = url.match(/^https?:\/\/vv\.jisuzyv\.com\/play\/([A-Za-z0-9]+)\/?$/i);
+        if (m) {
+            return `https://vv.jisuzyv.com/play/${m[1]}/index.m3u8`;
+        }
+
+        // 4. 其他地址走通用清理
+        return cleanLightningUrl(url);
+    }
+
+    async function convertWithParser(videoUrl, parserBaseUrl) {
+        if (!videoUrl) return null;
+        let cleanUrl = cleanLightningUrl(videoUrl);
+        if (!cleanUrl) return null;
+        if (cleanUrl.match(/\.(m3u8|mp4|flv|ts|mkv|webm)(\?|$)/i)) return cleanUrl;
+        if (parserBaseUrl && parserBaseUrl.trim()) {
+            try {
+                const parserUrl = parserBaseUrl.trim() + encodeURIComponent(cleanUrl);
+                const response = await fetch(parserUrl);
+                if (!response.ok) return cleanUrl;
+                const contentType = response.headers.get('content-type') || '';
+                if (contentType.includes('application/json')) {
+                    const json = await response.json();
+                    const result = json.url || json.data || json.video || json.playUrl || json.playurl;
+                    if (result) return cleanLightningUrl(result) || result;
+                } else {
+                    const text = await response.text();
+                    const match = text.match(/(https?:\/\/[^\s"']+\.(?:m3u8|mp4|flv|ts)[^\s"']*)/i);
+                    if (match) return cleanLightningUrl(match[1]) || match[1];
+                }
+            } catch (e) { /* 忽略解析器错误 */ }
+        }
+        return cleanUrl;
+    }
+
+    // ========== 自定义分类管理 ==========
+    function loadCustomCategoriesFromStorage() {
+        const stored = localStorage.getItem('custom_categories_config');
+        if (stored) { try { customCategories = JSON.parse(stored); } catch (e) {} }
+        renderCustomCatsUI();
+    }
+
+    function saveCustomCategoriesToStorage() {
+        localStorage.setItem('custom_categories_config', JSON.stringify(customCategories));
+        renderCustomCatsUI();
+    }
+
+    function renderCustomCatsUI() {
+        const container = document.getElementById('customCatsContainer');
+        if (!container) return;
+        if (customCategories.length === 0) {
+            container.innerHTML = '<div style="color:#64748b;font-size:.7rem;">暂无自定义分类</div>';
+            return;
+        }
+        container.innerHTML = customCategories.map(cat => `
+            <div class="custom-cat-tag">
+                🏷️ ${escapeHtml(cat.name)} (ID=${cat.id})
+                <button class="remove-cat-btn" data-id="${cat.id}" title="移除">✖</button>
+            </div>
+        `).join('');
+        document.querySelectorAll('.remove-cat-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = parseInt(btn.dataset.id);
+                customCategories = customCategories.filter(c => c.id !== id);
+                saveCustomCategoriesToStorage();
+                showToast(`已移除 ID=${id}`);
+            });
+        });
+    }
+
+    function addCustomCategory(id, name) {
+        if (isNaN(id) || id <= 0) { showToast('请输入有效数字ID', true); return false; }
+        if (!name) { showToast('请输入分类名称', true); return false; }
+        if (customCategories.some(c => c.id === id)) { showToast('该ID已存在', true); return false; }
+        customCategories.push({ id, name });
+        saveCustomCategoriesToStorage();
+        return true;
+    }
+
+    // ========== 站点检测 ==========
+    function detectLightningSite(html) {
+        return html.includes('闪电资源网') || 
+               html.includes('shandianzy') || 
+               html.includes('template/shandianzy') ||
+               html.includes('xing_vb4') ||
+               html.includes('闪电资源');
+    }
+
+    function detectJisuSite(html) {
+        return html.includes('极速资源') ||
+               html.includes('jisuzy') ||
+               html.includes('jisuimage') ||
+               html.includes('jisuzyv') ||
+               html.includes('jisuzyjx') ||
+               html.includes('jsyun') ||
+               html.includes('jsm3u8');
+    }
+
+    // ========== 根据 detailPage 域名判断站点（用于更新已选剧集） ==========
+    function detectSiteFromDetailPage(detailPage) {
+        if (!detailPage) return 'unknown';
+        const url = detailPage.toLowerCase();
+        if (url.includes('jisuzy') || url.includes('jisuimage')) return 'jisu';
+        if (url.includes('shdianzy') || url.includes('shandian')) return 'lightning';
+        if (url.includes('ffzy') || url.includes('feifei')) return 'feifan';
+        if (url.includes('apibdzy') || url.includes('bdzy')) return 'baidu';
+        if (url.includes('lzizy')) return 'liangzi';
+        return 'generic';
+    }
+
+    // ========== 闪电资源专用提取器 ==========
+    function extractEpisodesFromLightningHtml(html, fallbackName) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const episodesMap = new Map();
+        let episodeCounter = 1;
+        const seenUrls = new Set();
+
+        doc.querySelectorAll('.copy_text, font[id="kcm3u8"], .url, .link, .playurl, .video_url').forEach(el => {
+            const text = el.innerText || el.getAttribute('value') || el.getAttribute('data-url') || '';
+            if (text.includes('$')) {
+                const parts = text.split('$');
+                if (parts.length >= 2) {
+                    let epText = parts[0].trim();
+                    let rawUrl = parts[1].trim();
+                    let cleanUrl = cleanLightningUrl(rawUrl);
+                    if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                        seenUrls.add(cleanUrl);
+                        let epNum = extractEpisodeNumber(epText);
+                        if (epNum && !episodesMap.has(epNum)) {
+                            episodesMap.set(epNum, cleanUrl);
+                        } else if (!epNum && !episodesMap.has(episodeCounter)) {
+                            episodesMap.set(episodeCounter++, cleanUrl);
+                        }
+                    }
+                }
+            }
+        });
+
+        if (episodesMap.size === 0) {
+            const playlist = doc.querySelector('.playlist, .vod_playlist, .content_playlist, .playlist.wbox');
+            if (playlist) {
+                playlist.querySelectorAll('a, input, .copy_text, .url').forEach(el => {
+                    let text = el.innerText || el.getAttribute('value') || '';
+                    let rawUrl = el.getAttribute('href') || el.getAttribute('value') || el.getAttribute('data-url') || '';
+                    let cleanUrl = cleanLightningUrl(rawUrl);
+                    if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                        seenUrls.add(cleanUrl);
+                        let epNum = extractEpisodeNumber(text);
+                        if (epNum && !episodesMap.has(epNum)) {
+                            episodesMap.set(epNum, cleanUrl);
+                        } else if (!epNum && !episodesMap.has(episodeCounter)) {
+                            episodesMap.set(episodeCounter++, cleanUrl);
+                        }
+                    }
+                });
+            }
+        }
+
+        if (episodesMap.size === 0) {
+            doc.querySelectorAll('a[href*=".m3u8"], a[href*=".mp4"], a[href*=".flv"], a[href*="play"]').forEach(a => {
+                let rawUrl = a.getAttribute('href');
+                let text = a.innerText || '';
+                let cleanUrl = cleanLightningUrl(rawUrl);
+                if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                    seenUrls.add(cleanUrl);
+                    let epNum = extractEpisodeNumber(text);
+                    if (epNum && !episodesMap.has(epNum)) {
+                        episodesMap.set(epNum, cleanUrl);
+                    } else if (!epNum && !episodesMap.has(episodeCounter)) {
+                        episodesMap.set(episodeCounter++, cleanUrl);
+                    }
+                }
+            });
+        }
+
+        if (episodesMap.size === 0) {
+            doc.querySelectorAll('script').forEach(script => {
+                const content = script.textContent || '';
+                const matches = content.match(/(https?:\/\/[^\s"'\u4e00-\u9fa5]+\.(?:m3u8|mp4|flv|ts)[^\s"']*)/gi);
+                if (matches) {
+                    matches.forEach(rawUrl => {
+                        let cleanUrl = cleanLightningUrl(rawUrl);
+                        if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                            seenUrls.add(cleanUrl);
+                            if (!episodesMap.has(episodeCounter)) {
+                                episodesMap.set(episodeCounter++, cleanUrl);
+                            }
+                        }
+                    });
+                }
+                const urlMatches = content.match(/['"]url['"]\s*[:=]\s*['"]([^'"]+)['"]/gi);
+                if (urlMatches) {
+                    urlMatches.forEach(match => {
+                        let rawUrl = match.replace(/['"]url['"]\s*[:=]\s*['"]/, '').replace(/['"]$/, '');
+                        let cleanUrl = cleanLightningUrl(rawUrl);
+                        if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                            seenUrls.add(cleanUrl);
+                            if (!episodesMap.has(episodeCounter)) {
+                                episodesMap.set(episodeCounter++, cleanUrl);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+
+        if (episodesMap.size === 0) {
+            doc.querySelectorAll('input[type="hidden"][value*=".m3u8"], input[type="hidden"][value*=".mp4"]').forEach(input => {
+                let rawUrl = input.getAttribute('value');
+                let cleanUrl = cleanLightningUrl(rawUrl);
+                if (cleanUrl && !seenUrls.has(cleanUrl)) {
+                    seenUrls.add(cleanUrl);
+                    if (!episodesMap.has(episodeCounter)) {
+                        episodesMap.set(episodeCounter++, cleanUrl);
+                    }
+                }
+            });
+        }
+
+        let dramaName = fallbackName;
+        const titleSelectors = ['h1.title', '.vod_title', '.title', 'h1', '.xing_vb4 a', '.xing_vb4'];
+        for (let sel of titleSelectors) {
+            const el = doc.querySelector(sel);
+            if (el) {
+                let name = el.innerText.trim()
+                    .replace(/\[更新第\d+集\]/, '')
+                    .replace(/[-\|]闪电资源网.*/, '')
+                    .replace(/[-\|]在线观看.*/, '')
+                    .replace(/更新至.*/, '')
+                    .trim();
+                if (name && name.length > 1) {
+                    dramaName = name;
+                    break;
+                }
+            }
+        }
+        if (dramaName === fallbackName || !dramaName) {
+            const titleTag = doc.querySelector('title');
+            if (titleTag) {
+                dramaName = titleTag.innerText
+                    .replace(/[-\|]闪电资源网.*/, '')
+                    .replace(/[-\|]在线观看.*/, '')
+                    .trim();
+            }
+        }
+        if (dramaName) {
+            dramaName = dramaName.split('详情介绍')[0].trim();
+            dramaName = dramaName.split('更新至')[0].trim();
+        }
+
+        const episodes = Array.from(episodesMap.entries())
+            .map(([num, url]) => ({ num: typeof num === 'number' ? num : parseInt(num) || 0, url }))
+            .sort((a, b) => a.num - b.num);
+
+        return { dramaName: dramaName || fallbackName, episodes };
+    }
+
+    // ========== 极速资源专用提取器 ==========
+    function extractEpisodesFromJisuHtml(html, fallbackName) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const episodesMap = new Map();
+        let episodeCounter = 1;
+        const seenUrls = new Set();
+
+        // 收集所有播放项
+        const rawItems = [];
+        doc.querySelectorAll('.list-title').forEach(el => {
+            const text = el.textContent.trim();
+            if (text.includes('$')) {
+                const parts = text.split('$');
+                if (parts.length >= 2) {
+                    rawItems.push({ epText: parts[0].trim(), rawUrl: parts[1].trim() });
+                }
+            }
+        });
+
+        if (rawItems.length === 0) {
+            doc.querySelectorAll('.copy_text, .url, .link, .playurl').forEach(el => {
+                const text = el.innerText || el.getAttribute('value') || '';
+                if (text.includes('$')) {
+                    const parts = text.split('$');
+                    if (parts.length >= 2) {
+                        rawItems.push({ epText: parts[0].trim(), rawUrl: parts[1].trim() });
+                    }
+                }
+            });
+        }
+
+        // 按集数分组，同一集优先保留 m3u8
+        const epCandidates = new Map();
+        for (const item of rawItems) {
+            let url = normalizeJisuUrl(item.rawUrl);
+            if (!url) continue;
+            let epNum = extractEpisodeNumber(item.epText);
+            if (epNum === null) epNum = episodeCounter;
+            if (!epCandidates.has(epNum)) epCandidates.set(epNum, []);
+            epCandidates.get(epNum).push(url);
+        }
+
+        for (const [epNum, urls] of epCandidates) {
+            let best = null;
+            for (const u of urls) {
+                if (/\.m3u8(\?|$)/i.test(u)) { best = u; break; }
+                if (!best && /\.(mp4|flv|ts)(\?|$)/i.test(u)) best = u;
+                if (!best && u.startsWith('http')) best = u;
+            }
+            if (best && !episodesMap.has(epNum) && !seenUrls.has(best)) {
+                episodesMap.set(epNum, best);
+                seenUrls.add(best);
+            }
+        }
+
+        // 回退：直接抓 a[href*=".m3u8"]
+        if (episodesMap.size === 0) {
+            doc.querySelectorAll('a[href*=".m3u8"], a[href*="/index.m3u8"]').forEach(a => {
+                let href = a.getAttribute('href');
+                let text = a.innerText || a.textContent || '';
+                let url = normalizeJisuUrl(href);
+                if (url && !seenUrls.has(url)) {
+                    let epNum = extractEpisodeNumber(text);
+                    if (epNum === null) epNum = episodeCounter;
+                    if (!episodesMap.has(epNum)) {
+                        episodesMap.set(epNum, url);
+                        seenUrls.add(url);
+                    }
+                }
+            });
+        }
+
+        // 回退：script 正则
+        if (episodesMap.size === 0) {
+            doc.querySelectorAll('script').forEach(script => {
+                const content = script.textContent || '';
+                const matches = content.match(/(https?:\/\/[^\s"'\u4e00-\u9fa5]+\.m3u8[^\s"']*)/gi);
+                if (matches) {
+                    matches.forEach(rawUrl => {
+                        let url = normalizeJisuUrl(rawUrl);
+                        if (url && !seenUrls.has(url)) {
+                            seenUrls.add(url);
+                            if (!episodesMap.has(episodeCounter)) {
+                                episodesMap.set(episodeCounter++, url);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        // 提取剧名（优化：优先 .vod-title h2，排除公告等干扰）
+        let dramaName = '';
+        const nameBlacklist = ['极速资源公告', '公告', '采集教程', '帮助中心', '留言求片', '首页', '极速资源'];
+
+        function isBadName(name) {
+            if (!name || name.length < 1) return true;
+            if (nameBlacklist.some(b => name === b || name.includes(b))) return true;
+            if (/^[\d\s\-_.·]+$/.test(name)) return true;
+            if (name.length > 40) return true;
+            return false;
+        }
+
+        // 优先级从高到低：详细页专用选择器 > 通用选择器
+        const titleSelectors = [
+            '.vod-title h2',
+            '.vod-detail .vod-title h2',
+            '.vod-info .vod-title h2',
+            '.vod-title span:first-child',
+            'h1.title',
+            '.vod_title',
+            '.module-info-name',
+            '.video-title h1',
+            '.detail-title h1',
+            '.title h1',
+            '.title',
+            'h1',
+            'h2'
+        ];
+
+        for (let sel of titleSelectors) {
+            const els = doc.querySelectorAll(sel);
+            for (let el of els) {
+                let name = el.innerText.trim()
+                    .replace(/\[更新第\d+集\]/, '')
+                    .replace(/\[更新至\d+集\]/, '')
+                    .replace(/[-\|]极速资源.*/, '')
+                    .replace(/[-\|]在线观看.*/, '')
+                    .replace(/更新至.*/, '')
+                    .replace(/剧情介绍.*/, '')
+                    .replace(/详情介绍.*/, '')
+                    .trim();
+                if (!isBadName(name)) {
+                    dramaName = name;
+                    break;
+                }
+            }
+            if (dramaName) break;
+        }
+
+        // 兜底：从 <title> 标签取
+        if (!dramaName) {
+            const titleTag = doc.querySelector('title');
+            if (titleTag) {
+                let name = titleTag.innerText
+                    .replace(/[-\|]极速资源.*/, '')
+                    .replace(/[-\|]在线观看.*/, '')
+                    .replace(/剧情介绍.*/, '')
+                    .replace(/详情介绍.*/, '')
+                    .replace(/--.*$/, '')
+                    .trim();
+                if (!isBadName(name)) dramaName = name;
+            }
+        }
+       // 还没找到就用 fallbackName，但 fallbackName 也要过滤
+        if (!dramaName || isBadName(dramaName)) {
+            if (fallbackName && !isBadName(fallbackName)) {
+                dramaName = fallbackName;
+            } else {
+                // 全都不可信 → 用「未命名_时间戳」，确保能入库但不污染
+                dramaName = '未命名_' + Date.now().toString().slice(-6);
+            }
+        }
+     const episodes = Array.from(episodesMap.entries())
+            .map(([num, url]) => ({ num: typeof num === 'number' ? num : parseInt(num) || 0, url }))
+            .sort((a, b) => a.num - b.num);
+
+        return { dramaName: dramaName || fallbackName, episodes };
+    }
+
+    // ========== 通用提取器（非凡、百度等原版内置站点） ==========
+    function extractEpisodesFromDetailHtml(html, fallbackName) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const episodesMap = new Map();
+        let episodeCounter = 1;
+
+        doc.querySelectorAll('.copy_text').forEach(el => {
+            const text = el.innerText.trim();
+            if (text.includes('$')) {
+                const parts = text.split('$');
+                if (parts.length >= 2) {
+                    let epText = parts[0].trim();
+                    let url = parts[1].trim();
+                    if (url && !url.includes('jiexi') && !url.includes('parser') &&
+                        (url.includes('.m3u8') || url.includes('.mp4') || url.includes('.flv') || url.startsWith('http'))) {
+                        let epNum = extractEpisodeNumber(epText);
+                        if (epNum && !episodesMap.has(epNum)) {
+                            episodesMap.set(epNum, url);
+                        } else if (!epNum && !episodesMap.has(episodeCounter)) {
+                            episodesMap.set(episodeCounter++, url);
+                        }
+                    }
+                }
+            }
+        });
+
+        if (episodesMap.size === 0) {
+            const playlist = doc.querySelector('.playlist.wbox.ffm3u8, .playlist, .vod_playlist');
+            if (playlist) {
+                playlist.querySelectorAll('a').forEach(a => {
+                    let href = a.getAttribute('href');
+                    let text = a.innerText || '';
+                    if (href && (href.includes('.m3u8') || href.includes('.mp4') || href.includes('.flv')) &&
+                        !href.includes('jiexi') && !href.includes('parser')) {
+                        let epNum = extractEpisodeNumber(text);
+                        if (epNum && !episodesMap.has(epNum)) {
+                            episodesMap.set(epNum, href);
+                        } else if (!epNum && !episodesMap.has(episodeCounter)) {
+                            episodesMap.set(episodeCounter++, href);
+                        }
+                    }
+                });
+            }
+        }
+
+        let dramaName = '';
+        const titleH1 = doc.querySelector('h1.title');
+        if (titleH1) dramaName = titleH1.innerText.trim();
+        if (!dramaName) {
+            const pageTitle = doc.querySelector('title');
+            if (pageTitle) {
+                dramaName = pageTitle.innerText
+                    .replace(/[-\|]快车资源网.*/, '')
+                    .replace(/[-\|]在线观看.*/, '')
+                    .replace(/[-\|]迅雷下载.*/, '')
+                    .replace(/详情介绍.*$/, '')
+                    .trim();
+            }
+        }
+        if (!dramaName) dramaName = fallbackName.replace(/\.html$/, '');
+
+        const episodes = Array.from(episodesMap.entries())
+            .map(([num, url]) => ({ num, url }))
+            .sort((a, b) => a.num - b.num);
+
+        return { dramaName, episodes };
+    }
+
+    // ========== 封面提取（多站通用增强） ==========
+    function extractCoverUrlFromHtml(html) {
+        try {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            const coverSelectors = [
+                '.people .left img', 
+                '.vod_content img[src*="feifeiimg"]',
+                '.vod-img img',
+                'img[src*="jisuimage"]',
+                'img[src*="jisuzy"]',
+                '.vod_pic img', '.video-pic img', '.stui-vodlist__thumb img', '.vod-pic img',
+                '.module-poster img', '.poster img', '.pic img', '.thumb img', '.cover img',
+                'img.vod-img', 'img[class*="cover"]', 'img[class*="poster"]', 'img[class*="thumb"]',
+                '.lazy.thumb', '.pic-inner img', '.module-item-pic img', '.video-cover img',
+                '.entry-thumb img', '.vodlist__thumb img',
+                'meta[property="og:image"]', 'meta[name="og:image"]', 'meta[itemprop="image"]',
+                'meta[name="twitter:image"]',
+                'img[data-original]', 'img.lazy',
+                '.content img', '.main img', '.detail img'
+            ];
+
+            for (let sel of coverSelectors) {
+                let el = doc.querySelector(sel);
+                if (el) {
+                    let src = el.getAttribute('src') || 
+                              el.getAttribute('content') || 
+                              el.getAttribute('data-original') || 
+                              el.getAttribute('data-src') ||
+                              el.getAttribute('data-lazy-src') ||
+                              el.src;
+                    
+                    if (src && src.startsWith('http') && !src.includes('data:image') && src.length > 20) {
+                        if (!src.includes('logo') && !src.includes('icon') && 
+                            !src.includes('avatar') && !src.includes('default.png') && 
+                            !src.includes('loading') && !src.includes('s.png') &&
+                            !src.includes('favicon')) {
+                            return src;
+                        }
+                    }
+                }
+            }
+
+            const bgElements = doc.querySelectorAll('[style*="background-image"]');
+            for (let el of bgElements) {
+                let style = el.getAttribute('style');
+                let match = style.match(/url\(["']?(https?:\/\/[^"')]+)["']?\)/);
+                if (match && match[1] && match[1].startsWith('http') && !match[1].includes('data:image')) {
+                    if (!match[1].includes('logo') && !match[1].includes('icon')) {
+                        return match[1];
+                    }
+                }
+            }
+            
+            const imgRegex = /https?:\/\/[^\s"']+\.(?:jpg|jpeg|png|webp|gif)[^\s"']*/gi;
+            const matches = html.match(imgRegex);
+            if (matches) {
+                const preferred = matches.find(url => url.includes('feifeiimg') || url.includes('/vod/') || 
+                                                      url.includes('jisuimage') || url.includes('jisuzy'));
+                if (preferred) return preferred;
+                for (let url of matches) {
+                    if (!url.includes('logo') && !url.includes('icon') && !url.includes('avatar')) {
+                        return url;
+                    }
+                }
+            }
+            
+            return null;
+        } catch(e) {
+            console.error('提取封面时出错:', e);
+            return null;
+        }
+    }
+
+    // ========== 简介提取（多站通用增强） ==========
+    function extractDescriptionFromHtml(html) {
+        try {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+
+            const descSelectors = [
+                '.vod_content .content', '.vod_content', '.module-info-introduction .content',
+                '.module-info-introduction', '.video-info-content .content', '.video-info-content',
+                '.detail-content .content', '.detail-content', '.vod-detail .content',
+                '.vod-info .content', '.stui-content__desc', '.stui-pannel__desc',
+                '.desc', '.description', '.introduction', '.intro', '.summary',
+                '.plot', '#desc', '#introduction', '.vod_content p', '.module-info-introduction p'
+            ];
+
+            for (let sel of descSelectors) {
+                const el = doc.querySelector(sel);
+                if (el) {
+                    let text = (el.innerText || el.textContent || '').trim();
+                    text = text
+                        .replace(/\s+/g, ' ')
+                        .replace(/&nbsp;/g, ' ')
+                        .replace(/&amp;/g, '&')
+                        .replace(/&lt;/g, '<')
+                        .replace(/&gt;/g, '>')
+                        .replace(/&quot;/g, '"')
+                        .replace(/&#39;/g, "'")
+                        .replace(/<[^>]+>/g, '')
+                        .trim();
+                    if (text && text.length >= 10 && !/^(剧情介绍|简介|详情介绍)[:：]?$/.test(text)) {
+                        text = text.replace(/^(剧情介绍|简介|详情介绍|剧情)[:：]\s*/, '');
+                        if (text.length >= 10) return text;
+                    }
+                }
+            }
+
+            const metaDesc = doc.querySelector('meta[name="description"]') ||
+                             doc.querySelector('meta[property="og:description"]');
+            if (metaDesc) {
+                let text = (metaDesc.getAttribute('content') || '').trim()
+                    .replace(/\s+/g, ' ')
+                    .replace(/<[^>]+>/g, '')
+                    .trim();
+                text = text.replace(/[-\|]?(闪电资源|极速资源|非凡资源|百度资源|星空影仓|在线观看|迅雷下载).*$/, '').trim();
+                if (text && text.length >= 10) return text;
+            }
+
+            const bodyText = doc.body ? doc.body.innerText : '';
+            const m = bodyText.match(/(?:剧情介绍|简介|详情介绍)[:：]?\s*([\s\S]{10,500}?)(?:\n\n|\.\.\.|$)/);
+            if (m && m[1]) {
+                let text = m[1].replace(/\s+/g, ' ').trim();
+                if (text.length >= 10) return text;
+            }
+
+            return null;
+        } catch (e) {
+            console.error('提取简介时出错:', e);
+            return null;
+        }
+    }
+
+    // 默认提醒语（无简介时使用）
+    const DEFAULT_DESCRIPTION = '星空资料提醒⚠️👉请勿相信视频中的广告！';
+
+    // ========== 通用导入函数（核心：站点自动识别） ==========
+    async function importFromHtmlContent(html, sourceName = '导入', forceLightning = false, forceJisu = false) {
+        const parserBase = document.getElementById('parserUrlInput').value.trim();
+        
+        let dramaName, episodes;
+        
+        if (forceLightning) {
+            const result = extractEpisodesFromLightningHtml(html, sourceName);
+            dramaName = result.dramaName;
+            episodes = result.episodes;
+            showToast(`⚡ 强制使用闪电资源解析...`);
+        } else if (forceJisu) {
+            const result = extractEpisodesFromJisuHtml(html, sourceName);
+            dramaName = result.dramaName;
+            episodes = result.episodes;
+            showToast(`🔥 强制使用极速资源解析...`);
+        } else if (detectJisuSite(html)) {
+            const result = extractEpisodesFromJisuHtml(html, sourceName);
+            dramaName = result.dramaName;
+            episodes = result.episodes;
+            showToast(`🔥 检测到极速资源格式，尝试解析...`);
+        } else if (detectLightningSite(html)) {
+            const result = extractEpisodesFromLightningHtml(html, sourceName);
+            dramaName = result.dramaName;
+            episodes = result.episodes;
+            showToast(`⚡ 检测到闪电资源格式，尝试解析...`);
+        } else {
+            const result = extractEpisodesFromDetailHtml(html, sourceName);
+            dramaName = result.dramaName;
+            episodes = result.episodes;
+            showToast(`📖 使用通用解析（非凡/百度等内置站点）...`);
+        }
+        
+        if (episodes.length === 0) {
+            showToast('未找到有效链接，请检查源码是否包含播放地址', true);
+            return false;
+        }
+
+        const convertedEpisodes = [];
+        for (let ep of episodes) {
+            const finalUrl = await convertWithParser(ep.url, parserBase);
+            if (finalUrl && (finalUrl.includes('.m3u8') || finalUrl.includes('.mp4') || 
+                finalUrl.includes('.flv') || finalUrl.includes('.ts'))) {
+                convertedEpisodes.push({ num: ep.num, url: finalUrl });
+            } else if (finalUrl && finalUrl.startsWith('http')) {
+                convertedEpisodes.push({ num: ep.num, url: finalUrl });
+            }
+            await new Promise(r => setTimeout(r, 20));
+        }
+
+        if (convertedEpisodes.length === 0) {
+            showToast('未找到有效的视频链接', true);
+            return false;
+        }
+
+        const coverUrl = extractCoverUrlFromHtml(html);
+        const description = extractDescriptionFromHtml(html);  
+        addToDatabase(dramaName, convertedEpisodes, '电视剧', coverUrl, sourceName, description);
+        saveToCache();
+        showToast(`✅ 导入「${dramaName}」(${convertedEpisodes.length}集) ${coverUrl?'🖼️带封面':''}`);
+        return true;
+    }
+
+    // ========== 批量提取闪电资源 ==========
+    async function batchExtractLightning() {
+        const html = document.getElementById('pasteHtmlInput').value.trim();
+        if (!html) {
+            showToast('请先粘贴闪电资源的分类列表页源码', true);
+            return;
+        }  
+        const parserBase = document.getElementById('parserUrlInput').value.trim();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        
+        const links = [];
+        doc.querySelectorAll('.xing_vb4 a, a[href*="/voddetail/"]').forEach(a => {
+            let href = a.getAttribute('href');
+            let title = a.innerText.trim()
+                .replace(/\[更新第\d+集\]/, '')
+                .replace(/更新至.*/, '')
+                .trim();
+            if (href && href.includes('/voddetail/')) {
+                let fullUrl = href.startsWith('/') ? 
+                    (() => { try { return new URL(sites[activeSiteIndex]?.url || 'https://www.shdianzy.com').origin + href; } catch(e) { return href; } })() 
+                    : href;
+                if (title && fullUrl) {
+                    links.push({ title, url: fullUrl });
+                }
+            }
+        });
+
+        if (links.length === 0) {
+            showToast('未找到任何剧集链接，请检查源码格式', true);
+            return;
+        }
+
+        showToast(`⏳ 找到 ${links.length} 个剧集，开始批量提取...`);
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const logDiv = document.getElementById('extractLog');
+        document.getElementById('progressBar').style.display = 'block';
+        logDiv.style.display = 'block';
+        logDiv.innerHTML = '<strong>⚡ 闪电资源批量提取:</strong><br>';
+
+        let successCount = 0, failCount = 0;
+        for (let i = 0; i < links.length; i++) {
+            const item = links[i];
+            progressText.innerText = `[${i+1}/${links.length}] ${item.title.substring(0,30)}`;
+            progressFill.style.width = `${((i+1)/links.length) * 100}%`;
+            
+            try {
+                const detailHtml = await fetchViaProxy(item.url, 30000);
+                const result = extractEpisodesFromLightningHtml(detailHtml, item.title);
+                if (result.episodes.length > 0) {
+                    const coverUrl = extractCoverUrlFromHtml(detailHtml);
+                    const description = extractDescriptionFromHtml(detailHtml);      
+                    const converted = [];
+                    for (let ep of result.episodes) {
+                        const convUrl = await convertWithParser(ep.url, parserBase);
+                        converted.push({ num: ep.num, url: convUrl });
+                        await new Promise(r => setTimeout(r, 10));
+                    }
+                    addToDatabase(result.dramaName, converted, '电视剧', coverUrl, item.url, description);
+                    successCount++;
+                    logDiv.innerHTML += `<span style="color:#a3be8c;">✅ ${result.dramaName} (${converted.length}集) ${coverUrl?'🖼️':''}</span><br>`;
+                } else {
+                    failCount++;
+                    logDiv.innerHTML += `<span style="color:#d08770;">⚠️ ${item.title} 无链接</span><br>`;
+                }
+            } catch (err) {
+                failCount++;
+                logDiv.innerHTML += `<span style="color:#bf616a;">❌ ${item.title} 错误: ${err.message}</span><br>`;
+            }
+            await new Promise(r => setTimeout(r, 500));
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        document.getElementById('progressBar').style.display = 'none';
+        refreshEntireUI();
+        saveToCache();
+        showToast(`✅ 批量提取完成: 成功 ${successCount} 部，失败 ${failCount} 部`);
+    }
+
+    // ========== 批量提取极速资源 ==========
+    async function batchExtractJisu() {
+        const html = document.getElementById('pasteHtmlInput').value.trim();
+        if (!html) {
+            showToast('请先粘贴极速资源的分类列表页源码', true);
+            return;
+        }  
+        const parserBase = document.getElementById('parserUrlInput').value.trim();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+               const links = [];
+        const seenDetailUrls = new Set();
+        const listContainers = doc.querySelectorAll('.list, .list-item, .stui-vodlist li, .vod-list li, .movie-item, .xing_vb4');
+        
+        listContainers.forEach(li => {
+            const a = li.querySelector('.list-title a, .title a, .name a, .vod-title a, a[href*="/vod/detail/"], a[href*="/index.php/vod/detail/"]');
+            if (!a) return;
+            let href = a.getAttribute('href');
+            if (!href || (!href.includes('/vod/detail/') && !href.includes('/index.php/vod/detail/'))) return;
+            
+            let title = (a.getAttribute('title') || a.innerText || '').trim()
+                .replace(/<em[^>]*>.*<\/em>/g, '')
+                .replace(/\[更新第\d+集\]/g, '')
+                .replace(/\[更新至\d+集\]/g, '')
+                .replace(/更新至.*/, '')
+                .replace(/第\d+集.*/, '')
+                .trim();
+            
+            const badTitles = ['极速资源公告', '公告', '采集教程', '帮助中心', '留言求片', '首页', '极速资源', '上一页', '下一页', '尾页'];
+            if (!title || badTitles.some(b => title === b || title.includes(b))) return;
+            if (title.length > 40) return;
+            
+            let fullUrl = href.startsWith('/') ? 
+                (() => { try { return new URL(sites[activeSiteIndex]?.url || 'https://www.jisuzy.com').origin + href; } catch(e) { return href; } })() 
+                : href;
+            if (seenDetailUrls.has(fullUrl)) return;
+            seenDetailUrls.add(fullUrl);
+            links.push({ title, url: fullUrl });
+        });
+        
+        if (links.length === 0) {
+            doc.querySelectorAll('a[href*="/vod/detail/"], a[href*="/index.php/vod/detail/"]').forEach(a => {
+                let href = a.getAttribute('href');
+                let title = (a.getAttribute('title') || a.innerText || '').trim()
+                    .replace(/<em[^>]*>.*<\/em>/g, '')
+                    .replace(/\[更新第\d+集\]/g, '')
+                    .replace(/更新至.*/, '')
+                    .replace(/第\d+集.*/, '')
+                    .trim();
+                const badTitles = ['极速资源公告', '公告', '采集教程', '帮助中心', '留言求片', '首页', '极速资源', '上一页', '下一页', '尾页'];
+                if (!title || badTitles.some(b => title === b || title.includes(b))) return;
+                if (href && (href.includes('/vod/detail/') || href.includes('/index.php/vod/detail/'))) {
+                    let fullUrl = href.startsWith('/') ? 
+                        (() => { try { return new URL(sites[activeSiteIndex]?.url || 'https://www.jisuzy.com').origin + href; } catch(e) { return href; } })() 
+                        : href;
+                    if (title && fullUrl && !seenDetailUrls.has(fullUrl)) {
+                        seenDetailUrls.add(fullUrl);
+                        links.push({ title, url: fullUrl });
+                    }
+                }
+            });
+        }
+       if (links.length === 0) {
+            showToast('未找到任何剧集链接，请检查源码格式', true);
+            return;
+        }
+
+        showToast(`⏳ 找到 ${links.length} 个剧集，开始批量提取...`);
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const logDiv = document.getElementById('extractLog');
+        document.getElementById('progressBar').style.display = 'block';
+        logDiv.style.display = 'block';
+        logDiv.innerHTML = '<strong>🔥 极速资源批量提取:</strong><br>';
+
+        let successCount = 0, failCount = 0;
+        for (let i = 0; i < links.length; i++) {
+            const item = links[i];
+            progressText.innerText = `[${i+1}/${links.length}] ${item.title.substring(0,30)}`;
+            progressFill.style.width = `${((i+1)/links.length) * 100}%`;
+            
+            try {
+                const detailHtml = await fetchViaProxy(item.url, 30000);
+                const result = extractEpisodesFromJisuHtml(detailHtml, item.title);
+                if (result.episodes.length > 0) {
+                    const coverUrl = extractCoverUrlFromHtml(detailHtml);
+                    const description = extractDescriptionFromHtml(detailHtml);  
+                    const converted = [];
+                    for (let ep of result.episodes) {
+                        const convUrl = await convertWithParser(ep.url, parserBase);
+                        converted.push({ num: ep.num, url: convUrl });
+                        await new Promise(r => setTimeout(r, 10));
+                    }
+                    addToDatabase(result.dramaName, converted, '电视剧', coverUrl, item.url, description);
+                    successCount++;
+                    logDiv.innerHTML += `<span style="color:#a3be8c;">✅ ${result.dramaName} (${converted.length}集) ${coverUrl?'🖼️':''}</span><br>`;
+                } else {
+                    failCount++;
+                    logDiv.innerHTML += `<span style="color:#d08770;">⚠️ ${item.title} 无链接</span><br>`;
+                }
+            } catch (err) {
+                failCount++;
+                logDiv.innerHTML += `<span style="color:#bf616a;">❌ ${item.title} 错误: ${err.message}</span><br>`;
+            }
+            await new Promise(r => setTimeout(r, 500));
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        document.getElementById('progressBar').style.display = 'none';
+        refreshEntireUI();
+        saveToCache();
+        showToast(`✅ 批量提取完成: 成功 ${successCount} 部，失败 ${failCount} 部`);
+    }
+    
+    // ========== 添加到数据库 ==========
+    function addToDatabase(dramaName, episodes, category, coverUrl, detailPage, description = null) {
+        const badNames = ['极速资源公告', '公告', '采集教程', '帮助中心', '首页', '留言求片'];
+        if (!dramaName || badNames.some(b => dramaName === b || dramaName.includes(b))) {
+            console.warn('🚫 跳过无效剧名:', dramaName);
+            return;
+        }
+        if (!dramaDatabase.has(dramaName)) {     
+            dramaDatabase.set(dramaName, { // 👈 修复：补上 dramaDatabase.set
+                category: category || '未分类',
+                cover: coverUrl || null,
+                detailPage: detailPage || '',
+                description: description || null,  
+                episodes: new Map()
+            });
+        }
+        const data = dramaDatabase.get(dramaName);
+        
+        if (coverUrl && coverUrl.startsWith('http') && !data.cover) {
+            data.cover = coverUrl;
+        }
+        if (detailPage && !data.detailPage) {
+            data.detailPage = detailPage;
+        }
+        if (description && !data.description) {
+            data.description = description;
+        }
+        
+        for (let ep of episodes) {
+            if (ep.url && (ep.url.includes('.m3u8') || ep.url.includes('.mp4') || ep.url.includes('.flv') || ep.url.startsWith('http'))) {
+                if (!data.episodes.has(ep.num)) {
+                    data.episodes.set(ep.num, ep.url);
+                }
+            }
+        }
+        saveToCache();
+        refreshEntireUI();
+    }
+
+    // ========== JSON 备份导入 + 增量更新 ==========
+    function isStarryBackup(obj) {
+        return obj && typeof obj === 'object' && Array.isArray(obj.vodSeries);
+    }
+
+    // 判断是否电影类（只有一集且 num=0，或分类名含“电影”）
+    function isMovieItem(item) {
+        const cat = (item.category || '').trim();
+        if (cat.includes('电影')) return true;
+        const eps = item.episodes || [];
+        if (eps.length === 1 && (eps[0].num === 0 || eps[0].num === undefined)) return true;
+        return false;
+    }
+
+    // 主函数：导入 JSON 备份（默认不自动更新，需手动点「更新已选剧集」）
+    async function importStarryBackupAndUpdate(backup, options = {}) {
+        const {
+            autoUpdate = false,     // 默认关闭，手动更新
+            skipMovie = true,       // 电影跳过
+            delayMs = 1200          // 每部之间间隔
+        } = options;
+
+        if (!isStarryBackup(backup)) {
+            showToast('不是星空影仓备份格式', true);
+            return false;
+        }
+
+        const series = backup.vodSeries;
+
+        // 第一步：全部导入数据库
+        let imported = 0;
+        for (const item of series) {
+            if (!item.title) continue;
+            const epMap = new Map();
+            (item.episodes || []).forEach(ep => epMap.set(ep.num, ep.url));
+            dramaDatabase.set(item.title, {
+                category: item.category || '未分类',
+                cover: item.cover || null,
+                detailPage: item.detailPage || '',
+                description: item.description || null,
+                episodes: epMap
+            });
+            imported++;
+        }
+        saveToCache();
+        refreshEntireUI();
+
+        if (!autoUpdate) {
+            showToast(`✅ 已导入 ${imported} 部，请到右侧导航选剧后点「🔄 更新已选剧集」`);
+            return true;
+        }
+
+        showToast(`✅ 已导入 ${imported} 部，开始自动更新...`);
+
+        // 第二步：筛选需要更新的
+        const needUpdate = series.filter(item => {
+            if (!item.title || !item.detailPage) return false;
+            if (skipMovie && isMovieItem(item)) return false;
+            return true;
+        });
+
+        if (needUpdate.length === 0) {
+            showToast('✅ 无需更新（电影类已跳过）');
+            return true;
+        }
+
+        const progressBar = document.getElementById('progressBar');
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const logDiv = document.getElementById('extractLog');
+        progressBar.style.display = 'block';
+        logDiv.style.display = 'block';
+        logDiv.innerHTML = `<strong>🔄 JSON 备份自动更新 (${needUpdate.length} 部):</strong><br>`;
+
+        let successCount = 0, failCount = 0, newEpTotal = 0;
+        const parserBase = document.getElementById('parserUrlInput').value.trim();
+
+        for (let i = 0; i < needUpdate.length; i++) {
+            const item = needUpdate[i];
+            const siteType = detectSiteFromDetailPage(item.detailPage);
+            const siteLabel = {
+                jisu: '极速', lightning: '闪电', feifan: '非凡',
+                baidu: '百度', liangzi: '量子', generic: '通用', unknown: '未知'
+            }[siteType] || '通用';
+
+            progressText.innerText = `[${i + 1}/${needUpdate.length}] ${item.title} (${siteLabel})`;
+            progressFill.style.width = `${((i + 1) / needUpdate.length) * 100}%`;
+
+            try {
+                const html = await fetchViaProxy(item.detailPage, 30000);
+
+                let result;
+                if (siteType === 'jisu') {
+                    result = extractEpisodesFromJisuHtml(html, item.title);
+                } else if (siteType === 'lightning') {
+                    result = extractEpisodesFromLightningHtml(html, item.title);
+                } else {
+                    result = extractEpisodesFromDetailHtml(html, item.title);
+                }
+
+                if (!result.episodes || result.episodes.length === 0) {
+                    failCount++;
+                    logDiv.innerHTML += `<span style="color:#d08770;">⚠️ ${item.title} 无链接</span><br>`;
+                    await new Promise(r => setTimeout(r, delayMs));
+                    continue;
+                }
+
+                const data = dramaDatabase.get(item.title);
+                if (!data) {
+                    failCount++;
+                    await new Promise(r => setTimeout(r, delayMs));
+                    continue;
+                }
+
+                const existingEpNums = new Set(data.episodes.keys());
+                const newEpisodes = [];
+                for (const ep of result.episodes) {
+                    if (!existingEpNums.has(ep.num)) {
+                        const convUrl = await convertWithParser(ep.url, parserBase);
+                        if (convUrl) {
+                            newEpisodes.push({ num: ep.num, url: convUrl });
+                        }
+                        await new Promise(r => setTimeout(r, 20));
+                    }
+                }
+
+                if (!data.cover) {
+                    const coverUrl = extractCoverUrlFromHtml(html);
+                    if (coverUrl) data.cover = coverUrl;
+                }
+                if (!data.description) {
+                    const newDesc = extractDescriptionFromHtml(html);
+                    if (newDesc) data.description = newDesc;
+                } 
+
+                if (newEpisodes.length > 0) {
+                    for (const ep of newEpisodes) {
+                        data.episodes.set(ep.num, ep.url);
+                    }
+                    newEpTotal += newEpisodes.length;
+                    successCount++;
+                    logDiv.innerHTML += `<span style="color:#a3be8c;">✅ ${item.title} (${siteLabel}) +${newEpisodes.length}集，共${data.episodes.size}集</span><br>`;
+                } else {
+                    logDiv.innerHTML += `<span style="color:#7aa2f7;">➖ ${item.title} (${siteLabel}) 已最新</span><br>`;
+                }
+
+            } catch (err) {
+                failCount++;
+                logDiv.innerHTML += `<span style="color:#bf616a;">❌ ${item.title} (${siteLabel}) ${err.message}</span><br>`;
+            }
+
+            logDiv.scrollTop = logDiv.scrollHeight;
+            await new Promise(r => setTimeout(r, delayMs));
+        }
+
+        progressBar.style.display = 'none';
+        saveToCache();
+        refreshEntireUI();
+        showToast(`✅ 更新完成：${successCount} 部有新增，共 +${newEpTotal} 集，失败 ${failCount} 部`);
+        return true;
+    }
+
+    // ========== 更新已选剧集（按 detailPage 域名自动判断站点） ==========
+    async function updateSelectedDrama() {
+        const dramaSelect = document.getElementById('dramaSelect');
+        const selectedName = dramaSelect.value;
+        if (!selectedName) {
+            showToast('请先在右侧选择一个剧集', true);
+            return;
+        }
+        if (!dramaDatabase.has(selectedName)) {
+            showToast('剧集不存在', true);
+            return;
+        }
+        const dramaData = dramaDatabase.get(selectedName);
+        const detailPage = dramaData.detailPage;
+        if (!detailPage) {
+            showToast('该剧集没有详情页URL，无法更新', true);
+            return;
+        }
+        showToast(`⏳ 正在更新「${selectedName}」...`);
+        try {
+            const parserBase = document.getElementById('parserUrlInput').value.trim();
+            const html = await fetchViaProxy(detailPage, 30000);
+            
+            // 按 detailPage 域名自动判断站点类型
+            const siteType = detectSiteFromDetailPage(detailPage);
+            let result;
+            if (siteType === 'jisu') {
+                result = extractEpisodesFromJisuHtml(html, selectedName);
+            } else if (siteType === 'lightning') {
+                result = extractEpisodesFromLightningHtml(html, selectedName);
+            } else {
+                result = extractEpisodesFromDetailHtml(html, selectedName);
+            }
+            
+            if (result.episodes.length === 0) {
+                showToast('未找到有效链接', true);
+                return;
+            }
+            const existingEpNums = new Set(dramaData.episodes.keys());
+            let newCount = 0;
+            const convertedEpisodes = [];
+            for (let ep of result.episodes) {
+                if (!existingEpNums.has(ep.num)) {
+                    const convUrl = await convertWithParser(ep.url, parserBase);
+                    convertedEpisodes.push({ num: ep.num, url: convUrl });
+                    newCount++;
+                    await new Promise(r => setTimeout(r, 20));
+                }
+            }
+            if (newCount === 0) {
+                showToast(`✅ 「${selectedName}」已是最新，无新增集数`);
+                return;
+            }
+            let coverUrl = dramaData.cover;
+            if (!coverUrl) {
+                coverUrl = extractCoverUrlFromHtml(html);
+            }
+            for (let ep of convertedEpisodes) {
+                if (!dramaData.episodes.has(ep.num)) {
+                    dramaData.episodes.set(ep.num, ep.url);
+                }
+            }
+            if (coverUrl && !dramaData.cover) {
+                dramaData.cover = coverUrl;
+            }
+            if (!dramaData.description) {
+                const description = extractDescriptionFromHtml(html);
+                if (description) dramaData.description = description;
+            }
+            saveToCache();
+            refreshEntireUI();
+            showToast(`✅ 更新「${selectedName}」新增 ${newCount} 集 (共${dramaData.episodes.size}集) ${coverUrl?'🖼️带封面':''}`);
+        } catch (error) {
+            showToast(`❌ 更新失败：${error.message}`, true);
+        }
+    }
+
+    // ========== 导出函数 ==========
+    function exportToJSON() {
+        if (dramaDatabase.size === 0) { showToast('暂无数据', true); return null; }
+        
+        const data = [];
+        let index = 0;
+        
+        for (let [name, info] of dramaDatabase) {
+            const id = Date.now() + (index++);
+            
+            const episodes = Array.from(info.episodes.entries())
+                .map(([num, url]) => {
+                    let n = parseInt(num) || 0;
+                    return {
+                        num: n,
+                        title: n === 0 ? '正片' : `第${toChineseNum(n)}集`,
+                        url: url
+                    };
+                })
+                .filter((v, i, a) => a.findIndex(t => t.num === v.num) === i)
+                .sort((a, b) => a.num - b.num);
+
+            data.push({
+                id: id,
+                title: name,
+                category: info.category || '未分类',
+                episodes: episodes,
+                detailPage: info.detailPage || '',
+                cover: info.cover || null,
+                description: (info.description && info.description.trim())
+                    ? info.description.trim()
+                    : DEFAULT_DESCRIPTION
+            });
+        }
+        
+        const backupData = {
+            version: "1.0",
+            exportTime: new Date().toISOString(),
+            vodSeries: data,
+            liveChannels: [], 
+            playHistory: [],
+            favorites: [],
+            mvData: {},
+            seriesDetailUrls: {},
+            sourceList: [{"id":"1","name":"✨星空影仓专用解析","url":"https://jx.xmflv.com/?url=","safe":true}],
+            hlsBufferTarget: "60",
+            customBg: "",
+            playerMode: "native"
+        };
+        
+        return JSON.stringify(backupData, null, 2);
+    }
+
+     function exportToTXTWithCover() {
+        try {
+            if (!dramaDatabase || dramaDatabase.size === 0) {
+                showToast('暂无数据', true);
+                return null;
+            }
+            const lines = [];
+
+            const presetCats = ['电影', '电视剧', '综艺', '动漫'];
+            const cats = Array.isArray(customCategories) ? customCategories : [];
+            const customCatNames = cats.map(c => c && c.name ? c.name : '').filter(n => n && !presetCats.includes(n));
+            const categoryOrder = [...presetCats, ...customCatNames, '未分类'];
+
+            for (let cat of categoryOrder) {
+                const dramasInCat = [];
+                for (let [name, data] of dramaDatabase) {
+                    const dataCat = (data && data.category) ? data.category : '未分类';
+                    if (dataCat === cat) dramasInCat.push({ name, data });
+                }
+                if (dramasInCat.length === 0) continue;
+
+                for (let item of dramasInCat) {
+                    if (!item.data || !item.data.episodes) continue;
+                    const episodes = Array.from(item.data.episodes.entries())
+                        .map(([num, url]) => ({ num, url }))
+                        .sort((a, b) => a.num - b.num);
+                    if (episodes.length === 0) continue;
+
+                    lines.push(item.name + '(' + cat + '),#genre#');
+
+                    for (let ep of episodes) {
+                        let epDisplayName;
+                        if (ep.num === 0 || ep.num === null || ep.num === undefined) {
+                            epDisplayName = '正片';
+                        } else {
+                            epDisplayName = '第' + toChineseNum(ep.num) + '集';
+                        }
+                        lines.push(epDisplayName + ',' + ep.url);
+                    }
+
+                    lines.push('');
+                }
+            }
+
+            return lines.join('\n');
+        } catch (err) {
+            console.error('❌ exportToTXTWithCover 出错:', err);
+            alert('TXT 导出失败: ' + err.message);
+            return null;
+        }
+    }  
+   function exportToDATWithCover() {
+        const txtContent = exportToTXTWithCover();
+        if (!txtContent) return null;
+        const encoded = btoa(unescape(encodeURIComponent(txtContent)));
+        return `STARRY_VAULT_DAT_V1\n${encoded}`;
+    }
+
+    function exportToHTMLWithCover() {
+        if (dramaDatabase.size === 0) { showToast('暂无数据', true); return null; }
+        let html = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>星空影仓 · 带封面剧集列表</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+body{background:#0f172a;padding:20px;color:#f1f5f9}
+.container{max-width:1400px;margin:0 auto}
+h1{color:#facc15;margin-bottom:12px;font-size:1.4rem}
+.stats{color:#94a3b8;margin-bottom:16px;font-size:.8rem;display:flex;gap:20px;flex-wrap:wrap}
+.stats span{color:#4CAF50}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.card{background:#1e293b;border-radius:12px;overflow:hidden;border:1px solid #334155;transition:.2s}
+.card:hover{transform:translateY(-3px);border-color:#4CAF50}
+.card-cover{width:100%;aspect-ratio:3/4;object-fit:cover;background:#0f172a}
+.card-cover-placeholder{width:100%;aspect-ratio:3/4;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a2a3a,#0f172a);color:#4CAF50;font-size:2rem;gap:4px}
+.card-cover-placeholder span{font-size:.6rem;color:#94a3b8}
+.card-info{padding:6px 8px 8px}
+.card-title{font-size:.75rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#e2e8f0}
+.card-category{font-size:.55rem;color:#4CAF50;margin-top:2px}
+.card-epcount{font-size:.5rem;color:#94a3b8;margin-top:1px}
+.footer{text-align:center;margin-top:24px;color:#64748b;font-size:.65rem;border-top:1px solid #334155;padding-top:12px}
+.badge-cover{display:inline-block;background:#10b98120;color:#10b981;padding:0 6px;border-radius:8px;font-size:.45rem;margin-left:4px}
+.badge-nocover{display:inline-block;background:#ef444420;color:#f87171;padding:0 6px;border-radius:8px;font-size:.45rem;margin-left:4px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🖼️ 星空影仓 · 剧集列表</h1>
+<div class="stats">
+<span>📊 共 <span id="totalCount">${dramaDatabase.size}</span> 个剧集</span>
+<span>🖼️ 有封面 <span id="coverCount">0</span> 个</span>
+<span>📷 无封面 <span id="noCoverCount">0</span> 个</span>
+</div>
+<div class="grid">`;
+        let coverCount = 0, noCoverCount = 0;
+        for (let [name, data] of dramaDatabase) {
+            const episodes = Array.from(data.episodes.entries()).map(([n, u]) => ({ num: n, url: u })).sort((a, b) => a.num - b.num);
+            const hasCover = !!(data.cover && data.cover.startsWith('http'));
+            if (hasCover) coverCount++; else noCoverCount++;
+            let coverHtml = '';
+            if (hasCover) {
+                coverHtml = `<img class="card-cover" src="${data.cover}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.className='card-cover-placeholder';">`;
+            } else {
+                coverHtml = `<div class="card-cover-placeholder"><span>${escapeHtml(name.charAt(0)||'📺')}</span><span>${escapeHtml(name.substring(0,6))}</span></div>`;
+            }
+            const badge = hasCover ? `<span class="badge-cover">🖼️</span>` : `<span class="badge-nocover">📷</span>`;
+            html += `
+<div class="card">
+    ${coverHtml}
+    <div class="card-info">
+        <div class="card-title">${escapeHtml(name)} ${badge}</div>
+        <div class="card-category">${escapeHtml(data.category||'未分类')}</div>
+        <div class="card-epcount">📺 ${episodes.length} 集</div>
+    </div>
+</div>`;
+        }
+        html += `
+</div>
+<div class="footer">✨ 导出时间: ${new Date().toLocaleString()} | 共 ${dramaDatabase.size} 部 | 封面链接已包含</div>
+</div>
+<script>
+document.getElementById('totalCount').textContent = '${dramaDatabase.size}';
+document.getElementById('coverCount').textContent = '${coverCount}';
+document.getElementById('noCoverCount').textContent = '${noCoverCount}';
+<\/script>
+</body>
+</html>`;
+        return html;
+    }
+
+    function exportWithCover() {
+        const format = document.querySelector('input[name="exportFormat"]:checked')?.value || 'json';
+        let content, filename, mimeType;
+        switch(format) {
+            case 'json': content = exportToJSON(); filename = `星空影仓_${new Date().toISOString().slice(0,10)}.json`; mimeType = 'application/json;charset=utf-8'; break;
+            case 'txt': content = exportToTXTWithCover(); filename = `星空影仓_${new Date().toISOString().slice(0,10)}.txt`; mimeType = 'text/plain;charset=utf-8'; break;
+            case 'dat': content = exportToDATWithCover(); filename = `星空影仓_${new Date().toISOString().slice(0,10)}.dat`; mimeType = 'application/octet-stream'; break;
+            case 'html': content = exportToHTMLWithCover(); filename = `星空影仓_${new Date().toISOString().slice(0,10)}.html`; mimeType = 'text/html;charset=utf-8'; break;
+            default: showToast('未知格式', true); return;
+        }
+        if (!content) return;
+        const blob = new Blob([content], { type: mimeType });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(a.href);
+        showToast(`✅ 已导出 ${format.toUpperCase()}`);
+    }
+
+    function previewAllCovers() {
+        const modal = document.getElementById('coverPreviewModal');
+        const grid = document.getElementById('coverPreviewGrid');
+        const totalSpan = document.getElementById('previewTotal');
+        const hasSpan = document.getElementById('previewHas');
+        const noSpan = document.getElementById('previewNo');
+        if (dramaDatabase.size === 0) {
+            grid.innerHTML = '<div style="color:#64748b;text-align:center;padding:30px;">暂无数据</div>';
+            totalSpan.textContent = '0'; hasSpan.textContent = '0'; noSpan.textContent = '0';
+            modal.classList.add('active');
+            return;
+        }
+        let hasCover = 0, noCover = 0;
+        let html = '';
+        for (let [name, data] of dramaDatabase) {
+            const has = !!(data.cover && data.cover.startsWith('http'));
+            if (has) hasCover++; else noCover++;
+            const epCount = data.episodes.size;
+            let coverHtml = '';
+            if (has) {
+                coverHtml = `<img src="${data.cover}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'">`;
+            } else {
+                coverHtml = `<div style="width:100%;aspect-ratio:3/4;background:linear-gradient(135deg,#1a2a3a,#0f172a);display:flex;align-items:center;justify-content:center;font-size:2rem;color:#4CAF50;">📺</div>`;
+            }
+            html += `<div class="cover-preview-item">${coverHtml}<div class="pname">${escapeHtml(name)}</div><div class="pstatus ${has?'has':'no'}">${has?'🖼️ 有封面':'📷 无封面'} · ${epCount}集</div></div>`;
+        }
+        grid.innerHTML = html;
+        totalSpan.textContent = dramaDatabase.size;
+        hasSpan.textContent = hasCover;
+        noSpan.textContent = noCover;
+        modal.classList.add('active');
+    }
+
+    // ========== 播放相关 ==========
+    function findNextEpisode(dramaName, currentEpNum) {
+        if (!dramaDatabase.has(dramaName)) return null;
+        const data = dramaDatabase.get(dramaName);
+        const episodes = Array.from(data.episodes.keys()).sort((a, b) => a - b);
+        for (let epNum of episodes) {
+            if (epNum > currentEpNum) return { num: epNum, url: data.episodes.get(epNum) };
+        }
+        return null;
+    }
+
+    function playNextEpisode() {
+        if (!currentDramaName) return false;
+        const next = findNextEpisode(currentDramaName, currentEpisodeNum);
+        if (!next) { showToast('📭 已播完', true); return false; }
+        playMedia(next.url, currentDramaName, next.num);
+        highlightEpisodeButton(currentDramaName, next.num);
+        return true;
+    }
+
+    function highlightEpisodeButton(dramaName, epNum) {
+        document.querySelectorAll('.episode-btn').forEach(btn => {
+            btn.classList.remove('active-episode');
+            if (btn.dataset.drama === dramaName && parseInt(btn.dataset.epnum) === epNum) {
+                btn.classList.add('active-episode');
+            }
+        });
+    }
+
+    function applyTimingSettings() {
+        const startMin = parseInt(document.getElementById('startMin').value) || 0;
+        const startSec = parseInt(document.getElementById('startSec').value) || 0;
+        const endMin = parseInt(document.getElementById('endMin').value) || 0;
+        const endSec = parseInt(document.getElementById('endSec').value) || 0;
+        startTimeSeconds = startMin * 60 + startSec;
+        endTimeSeconds = endMin * 60 + endSec;
+        if (endTimeSeconds > 0 && endTimeSeconds <= startTimeSeconds) {
+            showToast('⚠️ 结束时间应大于起始时间', true);
+        }
+        timingApplied = true;
+        hasSeekedToStart = false;
+        const statusEl = document.getElementById('timingStatus');
+        let parts = [];
+        if (startTimeSeconds > 0) parts.push(`起始 ${formatTime(startTimeSeconds)}`);
+        if (endTimeSeconds > 0) parts.push(`结束跳转 ${formatTime(endTimeSeconds)}`);
+        if (parts.length === 0) {
+            statusEl.textContent = '⏸️ 未启用';
+            statusEl.className = 'status-badge';
+            timingApplied = false;
+        } else {
+            statusEl.textContent = `✅ ${parts.join(' | ')}`;
+            statusEl.className = 'status-badge active';
+        }
+        showToast(`✅ 定时已应用`);
+    }
+
+    function formatTime(seconds) {
+        const m = Math.floor(seconds / 60);
+        const s = Math.floor(seconds % 60);
+        return `${m}分${s}秒`;
+    }
+
+    function playMedia(url, drama, epNum) {
+        if (!url) return;
+        currentDramaName = drama;
+        currentEpisodeNum = epNum;
+        currentPlaying.drama = drama;
+        currentPlaying.episodeNum = epNum;
+        document.getElementById('currentPlayingLabel').innerHTML = `${drama} ${epNum===0?'正片':`第${toChineseNum(epNum)}集`}`;
+        const video = document.getElementById('playerVideo');
+        if (currentHls) { currentHls.destroy(); currentHls = null; }
+        video.pause();
+        isJumping = false;
+        hasSeekedToStart = false;
+        updateTimingStatusDisplay();
+        if (url.includes('.m3u8') && Hls.isSupported()) {
+            currentHls = new Hls();
+            currentHls.loadSource(url);
+            currentHls.attachMedia(video);
+            currentHls.on(Hls.Events.MANIFEST_PARSED, () => {
+                if (startTimeSeconds > 0 && timingApplied && !hasSeekedToStart) {
+                    video.currentTime = startTimeSeconds;
+                    hasSeekedToStart = true;
+                }
+                video.play().catch(() => {});
+            });
+        } else {
+            video.src = url;
+            const onMetadata = () => {
+                video.removeEventListener('loadedmetadata', onMetadata);
+                if (startTimeSeconds > 0 && timingApplied && !hasSeekedToStart) {
+                    video.currentTime = startTimeSeconds;
+                    hasSeekedToStart = true;
+                }
+            };
+            video.addEventListener('loadedmetadata', onMetadata);
+            video.play().catch(() => {});
+        }
+        const timeUpdateHandler = function() {
+            if (!video || video.paused || isJumping) return;
+            if (endTimeSeconds > 0 && timingApplied && video.currentTime >= endTimeSeconds) {
+                if (!isJumping) {
+                    isJumping = true;
+                    playNextEpisode();
+                    setTimeout(() => { isJumping = false; }, 800);
+                }
+            }
+        };
+        const endedHandler = function() {
+            if (autoNextEnabled) {
+                setTimeout(() => { if (autoNextEnabled) playNextEpisode(); }, 300);
+            } else if (endTimeSeconds > 0 && timingApplied) {
+                if (!isJumping) {
+                    isJumping = true;
+                    playNextEpisode();
+                    setTimeout(() => { isJumping = false; }, 800);
+                }
+            }
+        };
+        if (video._timeUpdateHandler) video.removeEventListener('timeupdate', video._timeUpdateHandler);
+        if (video._endedHandler) video.removeEventListener('ended', video._endedHandler);
+        video._timeUpdateHandler = timeUpdateHandler;
+        video._endedHandler = endedHandler;
+        video.addEventListener('timeupdate', timeUpdateHandler);
+        video.addEventListener('ended', endedHandler);
+        document.getElementById('playerInfo').innerHTML =
+            `🎞️ ${drama} ${epNum===0?'正片':`第${toChineseNum(epNum)}集`} | 自动下一集: ${autoNextEnabled?'✅':'❌'} | 定时: ${timingApplied?'✅':'❌'}`;
+    }
+
+    function updateTimingStatusDisplay() {
+        const statusEl = document.getElementById('timingStatus');
+        if (!timingApplied || (startTimeSeconds === 0 && endTimeSeconds === 0)) {
+            statusEl.textContent = '⏸️ 未启用';
+            statusEl.className = 'status-badge';
+            return;
+        }
+        let parts = [];
+        if (startTimeSeconds > 0) parts.push(`起始 ${formatTime(startTimeSeconds)}`);
+        if (endTimeSeconds > 0) parts.push(`结束跳转 ${formatTime(endTimeSeconds)}`);
+        statusEl.textContent = `✅ ${parts.join(' | ')}`;
+        statusEl.className = 'status-badge active';
+    }
+
+    // ========== 刷新UI ==========
+    function refreshEntireUI() {
+        const dramaSelect = document.getElementById('dramaSelect');
+        const navDiv = document.getElementById('episodeNavigation');
+        const currentVal = dramaSelect.value;
+        dramaSelect.innerHTML = '<option value="">-- 选择剧集 --</option>';
+        const coverCount = Array.from(dramaDatabase.values()).filter(d => d.cover && d.cover.startsWith('http')).length;
+        document.getElementById('coverCount').textContent = `🖼️ 封面: ${coverCount}/${dramaDatabase.size}`;
+        if (dramaDatabase.size === 0) {
+            navDiv.innerHTML = `<div style="color:#64748b;text-align:center;padding:30px;">📭 暂无数据</div>`;
+            document.getElementById('resultPanel').style.display = 'none';
+            return;
+        }
+        const groups = new Map();
+        for (let [name, data] of dramaDatabase) {
+            const cat = data.category || '未分类';
+            if (!groups.has(cat)) groups.set(cat, []);
+            groups.get(cat).push({ name, data });
+        }
+        let navHtml = '';
+        for (let [cat, items] of groups) {
+            navHtml += `<div class="drama-group"><div class="drama-title">📺 ${cat} <span class="badge badge-tv">${items.length} 部</span></div>`;
+            for (let item of items) {
+                const episodes = Array.from(item.data.episodes.entries()).map(([num, url]) => ({ num, url })).sort((a, b) => a.num - b.num);
+                const hasCover = !!(item.data.cover && item.data.cover.startsWith('http'));
+                const coverHtml = hasCover ?
+                    `<img class="cover-preview" src="${item.data.cover}" alt="${escapeHtml(item.name)}">` :
+                    `<div class="cover-preview-placeholder">📷</div>`;
+                navHtml += `
+                    <div style="margin-bottom:12px;">
+                        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+                            ${coverHtml}
+                            <div>
+                                <div style="font-size:.8rem;font-weight:500;color:#f1f5f9;">
+                                    🎬 ${escapeHtml(item.name)} (${episodes.length} 集)
+                                    ${hasCover ? '🖼️' : '📷'}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episode-flex">
+                `;
+                episodes.forEach(ep => {
+                    const display = ep.num === 0 ? '正片' : `第${toChineseNum(ep.num)}集`;
+                    navHtml += `<button class="episode-btn" data-drama="${escapeHtml(item.name)}" data-epnum="${ep.num}" data-url="${escapeHtml(ep.url)}">${display}</button>`;
+                });
+                navHtml += `</div></div>`;
+            }
+            navHtml += `</div>`;
+        }
+        navDiv.innerHTML = navHtml;
+        document.querySelectorAll('.episode-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const drama = this.dataset.drama;
+                const epNum = parseInt(this.dataset.epnum);
+                const url = this.dataset.url;
+                if (url) {
+                    playMedia(url, drama, epNum);
+                    document.querySelectorAll('.episode-btn').forEach(b => b.classList.remove('active-episode'));
+                    this.classList.add('active-episode');
+                }
+            });
+        });
+        for (let [name, data] of dramaDatabase) {
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = `${name} (${data.episodes.size} 集)`;
+            dramaSelect.appendChild(opt);
+        }
+        if (currentVal && dramaDatabase.has(currentVal)) {
+            dramaSelect.value = currentVal;
+        } else if (dramaSelect.options.length > 1) {
+            dramaSelect.selectedIndex = 1;
+        }
+        dramaSelect.dispatchEvent(new Event('change'));
+        updateResultPanel();
+    }
+
+    function updateResultPanel() {
+        if (dramaDatabase.size === 0) {
+            document.getElementById('resultPanel').style.display = 'none';
+        } else {
+            document.getElementById('resultPanel').style.display = 'block';
+            document.getElementById('outputPre').textContent = exportToTXTWithCover() || '';
+        }
+    }
+
+    // ========== 缓存管理 ==========
+    function saveToCache() {
+        const arr = [];
+        for (let [name, data] of dramaDatabase) {
+            arr.push({
+                name,
+                category: data.category,
+                cover: data.cover || null,
+                detailPage: data.detailPage || '',
+                description: data.description || null,
+                episodes: [...data.episodes.entries()].map(([num, url]) => ({ num, url }))
+            });
+        }
+        localStorage.setItem(CACHE_KEY, JSON.stringify(arr));
+        const coverCount = arr.filter(d => d.cover && d.cover.startsWith('http')).length;
+        document.getElementById('cacheStatus').innerHTML = `已缓存 ${arr.length} 部 (🖼️ ${coverCount}个封面)`;
+    }
+
+    function loadFromCache() {
+        const raw = localStorage.getItem(CACHE_KEY);
+        if (!raw) return false;
+        try {
+            const arr = JSON.parse(raw);
+            dramaDatabase.clear();
+            for (let item of arr) {
+                let epMap = new Map();
+                item.episodes.forEach(ep => epMap.set(ep.num, ep.url));
+                dramaDatabase.set(item.name, {
+                    category: item.category || '电视剧',
+                    cover: item.cover || null,
+                    detailPage: item.detailPage || '',
+                    description: item.description || null,
+                    episodes: epMap
+                });
+            }
+            refreshEntireUI();
+            return true;
+        } catch (e) { return false; }
+    }
+
+    function clearCache() {
+        localStorage.removeItem(CACHE_KEY);
+        document.getElementById('cacheStatus').innerHTML = '暂无缓存';
+        document.getElementById('coverCount').textContent = '';
+        showToast('缓存已清除');
+    }
+
+    function clearAllData() {
+        if (confirm('清空所有剧集？')) {
+            dramaDatabase.clear();
+            clearCache();
+            refreshEntireUI();
+            if (currentHls) currentHls.destroy();
+            document.getElementById('playerVideo').src = '';
+            showToast('已清空');
+            currentDramaName = '';
+            currentEpisodeNum = 0;
+            document.getElementById('currentPlayingLabel').innerHTML = '未播放';
+        }
+    }
+
+    async function quickExtractGuochan() {
+        let added = false;
+        if (!customCategories.some(c => c.id === 13)) {
+            customCategories.push({ id: 13, name: '国产剧(闪电)' });
+            added = true;
+        }
+        if (!customCategories.some(c => c.id === 20)) {
+            customCategories.push({ id: 20, name: '国产剧(极速)' });
+            added = true;
+        }
+        if (added) {
+            saveCustomCategoriesToStorage();
+            showToast('✅ 已添加国产剧分类(ID=13 和 20)');
+        }
+        document.getElementById('cat1').checked = false;
+        document.getElementById('cat2').checked = false;
+        document.getElementById('cat3').checked = false;
+        document.getElementById('cat4').checked = false;
+        document.getElementById('startPage').value = 1;
+        document.getElementById('endPage').value = 5;
+        await new Promise(r => setTimeout(r, 200));
+        startMultiPageExtract();
+    }
+
+    // ========== 批量提取（通用分类页） ==========
+    async function startMultiPageExtract() {
+        if (isExtracting) { showToast('已有提取任务', true); return; }
+        
+        const baseSite = document.getElementById('baseSiteUrl').value.trim().replace(/\/$/, '');
+        const parserBase = document.getElementById('parserUrlInput').value.trim();
+        const startPage = parseInt(document.getElementById('startPage').value);
+        const endPage = parseInt(document.getElementById('endPage').value);
+        const delay = parseInt(document.getElementById('delayMs').value);
+        
+        if (!baseSite) { showToast('请输入网站根URL', true); return; }
+        
+        isExtracting = true;
+        showToast('⏳ 批量提取准备中...');
+        
+        try {
+            let totalFound = 0;
+            const checkedCats = [];
+            document.querySelectorAll('.check-item input:checked').forEach(cb => {
+                const id = parseInt(cb.value);
+                const label = cb.nextElementSibling ? cb.nextElementSibling.innerText : `分类${id}`;
+                checkedCats.push({ id, name: label });
+            });
+            customCategories.forEach(cat => {
+                checkedCats.push({ id: cat.id, name: cat.name });
+            });
+            
+            if (checkedCats.length === 0) {
+                showToast('请至少勾选一个分类', true);
+                isExtracting = false;
+                return;
+            }
+
+            const progressBar = document.getElementById('progressBar');
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            const logDiv = document.getElementById('extractLog');
+            progressBar.style.display = 'block';
+            logDiv.style.display = 'block';
+            logDiv.innerHTML = '<strong>🚀 批量提取开始:</strong><br>';
+            
+            for (const cat of checkedCats) {
+                for (let page = startPage; page <= endPage; page++) {
+                    const url = `${baseSite}/index.php/vod/show/id/${cat.id}/page/${page}.html`;
+                    progressText.innerText = `正在提取 [${cat.name}] 第 ${page} 页...`;
+                    progressFill.style.width = '50%';
+                    logDiv.innerHTML += `🔍 正在获取 [${cat.name}] 第 ${page} 页...<br>`;
+                    logDiv.scrollTop = logDiv.scrollHeight;
+                    
+                    try {
+                        const html = await fetchViaProxy(url, 30000);
+                        const doc = new DOMParser().parseFromString(html, 'text/html');
+                        const items = doc.querySelectorAll('.module-item, .stui-vodlist__box, .public-list-box, .vodlist__item');
+                        
+                        if (items.length === 0) {
+                            logDiv.innerHTML += `⚠️ 未找到条目 (可能已无数据)<br>`;
+                            continue;
+                        }
+
+                        const detailLinks = [];
+                        items.forEach(item => {
+                            const a = item.querySelector('a');
+                            if (a && a.href && a.href.includes('/vod/detail/')) {
+                                detailLinks.push(a.href);
+                            }
+                        });
+
+                        logDiv.innerHTML += `📄 本页找到 ${detailLinks.length} 个详情链接<br>`;
+                        logDiv.scrollTop = logDiv.scrollHeight;
+
+                        for (const link of detailLinks) {
+                            try {
+                                const detailHtml = await fetchViaProxy(link, 30000);
+                                const coverUrl = extractCoverUrlFromHtml(detailHtml);
+                                const description = extractDescriptionFromHtml(detailHtml);
+                                
+                                let result;
+                                if (detectJisuSite(detailHtml)) {
+                                    result = extractEpisodesFromJisuHtml(detailHtml, '');
+                                } else if (detectLightningSite(detailHtml)) {
+                                    result = extractEpisodesFromLightningHtml(detailHtml, '');
+                                } else {
+                                    result = extractEpisodesFromDetailHtml(detailHtml, '');
+                                }
+
+                                if (result.episodes && result.episodes.length > 0) {
+                                    const converted = [];
+                                    for (let ep of result.episodes) {
+                                        const convUrl = await convertWithParser(ep.url, parserBase);
+                                        converted.push({ num: ep.num, url: convUrl });
+                                    }
+                                    addToDatabase(result.dramaName, converted, cat.name, coverUrl, link, description);
+                                    logDiv.innerHTML += `<span style="color:#a3be8c;">✅ ${result.dramaName} (${converted.length}集)</span><br>`;
+                                    totalFound++;
+                                } else {
+                                    logDiv.innerHTML += `<span style="color:#d08770;">⚠️ 解析无链接: ${link}</span><br>`;
+                                }
+                            } catch (err) {
+                                logDiv.innerHTML += `<span style="color:#bf616a;">❌ 详情页失败: ${err.message}</span><br>`;
+                            }
+                            logDiv.scrollTop = logDiv.scrollHeight;
+                            await new Promise(r => setTimeout(r, 300));
+                        }
+                    } catch (err) {
+                        logDiv.innerHTML += `<span style="color:#bf616a;">❌ 列表页失败: ${err.message}</span><br>`;
+                    }
+                    await new Promise(r => setTimeout(r, delay));
+                }
+            }
+            
+            progressBar.style.display = 'none';
+            isExtracting = false;
+            refreshEntireUI();
+            saveToCache();
+            showToast(`✅ 批量提取完成，共获取 ${totalFound} 个剧集`);
+            
+        } catch (error) {
+            isExtracting = false;
+            document.getElementById('progressBar').style.display = 'none';
+            showToast(`❌ 提取中断: ${error.message}`, true);
+        }
+    }
+
+    // ========== 事件绑定 ==========
+    document.getElementById('exportCollapseHeader').addEventListener('click', () => {
+        const body = document.getElementById('exportCollapseBody');
+        body.classList.toggle('open');
+        const arrow = document.getElementById('exportCollapseArrow');
+        arrow.textContent = body.classList.contains('open') ? '▲' : '▼';
+    });
+
+    document.getElementById('prevSiteBtn').addEventListener('click', () => switchSite(-1));
+    document.getElementById('nextSiteBtn').addEventListener('click', () => switchSite(1));
+    document.getElementById('toggleManagerBtn').addEventListener('click', () => {
+        document.getElementById('siteManagerPopup').classList.toggle('open');
+    });
+    document.getElementById('addSiteBtn').addEventListener('click', () => {
+        const name = document.getElementById('newSiteName').value.trim();
+        const url = document.getElementById('newSiteUrl').value.trim();
+        if (name && url) {
+            sites.push({ name, url });
+            saveSites();
+            applyActiveSite();
+            showToast('已添加');
+        }
+    });
+
+    document.getElementById('prevParserBtn').addEventListener('click', () => switchParser(-1));
+    document.getElementById('nextParserBtn').addEventListener('click', () => switchParser(1));
+    document.getElementById('applyParserBtn').addEventListener('click', applyParserManually);
+
+    document.getElementById('lightningImportBtn').addEventListener('click', () => {
+        const html = document.getElementById('pasteHtmlInput').value.trim();
+        if (html) importFromHtmlContent(html, '闪电资源导入', true, false);
+    });
+    document.getElementById('jisuImportBtn').addEventListener('click', () => {
+        const html = document.getElementById('pasteHtmlInput').value.trim();
+        if (html) importFromHtmlContent(html, '极速资源导入', false, true);
+    });
+    document.getElementById('pasteImportBtn').addEventListener('click', () => {
+        const html = document.getElementById('pasteHtmlInput').value.trim();
+        if (html) importFromHtmlContent(html, '粘贴源码导入');
+    });
+    document.getElementById('pasteClearBtn').addEventListener('click', () => {
+        document.getElementById('pasteHtmlInput').value = '';
+    });
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const tabId = this.dataset.tab;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            this.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        });
+    });
+
+    document.getElementById('fetchSingleBtn').addEventListener('click', async () => {
+        const url = document.getElementById('singleDetailUrl').value.trim();
+        if (!url) { showToast('请输入详情页URL', true); return; }
+        showToast('⏳ 正在获取...');
+        try {
+            const html = await fetchViaProxy(url, 30000);
+            await importFromHtmlContent(html, url);
+        } catch (e) {
+            showToast('获取失败', true);
+        }
+    });
+
+    document.getElementById('startMultiExtractBtn').addEventListener('click', startMultiPageExtract);
+    
+    document.getElementById('addCustomCatBtn').addEventListener('click', () => {
+        const id = parseInt(document.getElementById('newCatIdInput').value);
+        const name = document.getElementById('newCatNameInput').value.trim();
+        if (addCustomCategory(id, name)) {
+            document.getElementById('newCatIdInput').value = '';
+            document.getElementById('newCatNameInput').value = '';
+        }
+    });
+
+    document.getElementById('quickAddGuochanBtn').addEventListener('click', () => {
+        addCustomCategory(13, '国产剧(闪电)');
+        addCustomCategory(20, '国产剧(极速)');
+    });
+
+    document.getElementById('quickExtractGuochanBtn').addEventListener('click', quickExtractGuochan);
+    
+    document.getElementById('clearDataBtn').addEventListener('click', clearAllData);
+    document.getElementById('saveCacheBtn').addEventListener('click', saveToCache);
+    document.getElementById('clearCacheBtn').addEventListener('click', clearCache);
+    
+    document.getElementById('lightningBatchBtn').addEventListener('click', batchExtractLightning);
+    document.getElementById('jisuBatchBtn').addEventListener('click', batchExtractJisu);
+    
+    document.getElementById('updateSelectedDramaBtn').addEventListener('click', updateSelectedDrama);
+
+    document.getElementById('exportBtn').addEventListener('click', exportWithCover);
+    document.getElementById('previewCoversBtn').addEventListener('click', previewAllCovers);
+    document.getElementById('copyTxtBtn').addEventListener('click', () => {
+        const txt = exportToTXTWithCover();
+        if (txt) {
+            navigator.clipboard.writeText(txt).then(() => showToast('✅ TXT已复制'));
+        }
+    });
+    document.getElementById('copyResultBtn').addEventListener('click', () => {
+        const txt = document.getElementById('outputPre').textContent;
+        if (txt) navigator.clipboard.writeText(txt).then(() => showToast('✅ 已复制'));
+    });
+
+    document.getElementById('autoNextToggle').addEventListener('change', function() {
+        autoNextEnabled = this.checked;
+    });
+    document.getElementById('applyTimingBtn').addEventListener('click', applyTimingSettings);
+// ========== 文件上传区 ==========
+function readFileAsText(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = e => resolve(e.target.result);
+        reader.onerror = e => reject(e);
+        reader.readAsText(file, 'UTF-8');
+    });
+}
+
+async function readFileWithEncodingFallback(file) {
+    let text = await readFileAsText(file);
+    // 乱码检测：UTF-8 读 GBK 文件会出现大量替换字符
+    if ((text.match(/\uFFFD/g) || []).length > 10) {
+        text = await new Promise((res, rej) => {
+            const r = new FileReader();
+            r.onload = e => res(e.target.result);
+            r.onerror = rej;
+            r.readAsText(file, 'GBK');
+        });
+    }
+    return text.replace(/^\uFEFF/, '');
+}
+
+function handleFileSelected(file) {
+    if (!file) return;
+    selectedFile = file;
+    fileContent = '';
+    document.getElementById('selectedFileName').textContent = file.name;
+    readFileWithEncodingFallback(file).then(text => {
+        fileContent = text;
+        showToast(`📂 已读取 ${file.name} (${text.length} 字符)`);
+    }).catch(e => {
+        showToast('文件读取失败: ' + e.message, true);
+    });
+}
+
+// 点击选择文件
+document.getElementById('fileInput').addEventListener('change', function() {
+    handleFileSelected(this.files[0]);
+});
+
+// 拖拽上传
+const dropZone = document.getElementById('fileDropZone');
+dropZone.addEventListener('dragover', e => {
+    e.preventDefault();
+    dropZone.classList.add('dragover');
+});
+dropZone.addEventListener('dragleave', () => {
+    dropZone.classList.remove('dragover');
+});
+dropZone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropZone.classList.remove('dragover');
+    const file = e.dataTransfer.files[0];
+    if (file) handleFileSelected(file);
+});
+
+// 解析并导入文件（自动识别）
+document.getElementById('fileImportBtn').addEventListener('click', async () => {
+    if (!selectedFile) { showToast('请先选择文件', true); return; }
+    if (!fileContent) {
+        // 可能还在读取，现场再读一次
+        try {
+            fileContent = await readFileWithEncodingFallback(selectedFile);
+        } catch (e) {
+            showToast('文件读取失败: ' + e.message, true);
+            return;
+        }
+    }
+    if (!fileContent) { showToast('文件内容为空', true); return; }
+    const ok = await importFromHtmlContent(fileContent, selectedFile.name || '文件导入');
+    if (!ok) showToast('未找到有效链接，请确认是详情页源码', true);
+});
+
+// 闪电资源文件
+document.getElementById('fileLightningBtn').addEventListener('click', async () => {
+    if (!selectedFile) { showToast('请先选择文件', true); return; }
+    if (!fileContent) {
+        try { fileContent = await readFileWithEncodingFallback(selectedFile); }
+        catch (e) { showToast('文件读取失败: ' + e.message, true); return; }
+    }
+    const ok = await importFromHtmlContent(fileContent, selectedFile.name || '闪电文件', true, false);
+    if (!ok) showToast('未找到有效链接', true);
+});
+
+// 极速资源文件
+document.getElementById('fileJisuBtn').addEventListener('click', async () => {
+    if (!selectedFile) { showToast('请先选择文件', true); return; }
+    if (!fileContent) {
+        try { fileContent = await readFileWithEncodingFallback(selectedFile); }
+        catch (e) { showToast('文件读取失败: ' + e.message, true); return; }
+    }
+    const ok = await importFromHtmlContent(fileContent, selectedFile.name || '极速文件', false, true);
+    if (!ok) showToast('未找到有效链接', true);
+});
+
+// 清除文件
+document.getElementById('fileClearBtn').addEventListener('click', () => {
+    selectedFile = null;
+    fileContent = '';
+    document.getElementById('fileInput').value = '';
+    document.getElementById('selectedFileName').textContent = '未选择文件';
+    showToast('已清除文件');
+});
+    // ========== 初始化 ==========
+    window.addEventListener('DOMContentLoaded', () => {
+        loadProxyFromStorage();
+        loadParserFromStorage();
+        loadSites();
+        loadCustomCategoriesFromStorage();
+        loadFromCache();
+    });
+
+</script>
+</body>
+</html>
